@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.app {
+    position: relative;
+    & > *:not(canvas) {
+        z-index: 100000000;
+    }
+}
+
+.upload-avatar {
+    position: relative;
+
+    &:hover img {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+    &:hover svg {
+        cursor: pointer;
+        background-color: rgb(7, 7, 7);
+        color:rgb(244, 244, 244);
+    }
+    svg {
+        box-sizing: content-box;
+        padding: 5px;
+        position: absolute;
+        bottom: 0em;
+        right: 0em;
+        background-color: rgb(244, 244, 244);
+        border-radius: 50%;
+        z-index: 10;
+    }
+}
+.file-input {
+    display: none;
+}
+
+#canvas {
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
