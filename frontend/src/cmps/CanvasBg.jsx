@@ -5,7 +5,7 @@ export const CanvasBackground = () => {
     let effect
     let ctx
     let lastTime = 0
-    let fps = 15
+    let fps = 10
     let nextFrame = 1000 / fps
     let timer = 0
 
@@ -43,7 +43,7 @@ export const CanvasBackground = () => {
         constructor(canvasWidth, canvasHeight) {
             this.canvasWidth = canvasWidth
             this.canvasHeight = canvasHeight
-            this.fontSize = 25
+            this.fontSize = 15
             this.columns = this.canvasWidth / this.fontSize
             this.symbols = []
             this.#initialize()

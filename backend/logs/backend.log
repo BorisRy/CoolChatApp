@@ -1,0 +1,119 @@
+3.12.2022, 11:50:11 - DEBUG - auth.service - sign up with e-mail: borik@kaka.com 
+3.12.2022, 11:50:13 - ERROR - cannot update user undefined | MongoServerError: Modifiers operate on fields but we found type array instead. For example: {$mod: {<field>: ...}} not {$set: [ { _id: ObjectId('638b1bd4f1b9a160c5db7768'), email: "borik@kaka.com", password: "$2b$10$4QrKDIiYKKiK6ugYNOJom.fMg/9zIjyb5tPgue8FjfQGqlvUIv9oe", status: "online", friendRequests: [], friends: [], notifications: {}, tag: "#5120" } ]} 
+3.12.2022, 11:51:58 - DEBUG - auth.service - sign up with e-mail: borik@kaka.com 
+3.12.2022, 11:51:59 - ERROR - cannot update user undefined | MongoServerError: Modifiers operate on fields but we found type array instead. For example: {$mod: {<field>: ...}} not {$set: [ { _id: ObjectId('638b1c3fc2688ced4bbd9bdd'), email: "borik@kaka.com", password: "$2b$10$BvNhbxeCOWESh5IXICAlqO1j2J0eejfUIu6avF6juDAEw0siyvgcy", status: "online", friendRequests: [], friends: [], notifications: {}, tag: "#9657" } ]} 
+3.12.2022, 11:55:47 - DEBUG - auth.service - sign up with e-mail: borik@kaka.com 
+3.12.2022, 11:55:49 - ERROR - cannot update user undefined | MongoServerError: Modifiers operate on fields but we found type array instead. For example: {$mod: {<field>: ...}} not {$set: [ { _id: ObjectId('638b1c3fc2688ced4bbd9bdd'), email: "borik@kaka.com", password: "$2b$10$BvNhbxeCOWESh5IXICAlqO1j2J0eejfUIu6avF6juDAEw0siyvgcy", status: "online", friendRequests: [], friends: [], notifications: {}, tag: "#9657" }, { _id: ObjectId('638b1d258fda4bf7b9041858'), email: "borik@kaka.com", password: "$2b$10$RA1e2RzoFlUSYzOTCoKVzOg/4cetl/fHSurC2xrAc9BEECEXqaKJK", status: "online", friendRequests: [], friends: [], notifications: {}, tag: "#8786" } ]} 
+3.12.2022, 11:56:20 - DEBUG - auth.service - sign up with e-mail: borik@kaka.com 
+3.12.2022, 11:56:22 - DEBUG - user 638b1c3fc2688ced4bbd9bdd updated 
+3.12.2022, 11:56:52 - DEBUG - auth.service - sign up with e-mail: borik@kaka.com 
+3.12.2022, 11:56:54 - DEBUG - user 638b1c3fc2688ced4bbd9bdd updated 
+3.12.2022, 11:56:54 - DEBUG - auth.service - user: borik@kaka.com logged in 
+3.12.2022, 11:56:54 - INFO - User undefined logged in 
+3.12.2022, 12:05:52 - DEBUG - auth.service - sign up with e-mail: borik@kaka.com 
+3.12.2022, 12:05:53 - DEBUG - user 638b1f802ec16f884733c901 updated 
+3.12.2022, 12:05:53 - DEBUG - auth.service - user: borik@kaka.com logged in 
+3.12.2022, 12:05:53 - INFO - User undefined logged in 
+3.12.2022, 15:17:56 - DEBUG - user 638b1f802ec16f884733c901 updated 
+3.12.2022, 15:17:56 - INFO - Broadcasting event: update-user-status 
+3.12.2022, 15:17:56 - INFO - Emit to all 
+3.12.2022, 15:22:29 - ERROR - Failed to Login Error: value must not be null or undefined 
+3.12.2022, 15:25:08 - ERROR - Failed to Login Error: value must not be null or undefined 
+3.12.2022, 15:25:12 - ERROR - Failed to Login Error: value must not be null or undefined 
+3.12.2022, 15:25:40 - ERROR - Failed to Login Error: value must not be null or undefined 
+3.12.2022, 15:26:04 - DEBUG - user 638b1f802ec16f884733c901 updated 
+3.12.2022, 15:26:04 - DEBUG - auth.service - user: borik@kaka.com logged in 
+3.12.2022, 15:26:11 - ERROR - Failed to Login Error: value must not be null or undefined 
+3.12.2022, 16:26:27 - INFO - Setting socket.userId = null for socket [id: hyHNaQjpRB6GAwJPAAAH] 
+3.12.2022, 16:26:52 - DEBUG - user 638b1f802ec16f884733c901 updated 
+3.12.2022, 16:26:52 - DEBUG - auth.service - user: borik@kaka.com logged in 
+3.12.2022, 16:26:52 - INFO - Setting socket.userId = null for socket [id: hyHNaQjpRB6GAwJPAAAH] 
+3.12.2022, 16:30:16 - DEBUG - auth.service - sign up with e-mail: boris@kaka.com 
+3.12.2022, 16:30:16 - DEBUG - user 638b5d78471eaa9b076f5b86 updated 
+3.12.2022, 16:30:16 - DEBUG - auth.service - user: boris@kaka.com logged in 
+3.12.2022, 16:30:16 - INFO - User undefined logged in 
+3.12.2022, 16:31:59 - DEBUG - auth.service - sign up with e-mail: bora@kaka.com 
+3.12.2022, 16:31:59 - DEBUG - user 638b5ddf471eaa9b076f5b87 updated 
+3.12.2022, 16:31:59 - DEBUG - auth.service - user: bora@kaka.com logged in 
+3.12.2022, 16:31:59 - INFO - User undefined logged in 
+3.12.2022, 16:32:10 - DEBUG - auth.service - sign up with e-mail: borasd@kaka.com 
+3.12.2022, 16:32:10 - DEBUG - user 638b5dea471eaa9b076f5b88 updated 
+3.12.2022, 16:32:10 - DEBUG - auth.service - user: borasd@kaka.com logged in 
+3.12.2022, 16:32:10 - INFO - User undefined logged in 
+3.12.2022, 16:32:52 - DEBUG - auth.service - sign up with e-mail: borasdgffg@kaka.com 
+3.12.2022, 16:32:52 - DEBUG - user 638b5e14471eaa9b076f5b89 updated 
+3.12.2022, 16:32:52 - DEBUG - auth.service - user: borasdgffg@kaka.com logged in 
+3.12.2022, 16:32:53 - INFO - User undefined logged in 
+3.12.2022, 16:35:58 - INFO - Setting socket.userId = null for socket [id: BFgwWWX46L3BpOMyAAAB] 
+3.12.2022, 16:36:10 - INFO - Setting socket.userId = null for socket [id: BFgwWWX46L3BpOMyAAAB] 
+3.12.2022, 16:36:13 - DEBUG - auth.service - sign up with e-mail: borasdgffg@kaka.com 
+3.12.2022, 16:36:13 - DEBUG - user 638b5edd603e0ccaeab342f8 updated 
+3.12.2022, 16:36:13 - DEBUG - auth.service - user: borasdgffg@kaka.com logged in 
+3.12.2022, 16:36:13 - INFO - User undefined logged in 
+3.12.2022, 16:38:21 - DEBUG - auth.service - sign up with e-mail: borsss@kaka.com 
+3.12.2022, 16:38:22 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+3.12.2022, 16:38:22 - DEBUG - auth.service - user: borsss@kaka.com logged in 
+3.12.2022, 16:38:22 - INFO - User undefined logged in 
+3.12.2022, 16:39:13 - DEBUG - auth.service - sign up with e-mail: borssas@kaka.com 
+3.12.2022, 16:39:13 - INFO - User undefined logged in 
+3.12.2022, 16:40:15 - DEBUG - auth.service - sign up with e-mail: borssas@kaka.coma 
+3.12.2022, 16:40:16 - DEBUG - user 638b5fcf4fd8cc39415c24fb updated 
+3.12.2022, 16:40:16 - DEBUG - auth.service - user: borssas@kaka.coma logged in 
+3.12.2022, 16:40:16 - INFO - User undefined logged in 
+3.12.2022, 16:40:25 - INFO - Setting socket.userId = null for socket [id: yjqw47wpYXAfnO3uAAAB] 
+3.12.2022, 16:40:52 - INFO - Setting socket.userId = null for socket [id: hdT5N51Z5M5Exvr8AAAD] 
+3.12.2022, 16:41:51 - INFO - Setting socket.userId = null for socket [id: q97Jgy0QVlIA8M0aAAAB] 
+3.12.2022, 16:42:03 - DEBUG - user 638b5fcf4fd8cc39415c24fb updated 
+3.12.2022, 16:42:03 - DEBUG - auth.service - user: borssas@kaka.coma logged in 
+3.12.2022, 16:42:03 - INFO - Setting socket.userId = 638b5fcf4fd8cc39415c24fb for socket [id: q97Jgy0QVlIA8M0aAAAB] 
+3.12.2022, 16:48:28 - DEBUG - user 638b5fcf4fd8cc39415c24fb updated 
+3.12.2022, 16:48:32 - INFO - Setting socket.userId = 638b5fcf4fd8cc39415c24fb for socket [id: B22x8JgHsjocLsriAAAF] 
+3.12.2022, 16:48:49 - DEBUG - user 638b5fcf4fd8cc39415c24fb updated 
+3.12.2022, 16:48:51 - INFO - Setting socket.userId = 638b5fcf4fd8cc39415c24fb for socket [id: 08_0K0OgUce2QMTUAAAH] 
+3.12.2022, 16:49:29 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+3.12.2022, 16:49:29 - DEBUG - auth.service - user: borsss@kaka.com logged in 
+3.12.2022, 16:49:29 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: 08_0K0OgUce2QMTUAAAH] 
+3.12.2022, 16:49:38 - INFO - Setting socket.userId = null for socket [id: 08_0K0OgUce2QMTUAAAH] 
+3.12.2022, 16:53:21 - INFO - Setting socket.userId = null for socket [id: 08_0K0OgUce2QMTUAAAH] 
+3.12.2022, 16:54:28 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+3.12.2022, 16:54:28 - DEBUG - auth.service - user: borsss@kaka.com logged in 
+3.12.2022, 16:54:28 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: 08_0K0OgUce2QMTUAAAH] 
+3.12.2022, 16:54:34 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+3.12.2022, 16:54:34 - DEBUG - auth.service - user: borsss@kaka.com logged in 
+3.12.2022, 16:54:34 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: 08_0K0OgUce2QMTUAAAH] 
+3.12.2022, 16:54:37 - INFO - Setting socket.userId = null for socket [id: 08_0K0OgUce2QMTUAAAH] 
+3.12.2022, 16:58:32 - INFO - Setting socket.userId = null for socket [id: 08_0K0OgUce2QMTUAAAH] 
+3.12.2022, 16:58:38 - INFO - Setting socket.userId = null for socket [id: 08_0K0OgUce2QMTUAAAH] 
+3.12.2022, 17:00:50 - DEBUG - auth.service - sign up with e-mail: borssss@kaka.com 
+3.12.2022, 17:00:50 - DEBUG - user 638b64a206a08bff3be8382f updated 
+3.12.2022, 17:00:50 - DEBUG - auth.service - user: borssss@kaka.com logged in 
+3.12.2022, 17:00:50 - INFO - User undefined logged in 
+4.12.2022, 16:07:52 - INFO - Setting socket.userId = null for socket [id: uyFTdTwIGKiDjxefAAAN] 
+4.12.2022, 16:11:22 - INFO - Setting socket.userId = null for socket [id: NhZFub62LuBv-cIeAAAP] 
+4.12.2022, 16:15:36 - INFO - Setting socket.userId = null for socket [id: NhZFub62LuBv-cIeAAAP] 
+4.12.2022, 16:15:42 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 16:15:42 - DEBUG - auth.service - user: borsss@kaka.com logged in 
+4.12.2022, 16:15:42 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: NhZFub62LuBv-cIeAAAP] 
+4.12.2022, 16:20:07 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 16:20:10 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: W3pxQqp5hhoF14nkAAAR] 
+4.12.2022, 16:20:39 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 16:20:42 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: MCIinoz84A4C-tYaAAAT] 
+4.12.2022, 16:20:49 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 16:21:43 - INFO - Setting socket.userId = null for socket [id: asRFlnJn9mpwAxt5AAAX] 
+4.12.2022, 16:21:49 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 16:21:49 - DEBUG - auth.service - user: borsss@kaka.com logged in 
+4.12.2022, 16:21:49 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: asRFlnJn9mpwAxt5AAAX] 
+4.12.2022, 16:23:27 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 16:23:29 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: WQ8Rf7_ce3xFFgRbAAAZ] 
+4.12.2022, 16:39:49 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 16:39:51 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: 4GA8nsGasCmEDIGgAAAb] 
+4.12.2022, 17:02:10 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 17:02:15 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: QHEN8xxUvW8tx4GUAAAd] 
+4.12.2022, 17:18:03 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 17:18:06 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: txUt4lu4JnUSUzu2AAAf] 
+4.12.2022, 18:12:55 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 18:12:58 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: 888bsjDOd5K5P-nvAAAh] 
+4.12.2022, 18:13:27 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 18:13:30 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: 0eBjm-wAPwYSDfvzAAAj] 
+4.12.2022, 19:35:21 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+4.12.2022, 19:35:25 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: G55qqTDkNgN5ykB1AAAl] 

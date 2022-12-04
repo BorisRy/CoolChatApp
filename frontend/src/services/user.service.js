@@ -1,40 +1,44 @@
 // import { socketService } from './socket.service'
-// import { httpService } from "./http.service"
+import { httpService } from "./http.service"
 
 const USER_KEY = 'user_key'
 
 export const userService = {
     createEmptyUser,
+    login,
+    signup,
+    logout,
+    getLoggedInUser
 }
 
-// async function login(credentials) {
-//     try {
-//         const user = await httpService.post('auth/login', credentials)
-//         sessionStorage.setItem(USER_KEY, JSON.stringify(user))
-//         // socketService.login(user._id)
-//         return user
-//     }
-//     catch (err) {
-//         let errorMsg = err.response.data.err
-//         return Promise.reject(`${errorMsg}`)
-//     }
-// }
+async function login(credentials) {
+    try {
+        const user = await httpService.post('auth/login', credentials)
+        sessionStorage.setItem(USER_KEY, JSON.stringify(user))
+        // socketService.login(user._id)
+        return user
+    }
+    catch (err) {
+        let errorMsg = err.response.data.err
+        return errorMsg
+    }
+}
 
-// async function signup(signUpDetails) {
-//     try {
-//         let user = await httpService.post('auth/signup', signUpDetails)
-//         return user
-//     } catch (err) {
-//         let errorMsg = err.response.data.err
-//         return Promise.reject(`${errorMsg}`)
-//     }
-// }
+async function signup(signUpDetails) {
+    try {
+        let user = await httpService.post('auth/signup', signUpDetails)
+        return user
+    } catch (err) {
+        let errorMsg = err.response.data.err
+        return errorMsg
+    }
+}
 
-// async function logout(userId) {
-//     sessionStorage.removeItem(USER_KEY)
-//     // socketService.logout()
-//     return await httpService.post('auth/logout', { userId })
-// }
+async function logout(userId) {
+    sessionStorage.removeItem(USER_KEY)
+    // socketService.logout()
+    return await httpService.post('auth/logout', { userId })
+}
 
 // async function sendFriendRequest(request) {
 //     try {
@@ -67,9 +71,9 @@ export const userService = {
 //     }
 // }
 
-// function getLoggedInUser() {
-//     return JSON.parse(sessionStorage.getItem(USER_KEY))
-// }
+function getLoggedInUser() {
+    return JSON.parse(sessionStorage.getItem(USER_KEY))
+}
 
 // function setLoggedInUser(user) {
 //     sessionStorage.setItem(USER_KEY, JSON.stringify(user))

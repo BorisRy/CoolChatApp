@@ -1,6 +1,5 @@
 import { ImUpload } from 'react-icons/im'
-import { VStack, Image, Center } from '@chakra-ui/react'
-import { Button, Tooltip, Icon } from '@chakra-ui/react'
+import { VStack, Image, Center, Button, Tooltip, Icon, Text } from '@chakra-ui/react'
 import {
     FormControl,
     FormLabel,
@@ -15,11 +14,16 @@ import { cloudService } from '../../services/cloudinary-service';
 import { userService } from '../../services/user.service'
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-
+import { login, signup } from '../../store/user/user.actions'
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 
 export const EnterAppForm = ({ isSignup }) => {
+    const dispatch = useDispatch()
+    const navigate = useNavigate()
     const [show, setShow] = useState(false)
+    const [error, setError] = useState('')
     const handleClick = () => setShow(!show)
 
     const formik = useFormik({
@@ -38,21 +42,29 @@ export const EnterAppForm = ({ isSignup }) => {
     });
 
 
-    const onSubmit = (values) => {
+    const onSubmit = async (values) => {
         formik.setSubmitting(true)
-        setTimeout(() => {
-            alert(JSON.stringify(values, null, 2));
-            formik.setSubmitting(false)
-        }, 1000)
+        setError('')
+        let response
+        if (isSignup) {
+            response = await dispatch(signup(values))
+        } else {
+            const { email, password } = values
+            response = await dispatch(login({ email, password }))
+        }
+        if (typeof response === 'string') setError(response)
+        else {
+            setError('')
+            navigate('/chat')
+        }
+        formik.setSubmitting(false)
     }
 
     const onUploadImg = async ({ target }) => {
-        const field = 'avatar'
         const value = await cloudService.uploadImg(target.files[0])
-        formik.values[field] = value
+        formik.setFieldValue('avatar', value)
     }
 
-    console.log('formik:', formik)
     return (
         <form onSubmit={formik.handleSubmit}>
             <VStack spacing='1em' fontSize='12px'>
@@ -65,7 +77,7 @@ export const EnterAppForm = ({ isSignup }) => {
                                     <Image
                                         boxSize='100px'
                                         objectFit='cover'
-                                        src={fields.avatar}
+                                        src={formik.values.avatar}
                                         alt='User Avatar'
                                         borderRadius='full'
                                     />
@@ -144,12 +156,14 @@ export const EnterAppForm = ({ isSignup }) => {
                 <Button
                     type='submit'
                     width='100%'
-                    colorScheme='whatsapp'
+                    colorScheme={error ? 'red' : 'whatsapp'}
                     isLoading={formik.isSubmitting}
                 >
                     {isSignup ? 'Sign Up' : 'Enter ChatApp'}
                 </Button>
+
             </VStack>
+            {error && <Text m='0' fontSize='xs' color='tomato'>{error}</Text>}
         </form>
     )
 }
