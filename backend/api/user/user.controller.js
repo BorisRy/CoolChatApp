@@ -4,8 +4,9 @@ const logger = require('../../services/logger.service')
 
 async function getUsers(req, res) {
     try {
-        const filterBy = req.params
+        const filterBy = req.query
         const users = await userService.query(filterBy)
+        users.forEach(user => { delete user.password; delete user.email })
         res.send(users)
     } catch (err) {
         logger.error('Failed to get users', err)

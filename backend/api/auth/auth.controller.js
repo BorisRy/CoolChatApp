@@ -1,5 +1,6 @@
 const authService = require('./auth.service')
 const userService = require('../user/user.service')
+const chatService = require('../chat/chat.service')
 const socketService = require('../../services/socket.service')
 const logger = require('../../services/logger.service')
 
@@ -7,8 +8,11 @@ async function login(req, res) {
     try {
         const user = await authService.login(req.body)
         const loginToken = authService.getLoginToken(user)
-
-        console.log('user:', user)
+        socketService.broadcast({
+            type: 'update-user-status',
+            data: { userId: user._id, status: 'online' },
+            userId: user._id
+        })
         res.cookie('loginToken', loginToken)
         res.json(user)
     }
@@ -49,16 +53,17 @@ async function logout(req, res) {
         const user = await userService.getById(userId)
         user.status = 'offline'
         await userService.update(user)
-
-        // socketService.broadcast({
-        //     type: 'update-user-status',
-        //     data: { userId: user._id, status: 'offline' },
-        //     userId: user._id
-        // })
+        await chatService.setUserStatus(user._id, 'offline')
+        socketService.broadcast({
+            type: 'update-user-status',
+            data: { userId: user._id, status: 'offline' },
+            userId: user._id
+        })
 
         res.clearCookie('loginToken')
         res.send({ msg: 'Logged out successfully' })
     } catch (err) {
+        console.log('err HEREEE:', err)
         res.status(500).send({ err: 'Failed to logout' })
     }
 }

@@ -88,7 +88,7 @@ export const EnterAppForm = ({ isSignup }) => {
                     </FormControl>
                 }
                 {isSignup &&
-                    <FormControl isRequired isInvalid={formik.errors.alias}>
+                    <FormControl isRequired isInvalid={formik.errors.alias && formik.touched.alias}>
                         <FormLabel mb='0'>Alias:</FormLabel>
                         <Input id="alias" type="text" {...formik.getFieldProps('alias')} />
                         {formik.errors.alias ?

@@ -10,7 +10,7 @@ async function query(filterBy = {}) {
     try {
         const collection = await dbService.getCollection('users')
         let users = await collection.find(criteria).toArray()
-        
+
         return users
     } catch (err) {
         logger.error('Could not find users')
@@ -85,21 +85,17 @@ async function _createTag(alias) {
 
 const _buildCriteria = (filterBy) => {
     const criteria = {}
-
-    if (filterBy.alias && !filterBy.tag) {
-        criteria.alias = filterBy.alias
+    if (filterBy.alias) {
+        const alias = { $regex: filterBy.alias, $options: 'i' }
+        criteria.alias = alias
     }
-    if (filterBy.friendOf) {
-        criteria.friends = ObjectId(filterBy.friendOf)
+    if (filterBy.tag) {
+        const tag = { $regex: filterBy.tag, $options: 'i' }
+        criteria.tag = tag
     }
-    if (filterBy.tag && filterBy.alias) {
-        criteria.$and = [{ alias: filterBy.alias }, { tag: filterBy.tag }]
-    }
-    if (filterBy.userIds) {
-        criteria._id = { $in: [...filterBy.userIds.map(userId => ObjectId(userId))] }
-    }
-    if(filterBy.email) {
-        criteria.email = filterBy.email
+    if (filterBy.email) {
+        const email = { $regex: filterBy.email, $options: 'i' }
+        criteria.email = email
     }
     return criteria
 }

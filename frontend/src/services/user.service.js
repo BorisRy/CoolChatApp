@@ -1,4 +1,4 @@
-// import { socketService } from './socket.service'
+import { socketService } from './socket.service'
 import { httpService } from "./http.service"
 
 const USER_KEY = 'user_key'
@@ -8,14 +8,24 @@ export const userService = {
     login,
     signup,
     logout,
-    getLoggedInUser
+    getLoggedInUser,
+    query
+}
+
+async function query(filterBy) {
+    try {
+        const users = await httpService.get('user', filterBy)
+        return users
+    } catch (error) {
+        return error
+    }
 }
 
 async function login(credentials) {
     try {
         const user = await httpService.post('auth/login', credentials)
         sessionStorage.setItem(USER_KEY, JSON.stringify(user))
-        // socketService.login(user._id)
+        socketService.login(user._id)
         return user
     }
     catch (err) {
@@ -36,7 +46,7 @@ async function signup(signUpDetails) {
 
 async function logout(userId) {
     sessionStorage.removeItem(USER_KEY)
-    // socketService.logout()
+    socketService.logout()
     return await httpService.post('auth/logout', { userId })
 }
 

@@ -1,27 +1,32 @@
 import { useEffect } from "react"
-import { useSelector } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
-import { Flex, Slide, useDisclosure } from "@chakra-ui/react"
-import { useMediaQuery } from '@chakra-ui/react'
+import { Flex, useDisclosure } from "@chakra-ui/react"
 import { SideBar } from "../cmps/chat-app/SideBar"
-import { ChatWindow } from "../cmps/chat-app/ChatWindow"
 import { Search } from "../cmps/chat-app/Search"
+import { loadChats } from "../store/chat/chat.actions"
+import { Outlet } from "react-router-dom"
+import { Listener } from "../cmps/Listener"
 
 export const ChatApp = () => {
     const navigate = useNavigate()
+    const dispatch = useDispatch()
     const { loggedInUser } = useSelector(state => state.userModule)
+    const { chats } = useSelector(state => state.chatModule)
     const { isOpen, onOpen, onClose } = useDisclosure()
-    const [isLargerThan800] = useMediaQuery('(min-width: 800px)')
 
     useEffect(() => {
         if (!loggedInUser) navigate('/')
+        dispatch(loadChats(loggedInUser._id))
     }, [])
 
+    if (!loggedInUser || !chats) return <></>
     return (
         <Flex height='100vh' w='100%' p='1.5em' color='white'>
             <Search isOpen={isOpen} onClose={onClose} />
             <SideBar onOpen={onOpen} />
-            <ChatWindow />
+            <Outlet />
+            <Listener />
         </Flex>
     )
 }

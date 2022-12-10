@@ -35,7 +35,7 @@ export function logout(userId) {
             socketService.logout()
             dispatch({ type: 'LOGOUT_USER' })
             dispatch({ type: 'USER_LOGOUT' })
-            // await userService.logout(userId)
+            await userService.logout(userId)
         }
         catch (err) {
             return err

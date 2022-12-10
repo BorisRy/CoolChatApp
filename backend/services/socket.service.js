@@ -2,6 +2,7 @@ var gIo = null
 
 const logger = require('../services/logger.service')
 const userService = require('../api/user/user.service')
+const messageService = require('../api/message/message.service')
 const uniqid = require('uniqid');
 
 async function setupSocketAPI(http) {
@@ -24,46 +25,49 @@ async function setupSocketAPI(http) {
         })
 
         socket.on('chat-send-message', async message => {
+            console.log('message:', message)
             message.key = uniqid()
-            message.channel = socket.channel
+            message.chatId = socket.chat
 
-            const channel = await channelService.getById(message.channel)
-            const sockets = await _getAllSockets()
-            const connectedParticipants = sockets.filter(s => s.userId && s.channel === message.channel).map(s => s.userId)
-            const disconnectedParticipants = channel.participants.map(p => p.toString()).filter(p => {
-                return !connectedParticipants.includes(p)
-            })
+            // const channel = await channelService.getById(message.channel)
+            // const sockets = await _getAllSockets()
+            // const connectedParticipants = sockets.filter(s => s.userId && s.channel === message.channel).map(s => s.userId)
+            // const disconnectedParticipants = channel.participants.map(p => p.toString()).filter(p => {
+            //     return !connectedParticipants.includes(p)
+            // })
 
-            await userService.pushNotification(message.channel, disconnectedParticipants)
+            // await userService.pushNotification(message.channel, disconnectedParticipants)
 
-            if (disconnectedParticipants.length > 0) {
-                disconnectedParticipants.forEach(p => (
-                    emitToUser({
-                        type: 'chat-notify-message',
-                        data: message,
-                        userId: p
-                    })
-                ))
-            }
+            // if (disconnectedParticipants.length > 0) {
+            //     disconnectedParticipants.forEach(p => (
+            //         emitToUser({
+            //             type: 'chat-notify-message',
+            //             data: message,
+            //             userId: p
+            //         })
+            //     ))
+            // }
 
-            socket.broadcast.to(socket.channel).emit('chat-add-msg', message)
+            socket.broadcast.to(socket.chat).emit('chat-add-msg', message)
             await messageService.add(message)
         })
 
-        socket.on('chat-set-channel', channelId => {
-            if (socket.channel === channelId) return
-            if (socket.channel) {
-                socket.leave(socket.channel)
+        socket.on('set-chat-room', chatId => {
+            console.log('chatId:', chatId)
+            if (socket.chat === chatId) return
+            if (socket.chat) {
+                socket.leave(socket.chat)
             }
-            socket.join(channelId)
-            userService.removeNotification(channelId, gUserId)
-            socket.channel = channelId
+            socket.join(chatId)
+            // userService.removeNotification(chatId, gUserId)
+            socket.chat = chatId
         })
 
         socket.on('set-user-socket', userId => {
             socket.userId = userId
             gUserId = userId
             logger.info(`Setting socket.userId = ${userId} for socket [id: ${socket.id}]`)
+            gIo.emit('update-user-status', { userId: gUserId, status: 'online' })
         })
 
         socket.on('unset-user-socket', () => {

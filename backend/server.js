@@ -25,10 +25,14 @@ if (process.env.NODE_ENV === 'production') {
 
 const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
+const chatRoutes = require('./api/chat/chat.routes')
+const messageRoutes = require('./api/message/message.routes')
 const { setupSocketAPI } = require('./services/socket.service')
 
+app.use('/api/chat', chatRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/auth', authRoutes)
+app.use('/api/message', messageRoutes)
 setupSocketAPI(http)
 
 const port = process.env.PORT || 3030;

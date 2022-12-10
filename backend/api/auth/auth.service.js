@@ -2,25 +2,31 @@ const bcrypt = require('bcrypt')
 const Cryptr = require('cryptr')
 const logger = require('../../services/logger.service')
 const userService = require('../user/user.service')
-
+const chatService = require('../chat/chat.service')
 
 const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Sauce-2403')
 
 async function login(credentials) {
     try {
         let { email, password } = credentials
+
         const user = await userService.query({ email })
         if (user.length === 0) throw 'User with this email does not exist.'
+
         const match = await bcrypt.compare(password + '', user[0].password + '')
         if (!match) throw 'Incorrect Username or password.'
+
         user[0].status = 'online'
         await userService.update(user[0])
+        await chatService.setUserStatus(user[0]._id, 'online')
 
         logger.debug(`auth.service - user: ${email} logged in`)
         delete user[0].password
+        delete user[0].email
 
         return user[0]
     } catch (err) {
+        console.log('err auth service:', err)
         return err
     }
 

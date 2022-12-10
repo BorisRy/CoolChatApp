@@ -1,11 +1,9 @@
-import { Circle, color } from "@chakra-ui/react"
+import { AvatarBadge } from "@chakra-ui/react"
 
 export const UserStatus = ({ status }) => {
 
-    const statusColor = status === 'online' ? '#0fa' : 'gray'
+    const statusColor = status === 'online' ? 'green.500' : 'gray'
     return (
-        <Circle size='16px' bgColor='inherit' pos='absolute' bottom={2} right={2} >
-            <Circle size='12px' bg={statusColor}></Circle>
-        </Circle >
+        <AvatarBadge boxSize='1em' bg={statusColor} />
     )
 }

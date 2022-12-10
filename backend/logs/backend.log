@@ -117,3 +117,842 @@
 4.12.2022, 18:13:30 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: 0eBjm-wAPwYSDfvzAAAj] 
 4.12.2022, 19:35:21 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
 4.12.2022, 19:35:25 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: G55qqTDkNgN5ykB1AAAl] 
+5.12.2022, 8:57:22 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 8:57:22 - DEBUG - auth.service - user: borsss@kaka.com logged in 
+5.12.2022, 8:57:22 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: 7bxSaLFwbSa1CXL8AAAB] 
+5.12.2022, 9:29:28 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 9:29:31 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: UB2NrsuNNcLoYmJ0AAAD] 
+5.12.2022, 9:37:50 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 9:37:57 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: 6vR1GbSMJ7CmqIZ9AAAF] 
+5.12.2022, 9:41:06 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 9:41:12 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: 7K56HPMou61TdkwdAAAH] 
+5.12.2022, 9:49:02 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 9:49:06 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: l-G9wck026JVo3mXAAAJ] 
+5.12.2022, 9:53:54 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 9:53:58 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: bn0kEALy1he4y1bAAAAL] 
+5.12.2022, 10:24:35 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 10:24:38 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: 9xLD3_PyvLmrhZV_AAAN] 
+5.12.2022, 10:25:16 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 10:25:19 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: LZ7kbAN7OrUh8ALEAAAP] 
+5.12.2022, 10:26:02 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 10:26:09 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: T3FrJqmnw89kf-FyAAAR] 
+5.12.2022, 10:29:29 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 10:29:33 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: At19Ui8hoBTF40VxAAAT] 
+5.12.2022, 10:31:11 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 10:31:15 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: ndHLjKC8jEKYaoTHAAAV] 
+5.12.2022, 10:32:57 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 10:33:00 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: aWMVfepcDRPZP9FoAAAX] 
+5.12.2022, 10:35:48 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 10:35:52 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: n-_gHs5Y5kzsbEPZAAAZ] 
+5.12.2022, 11:16:45 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 11:16:48 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: N4Zq99oDDQlGyZfiAAAb] 
+5.12.2022, 11:31:38 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 11:31:42 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: c0qhJcQhXM1OBE6AAAAd] 
+5.12.2022, 11:31:47 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+5.12.2022, 11:31:49 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: piBBXUOLww1F4fe4AAAf] 
+5.12.2022, 14:20:32 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+6.12.2022, 10:31:10 - INFO - Removing socket.userId for socket [id: bxaUYRo79av97ODWAAAl] 
+6.12.2022, 10:31:11 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+6.12.2022, 10:31:36 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+6.12.2022, 10:31:36 - DEBUG - auth.service - user: borsss@kaka.com logged in 
+6.12.2022, 10:31:36 - INFO - Setting socket.userId = 638b5f5df78cd3e6b791d0cf for socket [id: bxaUYRo79av97ODWAAAl] 
+6.12.2022, 11:46:34 - DEBUG - user 638b5f5df78cd3e6b791d0cf updated 
+6.12.2022, 15:09:48 - DEBUG - auth.service - sign up with e-mail: a@a.c 
+6.12.2022, 15:09:48 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 15:09:48 - INFO - User undefined logged in 
+6.12.2022, 15:09:48 - DEBUG - auth.service - user: a@a.c logged in 
+6.12.2022, 16:06:44 - INFO - Setting socket.userId = null for socket [id: 3xFGGVyIKWjvt9zaAAAF] 
+6.12.2022, 16:06:59 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 16:06:59 - DEBUG - auth.service - user: a@a.c logged in 
+6.12.2022, 16:06:59 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: 3xFGGVyIKWjvt9zaAAAF] 
+6.12.2022, 16:07:41 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 16:07:44 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: g_okgj-jjIRdrWcRAAAH] 
+6.12.2022, 16:54:29 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 16:55:38 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 16:55:38 - DEBUG - auth.service - user: a@a.c logged in 
+6.12.2022, 16:55:38 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: hbw0bLlMZxxS0rC6AAAJ] 
+6.12.2022, 16:57:36 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 16:57:40 - ERROR - Could not find users 
+6.12.2022, 16:57:40 - ERROR - Failed to get users | MongoServerError: $and/$or/$nor must be a nonempty array 
+6.12.2022, 16:57:42 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: q69DKc6hDF4Yu_y4AAAL] 
+6.12.2022, 16:58:20 - ERROR - Could not find users 
+6.12.2022, 16:58:20 - ERROR - Failed to get users | MongoServerError: $and/$or/$nor must be a nonempty array 
+6.12.2022, 16:59:03 - ERROR - Could not find users 
+6.12.2022, 16:59:03 - ERROR - Failed to get users | MongoServerError: $and/$or/$nor must be a nonempty array 
+6.12.2022, 17:05:51 - ERROR - Could not find users 
+6.12.2022, 17:05:51 - ERROR - Failed to get users | MongoServerError: $and/$or/$nor must be a nonempty array 
+6.12.2022, 17:09:25 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 17:09:25 - DEBUG - auth.service - user: a@a.c logged in 
+6.12.2022, 17:09:25 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: DM9xrueEeRK62S4NAAAD] 
+6.12.2022, 17:09:58 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 17:10:13 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 17:10:13 - DEBUG - auth.service - user: a@a.c logged in 
+6.12.2022, 17:10:14 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: -uWXY7eq6c7he_CMAAAF] 
+6.12.2022, 17:11:16 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 17:11:27 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 17:11:27 - DEBUG - auth.service - user: a@a.c logged in 
+6.12.2022, 17:11:27 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: V5_u_gIX68lkhp6jAAAH] 
+6.12.2022, 17:15:20 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 17:15:31 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 17:15:31 - DEBUG - auth.service - user: a@a.c logged in 
+6.12.2022, 17:15:32 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: _G1RHWP8i4OJzA7GAAAJ] 
+6.12.2022, 17:17:14 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: MUu8disjJ4GXsjfJAAAD] 
+6.12.2022, 17:24:22 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 17:24:33 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 17:24:33 - DEBUG - auth.service - user: a@a.c logged in 
+6.12.2022, 17:24:33 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: iQyVZOXziobbFQ6LAAAF] 
+6.12.2022, 19:04:17 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 23:17:34 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: qdDlXHzuEbwLTCo4AAAJ] 
+6.12.2022, 23:19:24 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+6.12.2022, 23:19:30 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: iZlEheqmWvAUiBHVAAAL] 
+6.12.2022, 23:21:33 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+7.12.2022, 17:39:37 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+7.12.2022, 17:39:37 - DEBUG - auth.service - user: a@a.c logged in 
+7.12.2022, 17:39:37 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: TjXXmEST3jqhJKGvAAAB] 
+9.12.2022, 8:58:08 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: 5VE8CyxrRvr37_tNAAAH] 
+9.12.2022, 9:00:19 - INFO - Removing socket.userId for socket [id: 5VE8CyxrRvr37_tNAAAH] 
+9.12.2022, 9:00:20 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 9:00:36 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 9:00:36 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 9:00:36 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: 5VE8CyxrRvr37_tNAAAH] 
+9.12.2022, 9:44:50 - INFO - Removing socket.userId for socket [id: 98Lg65AwvXX2RlzdAAAB] 
+9.12.2022, 9:44:51 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 9:44:54 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 9:44:54 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 9:44:54 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: 98Lg65AwvXX2RlzdAAAB] 
+9.12.2022, 10:06:07 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: B8t0TAhzzdcG4VDlAAAD] 
+9.12.2022, 10:06:28 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 10:06:33 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: nTZnADt3DHd878VZAAAF] 
+9.12.2022, 10:10:06 - INFO - Removing socket.userId for socket [id: nTZnADt3DHd878VZAAAF] 
+9.12.2022, 10:10:06 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 10:10:31 - DEBUG - auth.service - sign up with e-mail: b@b.c 
+9.12.2022, 10:10:32 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 10:10:32 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 10:10:32 - INFO - User undefined logged in 
+9.12.2022, 10:13:15 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 10:15:05 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 10:15:05 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 10:15:05 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: dqEvXaGh8_Vf93mkAAAN] 
+9.12.2022, 10:15:07 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 10:15:10 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: xO_khznH5bbX_Uc4AAAP] 
+9.12.2022, 10:15:36 - INFO - Removing socket.userId for socket [id: xO_khznH5bbX_Uc4AAAP] 
+9.12.2022, 10:15:36 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 10:15:40 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 10:16:55 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 10:16:55 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 10:16:55 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: n9vNqRYuf6zsoySTAAAT] 
+9.12.2022, 10:16:58 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 10:17:02 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: pcm5Mr_CFj9Ckzb8AAAV] 
+9.12.2022, 10:17:21 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 10:17:27 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 7Ta11BNDYz5uKMqLAAAX] 
+9.12.2022, 10:17:28 - INFO - Removing socket.userId for socket [id: 7Ta11BNDYz5uKMqLAAAX] 
+9.12.2022, 10:17:28 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 10:17:31 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 10:18:53 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 10:18:53 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 10:18:53 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: Smgu53CrySnmI3biAAAZ] 
+9.12.2022, 10:36:19 - INFO - Removing socket.userId for socket [id: vy3H5VytUIjLfhF-AAAB] 
+9.12.2022, 10:36:19 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 10:36:26 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 10:36:26 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 10:36:26 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: vy3H5VytUIjLfhF-AAAB] 
+9.12.2022, 10:36:46 - INFO - Removing socket.userId for socket [id: lQs2iDWX_p8sSYucAAAB] 
+9.12.2022, 10:36:47 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 10:36:50 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 10:36:50 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 10:36:50 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: lQs2iDWX_p8sSYucAAAB] 
+9.12.2022, 11:34:07 - INFO - Removing socket.userId for socket [id: lQs2iDWX_p8sSYucAAAB] 
+9.12.2022, 11:34:07 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:34:11 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:34:11 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:34:11 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: lQs2iDWX_p8sSYucAAAB] 
+9.12.2022, 11:34:37 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:34:42 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: V05QM3sLzVWC9XyKAAAD] 
+9.12.2022, 11:34:53 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:35:49 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:35:49 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:35:49 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: BOMjR0b2jkLd2GVgAAAF] 
+9.12.2022, 11:38:25 - INFO - Removing socket.userId for socket [id: BOMjR0b2jkLd2GVgAAAF] 
+9.12.2022, 11:38:25 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:38:26 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:38:42 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:38:42 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:38:43 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: mbgVcjQE3UBQ1MZRAAAH] 
+9.12.2022, 11:39:19 - INFO - Removing socket.userId for socket [id: mbgVcjQE3UBQ1MZRAAAH] 
+9.12.2022, 11:39:19 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:39:31 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:39:31 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:39:31 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: mbgVcjQE3UBQ1MZRAAAH] 
+9.12.2022, 11:49:43 - INFO - Removing socket.userId for socket [id: ISvITC4PcKfd5rjBAAAB] 
+9.12.2022, 11:49:44 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:50:01 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:50:01 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:50:02 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 0cWvXJgciE5V7kMnAAAD] 
+9.12.2022, 11:50:02 - ERROR - Failed to get chats | TypeError: Assignment to constant variable. 
+9.12.2022, 11:50:02 - ERROR - Failed to get chats | TypeError: Assignment to constant variable. 
+9.12.2022, 11:50:21 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:50:24 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: AGkbogMJBHlNMNPpAAAF] 
+9.12.2022, 11:50:29 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:50:29 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:50:29 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: AGkbogMJBHlNMNPpAAAF] 
+9.12.2022, 11:50:29 - ERROR - Failed to get chats | TypeError: Assignment to constant variable. 
+9.12.2022, 11:50:29 - ERROR - Failed to get chats | TypeError: Assignment to constant variable. 
+9.12.2022, 11:50:56 - INFO - Removing socket.userId for socket [id: p8GsYUaG6exJHLl9AAAB] 
+9.12.2022, 11:50:57 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:51:00 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:51:00 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:51:00 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: p8GsYUaG6exJHLl9AAAB] 
+9.12.2022, 11:51:58 - INFO - Removing socket.userId for socket [id: nIcaQS4dvQ1gwDN2AAAB] 
+9.12.2022, 11:51:59 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:52:02 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:52:02 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:52:02 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: nIcaQS4dvQ1gwDN2AAAB] 
+9.12.2022, 11:52:52 - INFO - Removing socket.userId for socket [id: _g6EeBI4d9fcyOccAAAB] 
+9.12.2022, 11:52:53 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:52:57 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:52:57 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:52:57 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: _g6EeBI4d9fcyOccAAAB] 
+9.12.2022, 11:53:11 - INFO - Removing socket.userId for socket [id: Da0zP76qz177i__RAAAB] 
+9.12.2022, 11:53:13 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:53:16 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:53:16 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:53:16 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: Da0zP76qz177i__RAAAB] 
+9.12.2022, 11:53:17 - ERROR - Failed to get chats | TypeError: Cannot read properties of undefined (reading '0') 
+9.12.2022, 11:53:17 - ERROR - Failed to get chats | TypeError: Cannot read properties of undefined (reading '0') 
+9.12.2022, 11:54:32 - INFO - Removing socket.userId for socket [id: j0uKvSjnXNJ98qZPAAAB] 
+9.12.2022, 11:54:33 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:54:36 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:54:36 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:54:36 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: j0uKvSjnXNJ98qZPAAAB] 
+9.12.2022, 11:54:37 - ERROR - Failed to get chats | TypeError: Cannot read properties of undefined (reading '0') 
+9.12.2022, 11:54:37 - ERROR - Failed to get chats | TypeError: Cannot read properties of undefined (reading '0') 
+9.12.2022, 11:55:26 - INFO - Removing socket.userId for socket [id: hONRhTEsyBooWtVnAAAB] 
+9.12.2022, 11:55:27 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:55:30 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:55:30 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:55:30 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: hONRhTEsyBooWtVnAAAB] 
+9.12.2022, 11:55:30 - ERROR - Failed to get chats | TypeError: Cannot read properties of undefined (reading '0') 
+9.12.2022, 11:55:30 - ERROR - Failed to get chats | TypeError: Cannot read properties of undefined (reading '0') 
+9.12.2022, 11:55:59 - INFO - Removing socket.userId for socket [id: YIFpJEtPf4b7e1F0AAAB] 
+9.12.2022, 11:56:00 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:56:03 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:56:03 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:56:03 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: YIFpJEtPf4b7e1F0AAAB] 
+9.12.2022, 11:56:03 - ERROR - Failed to get chats | TypeError: Cannot read properties of undefined (reading 'forEach') 
+9.12.2022, 11:56:03 - ERROR - Failed to get chats | TypeError: Cannot read properties of undefined (reading 'forEach') 
+9.12.2022, 11:58:20 - INFO - Removing socket.userId for socket [id: a2Z9bCMeULFzTUs0AAAB] 
+9.12.2022, 11:58:21 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:58:24 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:58:24 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:58:24 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: a2Z9bCMeULFzTUs0AAAB] 
+9.12.2022, 11:59:06 - INFO - Removing socket.userId for socket [id: nG5KzrJN6QrD2o77AAAB] 
+9.12.2022, 11:59:07 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 11:59:12 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 11:59:12 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 11:59:12 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: nG5KzrJN6QrD2o77AAAB] 
+9.12.2022, 11:59:59 - INFO - Removing socket.userId for socket [id: nFgJUD0SMyOt9FejAAAB] 
+9.12.2022, 12:00:00 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 12:00:03 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 12:00:03 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 12:00:03 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: nFgJUD0SMyOt9FejAAAB] 
+9.12.2022, 12:01:34 - INFO - Removing socket.userId for socket [id: 61iqnV_eKFqz369WAAAB] 
+9.12.2022, 12:01:35 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 12:01:38 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 12:01:38 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 12:01:38 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 61iqnV_eKFqz369WAAAB] 
+9.12.2022, 12:04:40 - INFO - Removing socket.userId for socket [id: fxpXfbLUz_LWJUS_AAAB] 
+9.12.2022, 12:04:41 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 12:04:44 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 12:04:44 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 12:04:44 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: fxpXfbLUz_LWJUS_AAAB] 
+9.12.2022, 12:04:44 - ERROR - Failed to get chats | TypeError: Cannot read properties of undefined (reading 'forEach') 
+9.12.2022, 12:04:44 - ERROR - Failed to get chats | TypeError: Cannot read properties of undefined (reading 'forEach') 
+9.12.2022, 12:05:26 - INFO - Removing socket.userId for socket [id: NqDLviSrzD3vT8fRAAAB] 
+9.12.2022, 12:05:28 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 12:05:30 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 12:05:30 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 12:05:30 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: NqDLviSrzD3vT8fRAAAB] 
+9.12.2022, 12:08:10 - INFO - Removing socket.userId for socket [id: _hm0AW55xFvis0vbAAAB] 
+9.12.2022, 12:08:11 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 12:08:14 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 12:08:14 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 12:08:14 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: _hm0AW55xFvis0vbAAAB] 
+9.12.2022, 12:36:32 - INFO - Removing socket.userId for socket [id: _hm0AW55xFvis0vbAAAB] 
+9.12.2022, 12:36:32 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 12:48:12 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 12:48:12 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 12:48:12 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: _hm0AW55xFvis0vbAAAB] 
+9.12.2022, 13:57:57 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: P8yDwl6kgcswOGxoAAAD] 
+9.12.2022, 14:34:42 - INFO - Setting socket.userId = null for socket [id: gnUpCjMJ6UWUiWfZAAAF] 
+9.12.2022, 14:34:47 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 14:34:47 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 14:34:47 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: gnUpCjMJ6UWUiWfZAAAF] 
+9.12.2022, 14:35:27 - INFO - Removing socket.userId for socket [id: P8yDwl6kgcswOGxoAAAD] 
+9.12.2022, 14:35:27 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 14:35:31 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 14:35:31 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 14:35:31 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: P8yDwl6kgcswOGxoAAAD] 
+9.12.2022, 14:35:56 - INFO - Removing socket.userId for socket [id: P8yDwl6kgcswOGxoAAAD] 
+9.12.2022, 14:35:56 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 14:36:12 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 14:36:12 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 14:36:12 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: P8yDwl6kgcswOGxoAAAD] 
+9.12.2022, 14:36:20 - INFO - Removing socket.userId for socket [id: gnUpCjMJ6UWUiWfZAAAF] 
+9.12.2022, 14:36:20 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 14:36:24 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 14:36:24 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 14:36:24 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: gnUpCjMJ6UWUiWfZAAAF] 
+9.12.2022, 14:36:34 - INFO - Removing socket.userId for socket [id: P8yDwl6kgcswOGxoAAAD] 
+9.12.2022, 14:36:34 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 14:36:38 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 14:36:38 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 14:36:38 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: P8yDwl6kgcswOGxoAAAD] 
+9.12.2022, 14:36:45 - INFO - Removing socket.userId for socket [id: gnUpCjMJ6UWUiWfZAAAF] 
+9.12.2022, 14:36:45 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 14:36:50 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 14:36:50 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 14:36:50 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: gnUpCjMJ6UWUiWfZAAAF] 
+9.12.2022, 14:36:59 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 14:37:02 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: lUelsyxBFOPTO6HkAAAH] 
+9.12.2022, 14:38:52 - INFO - Removing socket.userId for socket [id: gnUpCjMJ6UWUiWfZAAAF] 
+9.12.2022, 14:38:52 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 14:38:56 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 14:38:56 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 14:38:56 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: gnUpCjMJ6UWUiWfZAAAF] 
+9.12.2022, 14:39:04 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 14:39:05 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 14:39:54 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 14:39:54 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 14:39:54 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 65LSwf5PSRQpmcAYAAAJ] 
+9.12.2022, 14:40:10 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 14:40:10 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 14:40:11 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: y6jHA_b0bGRuNM67AAAL] 
+9.12.2022, 16:06:13 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 16:06:14 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 16:42:27 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: S6ZWBLRl7uDU0yvHAAAR] 
+9.12.2022, 16:44:41 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 16:44:46 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: fZN-P1o76GmKfaOZAAAT] 
+9.12.2022, 16:45:29 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 16:45:32 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: C4GUq6_LNMkfNW2lAAAV] 
+9.12.2022, 16:46:06 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 16:46:09 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 1GOB4WY2INUeS1F5AAAX] 
+9.12.2022, 16:46:34 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 16:46:39 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: VSoZYpZq0wa9Ya6pAAAZ] 
+9.12.2022, 16:47:29 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 16:47:36 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: at7-KCpeK0PEmSYTAAAb] 
+9.12.2022, 16:48:28 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 16:48:34 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 5m5vf_DjjzVVfjJ4AAAe] 
+9.12.2022, 16:48:34 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: GHj_gnzcIzisbw7CAAAf] 
+9.12.2022, 16:49:09 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 16:49:14 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: qSqCT094wzEwkmYOAAAh] 
+9.12.2022, 16:49:22 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 16:49:25 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: YS42BenPnyXRkNuxAAAj] 
+9.12.2022, 17:18:15 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 17:18:15 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 17:18:20 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: IfY9wyEQn_Y1gHxkAAAm] 
+9.12.2022, 17:18:21 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: gmmzvUW7neSGze5yAAAn] 
+9.12.2022, 17:21:41 - INFO - Removing socket.userId for socket [id: k9kJt95bf2d9p2NxAAAD] 
+9.12.2022, 17:21:41 - INFO - Removing socket.userId for socket [id: k9kJt95bf2d9p2NxAAAD] 
+9.12.2022, 17:21:43 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 17:21:46 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 17:21:46 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 17:21:46 - INFO - Broadcasting event: update-user-status 
+9.12.2022, 17:21:46 - INFO - Emit to all 
+9.12.2022, 17:21:46 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: k9kJt95bf2d9p2NxAAAD] 
+9.12.2022, 17:21:46 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: k9kJt95bf2d9p2NxAAAD] 
+9.12.2022, 17:29:45 - INFO - Removing socket.userId for socket [id: JZ2PUZx_Yanp-Lu5AAAB] 
+9.12.2022, 17:29:45 - INFO - Removing socket.userId for socket [id: JZ2PUZx_Yanp-Lu5AAAB] 
+9.12.2022, 17:29:45 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 17:29:46 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 17:29:50 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 2PeJ2tmigtL62IAHAAAG] 
+9.12.2022, 17:30:19 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 17:30:19 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 17:30:20 - INFO - Broadcasting event: update-user-status 
+9.12.2022, 17:30:20 - INFO - Emit to all 
+9.12.2022, 17:30:20 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: PwxsFP4zVRw77a9AAAAH] 
+9.12.2022, 17:30:20 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: PwxsFP4zVRw77a9AAAAH] 
+9.12.2022, 17:30:27 - INFO - Removing socket.userId for socket [id: 2PeJ2tmigtL62IAHAAAG] 
+9.12.2022, 17:30:27 - INFO - Removing socket.userId for socket [id: 2PeJ2tmigtL62IAHAAAG] 
+9.12.2022, 17:30:27 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 17:30:52 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 17:30:52 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 17:30:52 - INFO - Broadcasting event: update-user-status 
+9.12.2022, 17:30:52 - INFO - Emit to all 
+9.12.2022, 17:30:52 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 4kW2Snteumb86-dWAAAB] 
+9.12.2022, 17:30:52 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 4kW2Snteumb86-dWAAAB] 
+9.12.2022, 17:31:22 - INFO - Removing socket.userId for socket [id: 4kW2Snteumb86-dWAAAB] 
+9.12.2022, 17:31:22 - INFO - Removing socket.userId for socket [id: 4kW2Snteumb86-dWAAAB] 
+9.12.2022, 17:31:23 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 17:31:27 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 17:31:27 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 17:31:27 - INFO - Broadcasting event: update-user-status 
+9.12.2022, 17:31:27 - INFO - Emit to all 
+9.12.2022, 17:31:27 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 4kW2Snteumb86-dWAAAB] 
+9.12.2022, 17:31:27 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 4kW2Snteumb86-dWAAAB] 
+9.12.2022, 17:34:20 - INFO - Removing socket.userId for socket [id: 4kW2Snteumb86-dWAAAB] 
+9.12.2022, 17:34:20 - INFO - Removing socket.userId for socket [id: 4kW2Snteumb86-dWAAAB] 
+9.12.2022, 17:34:20 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 17:34:31 - INFO - Removing socket.userId for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:34:31 - INFO - Removing socket.userId for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:34:31 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 17:34:46 - DEBUG - user 6392ed7797933078fb12d61a updated 
+9.12.2022, 17:34:46 - DEBUG - auth.service - user: b@b.c logged in 
+9.12.2022, 17:34:46 - INFO - Broadcasting event: update-user-status 
+9.12.2022, 17:34:46 - INFO - Emit to all 
+9.12.2022, 17:34:46 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 4kW2Snteumb86-dWAAAB] 
+9.12.2022, 17:34:46 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 4kW2Snteumb86-dWAAAB] 
+9.12.2022, 17:34:49 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 17:34:49 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 17:34:49 - INFO - Emit to all 
+9.12.2022, 17:34:49 - INFO - Broadcasting event: update-user-status 
+9.12.2022, 17:34:49 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:34:49 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:34:53 - INFO - Removing socket.userId for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:34:53 - INFO - Removing socket.userId for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:34:53 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 17:35:28 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 17:35:28 - INFO - Emit to all 
+9.12.2022, 17:35:28 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 17:35:28 - INFO - Broadcasting event: update-user-status 
+9.12.2022, 17:35:28 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:35:28 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:37:17 - INFO - Removing socket.userId for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:37:17 - INFO - Removing socket.userId for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:37:17 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+9.12.2022, 17:38:07 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 17:38:07 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 17:38:07 - INFO - Broadcasting event: update-user-status 
+9.12.2022, 17:38:07 - INFO - Emit to all 
+9.12.2022, 17:38:07 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:38:07 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:38:12 - INFO - Removing socket.userId for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:38:12 - INFO - Removing socket.userId for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:38:12 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 17:38:12 - INFO - Emit to all 
+9.12.2022, 17:38:12 - INFO - Broadcasting event: update-user-status 
+9.12.2022, 17:38:19 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 17:38:19 - INFO - Broadcasting event: update-user-status 
+9.12.2022, 17:38:19 - INFO - Emit to all 
+9.12.2022, 17:38:19 - DEBUG - auth.service - user: a@a.c logged in 
+9.12.2022, 17:38:19 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 17:38:19 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: ooFjPEA4aaqksRnuAAAD] 
+9.12.2022, 19:23:37 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+9.12.2022, 19:23:37 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 11:15:58 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: H1_kTvnw1WB1j9xEAAAJ] 
+10.12.2022, 11:16:32 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:16:32 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 11:16:32 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:16:32 - INFO - Emit to all 
+10.12.2022, 11:16:32 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: H1_kTvnw1WB1j9xEAAAJ] 
+10.12.2022, 11:16:32 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: H1_kTvnw1WB1j9xEAAAJ] 
+10.12.2022, 11:17:32 - INFO - Removing socket.userId for socket [id: pNJEq9bMWxyWzUgyAAAD] 
+10.12.2022, 11:17:32 - INFO - Removing socket.userId for socket [id: pNJEq9bMWxyWzUgyAAAD] 
+10.12.2022, 11:17:33 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:18:02 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:18:02 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:18:02 - INFO - Emit to all 
+10.12.2022, 11:18:02 - INFO - Setting socket.userId = null for socket [id: a_xlACWxNSTxz5PSAAAD] 
+10.12.2022, 11:18:02 - INFO - Setting socket.userId = null for socket [id: a_xlACWxNSTxz5PSAAAD] 
+10.12.2022, 11:18:29 - INFO - Removing socket.userId for socket [id: PnMoqgRNpl1sYnUPAAAB] 
+10.12.2022, 11:18:29 - INFO - Removing socket.userId for socket [id: PnMoqgRNpl1sYnUPAAAB] 
+10.12.2022, 11:18:30 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+10.12.2022, 11:18:33 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:18:33 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:18:33 - INFO - Emit to all 
+10.12.2022, 11:18:33 - INFO - Setting socket.userId = null for socket [id: PnMoqgRNpl1sYnUPAAAB] 
+10.12.2022, 11:18:33 - INFO - Setting socket.userId = null for socket [id: PnMoqgRNpl1sYnUPAAAB] 
+10.12.2022, 11:18:57 - INFO - Removing socket.userId for socket [id: TOJP331S9MBag6ZTAAAB] 
+10.12.2022, 11:18:57 - INFO - Removing socket.userId for socket [id: TOJP331S9MBag6ZTAAAB] 
+10.12.2022, 11:18:58 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+10.12.2022, 11:19:01 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:19:01 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:19:01 - INFO - Emit to all 
+10.12.2022, 11:19:01 - INFO - Setting socket.userId = null for socket [id: TOJP331S9MBag6ZTAAAB] 
+10.12.2022, 11:19:01 - INFO - Setting socket.userId = null for socket [id: TOJP331S9MBag6ZTAAAB] 
+10.12.2022, 11:21:04 - INFO - Removing socket.userId for socket [id: t0wWnP0AhGkiRT7aAAAB] 
+10.12.2022, 11:21:04 - INFO - Removing socket.userId for socket [id: t0wWnP0AhGkiRT7aAAAB] 
+10.12.2022, 11:21:05 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+10.12.2022, 11:21:08 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:21:08 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:21:08 - INFO - Emit to all 
+10.12.2022, 11:21:08 - INFO - Setting socket.userId = null for socket [id: t0wWnP0AhGkiRT7aAAAB] 
+10.12.2022, 11:21:08 - INFO - Setting socket.userId = null for socket [id: t0wWnP0AhGkiRT7aAAAB] 
+10.12.2022, 11:21:59 - INFO - Removing socket.userId for socket [id: fHcDMBvd994nlYACAAAC] 
+10.12.2022, 11:21:59 - INFO - Removing socket.userId for socket [id: fHcDMBvd994nlYACAAAC] 
+10.12.2022, 11:22:00 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+10.12.2022, 11:22:03 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:22:03 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 11:22:03 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:22:03 - INFO - Emit to all 
+10.12.2022, 11:22:03 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: fHcDMBvd994nlYACAAAC] 
+10.12.2022, 11:22:04 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: fHcDMBvd994nlYACAAAC] 
+10.12.2022, 11:22:26 - INFO - Removing socket.userId for socket [id: Oc6m9exkSexYZCTNAAAD] 
+10.12.2022, 11:22:26 - INFO - Removing socket.userId for socket [id: Oc6m9exkSexYZCTNAAAD] 
+10.12.2022, 11:22:27 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:22:42 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:22:42 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 11:22:42 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:22:42 - INFO - Emit to all 
+10.12.2022, 11:22:42 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: Oc6m9exkSexYZCTNAAAD] 
+10.12.2022, 11:22:42 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: Oc6m9exkSexYZCTNAAAD] 
+10.12.2022, 11:23:22 - INFO - Removing socket.userId for socket [id: CrxXVzLW-TUg_qcjAAAB] 
+10.12.2022, 11:23:22 - INFO - Removing socket.userId for socket [id: CrxXVzLW-TUg_qcjAAAB] 
+10.12.2022, 11:23:23 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:23:45 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:23:45 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 11:23:45 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:23:45 - INFO - Emit to all 
+10.12.2022, 11:23:45 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: knnh2QbFPvWEQniHAAAB] 
+10.12.2022, 11:23:45 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: knnh2QbFPvWEQniHAAAB] 
+10.12.2022, 11:26:07 - INFO - Removing socket.userId for socket [id: rU11ReIxF8gXCOTXAAAB] 
+10.12.2022, 11:26:07 - INFO - Removing socket.userId for socket [id: rU11ReIxF8gXCOTXAAAB] 
+10.12.2022, 11:26:08 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:26:17 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:26:18 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 11:26:18 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:26:18 - INFO - Emit to all 
+10.12.2022, 11:26:18 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: rU11ReIxF8gXCOTXAAAB] 
+10.12.2022, 11:26:18 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: rU11ReIxF8gXCOTXAAAB] 
+10.12.2022, 11:57:11 - INFO - Removing socket.userId for socket [id: rU11ReIxF8gXCOTXAAAB] 
+10.12.2022, 11:57:11 - INFO - Removing socket.userId for socket [id: rU11ReIxF8gXCOTXAAAB] 
+10.12.2022, 11:57:11 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:58:37 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:58:37 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 11:58:37 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:58:37 - INFO - Emit to all 
+10.12.2022, 11:58:37 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: qgLuGdGkIn5iyF6zAAAB] 
+10.12.2022, 11:58:37 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: qgLuGdGkIn5iyF6zAAAB] 
+10.12.2022, 11:58:44 - INFO - Removing socket.userId for socket [id: qgLuGdGkIn5iyF6zAAAB] 
+10.12.2022, 11:58:44 - INFO - Removing socket.userId for socket [id: qgLuGdGkIn5iyF6zAAAB] 
+10.12.2022, 11:58:45 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:59:30 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:59:30 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 11:59:30 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:59:30 - INFO - Emit to all 
+10.12.2022, 11:59:30 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: j8uXUXchJNimekAJAAAB] 
+10.12.2022, 11:59:30 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: j8uXUXchJNimekAJAAAB] 
+10.12.2022, 11:59:33 - INFO - Removing socket.userId for socket [id: j8uXUXchJNimekAJAAAB] 
+10.12.2022, 11:59:33 - INFO - Removing socket.userId for socket [id: j8uXUXchJNimekAJAAAB] 
+10.12.2022, 11:59:33 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 11:59:33 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 11:59:33 - INFO - Emit to all 
+10.12.2022, 12:00:01 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 12:00:01 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 12:00:01 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 12:00:01 - INFO - Emit to all 
+10.12.2022, 12:00:01 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 2fbZ-9V-0_CSwTuKAAAD] 
+10.12.2022, 12:00:01 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 2fbZ-9V-0_CSwTuKAAAD] 
+10.12.2022, 12:00:07 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 12:00:07 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 12:00:07 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 12:00:07 - INFO - Emit to all 
+10.12.2022, 12:00:07 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: j8uXUXchJNimekAJAAAB] 
+10.12.2022, 12:00:07 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: j8uXUXchJNimekAJAAAB] 
+10.12.2022, 13:24:59 - INFO - Removing socket.userId for socket [id: 2fbZ-9V-0_CSwTuKAAAD] 
+10.12.2022, 13:24:59 - INFO - Removing socket.userId for socket [id: 2fbZ-9V-0_CSwTuKAAAD] 
+10.12.2022, 13:24:59 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 13:24:59 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 13:24:59 - INFO - Emit to all 
+10.12.2022, 14:02:58 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: q_c53CD95xxHP8WcAAAF] 
+10.12.2022, 14:03:06 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:03:06 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:03:06 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:03:06 - INFO - Broadcast to all excluding user: 638f3f1c6b013074d82db255 
+10.12.2022, 14:03:06 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: q_c53CD95xxHP8WcAAAF] 
+10.12.2022, 14:03:06 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: q_c53CD95xxHP8WcAAAF] 
+10.12.2022, 14:03:29 - INFO - Removing socket.userId for socket [id: vlijulJYAtzs0FwiAAAB] 
+10.12.2022, 14:03:29 - INFO - Removing socket.userId for socket [id: vlijulJYAtzs0FwiAAAB] 
+10.12.2022, 14:03:31 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:03:31 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:03:31 - INFO - Emit to all 
+10.12.2022, 14:03:33 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:03:34 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:03:34 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:03:34 - INFO - Emit to all 
+10.12.2022, 14:03:34 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: vlijulJYAtzs0FwiAAAB] 
+10.12.2022, 14:03:34 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: vlijulJYAtzs0FwiAAAB] 
+10.12.2022, 14:06:35 - INFO - Removing socket.userId for socket [id: oQ5PBO5ciQyyi8LEAAAD] 
+10.12.2022, 14:06:35 - INFO - Removing socket.userId for socket [id: oQ5PBO5ciQyyi8LEAAAD] 
+10.12.2022, 14:06:37 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:06:37 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:06:37 - INFO - Emit to all 
+10.12.2022, 14:06:40 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:06:40 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:06:41 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:06:41 - INFO - Emit to all 
+10.12.2022, 14:06:41 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: oQ5PBO5ciQyyi8LEAAAD] 
+10.12.2022, 14:06:41 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: oQ5PBO5ciQyyi8LEAAAD] 
+10.12.2022, 14:06:45 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:06:45 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 14:06:45 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:06:45 - INFO - Emit to all 
+10.12.2022, 14:06:45 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: Hajnw7KlPoQjozzFAAAB] 
+10.12.2022, 14:06:45 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: Hajnw7KlPoQjozzFAAAB] 
+10.12.2022, 14:08:23 - INFO - Removing socket.userId for socket [id: fkfCjW6oKjYNfM7eAAAD] 
+10.12.2022, 14:08:23 - INFO - Removing socket.userId for socket [id: fkfCjW6oKjYNfM7eAAAD] 
+10.12.2022, 14:08:24 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:08:24 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:08:24 - INFO - Emit to all 
+10.12.2022, 14:08:27 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:08:27 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:08:27 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:08:27 - INFO - Emit to all 
+10.12.2022, 14:08:27 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: fkfCjW6oKjYNfM7eAAAD] 
+10.12.2022, 14:08:27 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: fkfCjW6oKjYNfM7eAAAD] 
+10.12.2022, 14:08:28 - INFO - Removing socket.userId for socket [id: MlFoQR6rK_4XILv_AAAC] 
+10.12.2022, 14:08:28 - INFO - Removing socket.userId for socket [id: MlFoQR6rK_4XILv_AAAC] 
+10.12.2022, 14:08:28 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:08:28 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:08:28 - INFO - Emit to all 
+10.12.2022, 14:08:32 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:08:32 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 14:08:32 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:08:32 - INFO - Emit to all 
+10.12.2022, 14:08:32 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: MlFoQR6rK_4XILv_AAAC] 
+10.12.2022, 14:08:32 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: MlFoQR6rK_4XILv_AAAC] 
+10.12.2022, 14:09:15 - INFO - Removing socket.userId for socket [id: DHKUv-y4Qr8yNFA9AAAB] 
+10.12.2022, 14:09:15 - INFO - Removing socket.userId for socket [id: DHKUv-y4Qr8yNFA9AAAB] 
+10.12.2022, 14:09:16 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:09:16 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:09:16 - INFO - Emit to all 
+10.12.2022, 14:09:18 - INFO - Removing socket.userId for socket [id: -N1NSM7m5tazg9uHAAAD] 
+10.12.2022, 14:09:18 - INFO - Removing socket.userId for socket [id: -N1NSM7m5tazg9uHAAAD] 
+10.12.2022, 14:09:18 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:09:18 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:09:18 - INFO - Emit to all 
+10.12.2022, 14:09:23 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:09:23 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:09:23 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:09:23 - INFO - Emit to all 
+10.12.2022, 14:09:23 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: DHKUv-y4Qr8yNFA9AAAB] 
+10.12.2022, 14:09:23 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: DHKUv-y4Qr8yNFA9AAAB] 
+10.12.2022, 14:09:26 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:09:26 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 14:09:27 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:09:27 - INFO - Emit to all 
+10.12.2022, 14:09:27 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: -N1NSM7m5tazg9uHAAAD] 
+10.12.2022, 14:09:27 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: -N1NSM7m5tazg9uHAAAD] 
+10.12.2022, 14:10:11 - INFO - Removing socket.userId for socket [id: G5-9zSMmsgFWN3oLAAAB] 
+10.12.2022, 14:10:11 - INFO - Removing socket.userId for socket [id: G5-9zSMmsgFWN3oLAAAB] 
+10.12.2022, 14:10:12 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:10:12 - INFO - Emit to all 
+10.12.2022, 14:10:12 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:10:13 - INFO - Removing socket.userId for socket [id: YizeYxFYYOFAYp-jAAAD] 
+10.12.2022, 14:10:13 - INFO - Removing socket.userId for socket [id: YizeYxFYYOFAYp-jAAAD] 
+10.12.2022, 14:10:13 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:10:13 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:10:13 - INFO - Emit to all 
+10.12.2022, 14:10:17 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:10:17 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:10:17 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:10:17 - INFO - Emit to all 
+10.12.2022, 14:10:17 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: G5-9zSMmsgFWN3oLAAAB] 
+10.12.2022, 14:10:17 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: G5-9zSMmsgFWN3oLAAAB] 
+10.12.2022, 14:10:21 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:10:21 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 14:10:21 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:10:21 - INFO - Emit to all 
+10.12.2022, 14:10:21 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: YizeYxFYYOFAYp-jAAAD] 
+10.12.2022, 14:10:21 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: YizeYxFYYOFAYp-jAAAD] 
+10.12.2022, 14:11:48 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:11:48 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 14:11:48 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:11:48 - INFO - Emit to all 
+10.12.2022, 14:11:48 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: vdBgFs4899QBEYYdAAAC] 
+10.12.2022, 14:11:48 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: vdBgFs4899QBEYYdAAAC] 
+10.12.2022, 14:12:28 - INFO - Removing socket.userId for socket [id: -BRMLhVu6slINrmoAAAD] 
+10.12.2022, 14:12:28 - INFO - Removing socket.userId for socket [id: -BRMLhVu6slINrmoAAAD] 
+10.12.2022, 14:12:29 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:12:29 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:12:29 - INFO - Emit to all 
+10.12.2022, 14:12:30 - INFO - Removing socket.userId for socket [id: 5WTL5KJSp9mL4f-OAAAC] 
+10.12.2022, 14:12:30 - INFO - Removing socket.userId for socket [id: 5WTL5KJSp9mL4f-OAAAC] 
+10.12.2022, 14:12:31 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:12:31 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:12:31 - INFO - Emit to all 
+10.12.2022, 14:12:37 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:12:37 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:12:37 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:12:37 - INFO - Emit to all 
+10.12.2022, 14:12:37 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: 5WTL5KJSp9mL4f-OAAAC] 
+10.12.2022, 14:12:37 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: 5WTL5KJSp9mL4f-OAAAC] 
+10.12.2022, 14:12:40 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:12:40 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 14:12:41 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:12:41 - INFO - Emit to all 
+10.12.2022, 14:12:41 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: -BRMLhVu6slINrmoAAAD] 
+10.12.2022, 14:12:41 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: -BRMLhVu6slINrmoAAAD] 
+10.12.2022, 14:13:26 - INFO - Removing socket.userId for socket [id: Gd6L8qEK3SrP4wH3AAAD] 
+10.12.2022, 14:13:26 - INFO - Removing socket.userId for socket [id: Gd6L8qEK3SrP4wH3AAAD] 
+10.12.2022, 14:13:27 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:13:28 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:13:28 - INFO - Emit to all 
+10.12.2022, 14:13:28 - INFO - Removing socket.userId for socket [id: LbM-A4bF6j1r8lgBAAAB] 
+10.12.2022, 14:13:28 - INFO - Removing socket.userId for socket [id: LbM-A4bF6j1r8lgBAAAB] 
+10.12.2022, 14:13:28 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:13:28 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:13:28 - INFO - Emit to all 
+10.12.2022, 14:13:32 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:13:32 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:13:32 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:13:32 - INFO - Emit to all 
+10.12.2022, 14:13:32 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: LbM-A4bF6j1r8lgBAAAB] 
+10.12.2022, 14:13:32 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: LbM-A4bF6j1r8lgBAAAB] 
+10.12.2022, 14:13:36 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:13:36 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 14:13:36 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:13:36 - INFO - Emit to all 
+10.12.2022, 14:13:36 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: Gd6L8qEK3SrP4wH3AAAD] 
+10.12.2022, 14:13:36 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: Gd6L8qEK3SrP4wH3AAAD] 
+10.12.2022, 14:26:20 - INFO - Removing socket.userId for socket [id: Ka31DUMT6euGhIFLAAAD] 
+10.12.2022, 14:26:20 - INFO - Removing socket.userId for socket [id: Ka31DUMT6euGhIFLAAAD] 
+10.12.2022, 14:26:21 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:26:21 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:26:21 - INFO - Emit to all 
+10.12.2022, 14:26:22 - INFO - Removing socket.userId for socket [id: 6czC7DmNsqsagaYqAAAC] 
+10.12.2022, 14:26:22 - INFO - Removing socket.userId for socket [id: 6czC7DmNsqsagaYqAAAC] 
+10.12.2022, 14:26:22 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:26:22 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:26:22 - INFO - Emit to all 
+10.12.2022, 14:26:31 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:26:32 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:26:32 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:26:32 - INFO - Emit to all 
+10.12.2022, 14:26:32 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: Ka31DUMT6euGhIFLAAAD] 
+10.12.2022, 14:26:32 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: Ka31DUMT6euGhIFLAAAD] 
+10.12.2022, 14:26:36 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:26:36 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 14:26:36 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:26:36 - INFO - Emit to all 
+10.12.2022, 14:26:36 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 6czC7DmNsqsagaYqAAAC] 
+10.12.2022, 14:26:36 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 6czC7DmNsqsagaYqAAAC] 
+10.12.2022, 14:27:08 - INFO - Removing socket.userId for socket [id: Ka31DUMT6euGhIFLAAAD] 
+10.12.2022, 14:27:08 - INFO - Removing socket.userId for socket [id: Ka31DUMT6euGhIFLAAAD] 
+10.12.2022, 14:27:08 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:27:08 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:27:08 - INFO - Emit to all 
+10.12.2022, 14:27:10 - INFO - Removing socket.userId for socket [id: 6czC7DmNsqsagaYqAAAC] 
+10.12.2022, 14:27:10 - INFO - Removing socket.userId for socket [id: 6czC7DmNsqsagaYqAAAC] 
+10.12.2022, 14:27:10 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:27:10 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:27:10 - INFO - Emit to all 
+10.12.2022, 14:27:15 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:27:15 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:27:15 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:27:15 - INFO - Emit to all 
+10.12.2022, 14:27:15 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: Ka31DUMT6euGhIFLAAAD] 
+10.12.2022, 14:27:15 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: Ka31DUMT6euGhIFLAAAD] 
+10.12.2022, 14:27:19 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:27:19 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 14:27:19 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:27:19 - INFO - Emit to all 
+10.12.2022, 14:27:19 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 6czC7DmNsqsagaYqAAAC] 
+10.12.2022, 14:27:19 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 6czC7DmNsqsagaYqAAAC] 
+10.12.2022, 14:28:01 - INFO - Removing socket.userId for socket [id: tI3WgFaLLpQSy16ZAAAC] 
+10.12.2022, 14:28:01 - INFO - Removing socket.userId for socket [id: tI3WgFaLLpQSy16ZAAAC] 
+10.12.2022, 14:28:02 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:28:02 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:28:02 - INFO - Emit to all 
+10.12.2022, 14:28:03 - INFO - Removing socket.userId for socket [id: JeTaG2i-3e2XccQ-AAAD] 
+10.12.2022, 14:28:03 - INFO - Removing socket.userId for socket [id: JeTaG2i-3e2XccQ-AAAD] 
+10.12.2022, 14:28:03 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:28:03 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:28:03 - INFO - Emit to all 
+10.12.2022, 14:28:08 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:28:08 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:28:08 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:28:08 - INFO - Emit to all 
+10.12.2022, 14:28:08 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: tI3WgFaLLpQSy16ZAAAC] 
+10.12.2022, 14:28:08 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: tI3WgFaLLpQSy16ZAAAC] 
+10.12.2022, 14:28:13 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:28:13 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 14:28:13 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:28:13 - INFO - Emit to all 
+10.12.2022, 14:28:13 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: JeTaG2i-3e2XccQ-AAAD] 
+10.12.2022, 14:28:13 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: JeTaG2i-3e2XccQ-AAAD] 
+10.12.2022, 14:29:21 - INFO - Removing socket.userId for socket [id: uL9__OBs-v4TIEK6AAAD] 
+10.12.2022, 14:29:21 - INFO - Removing socket.userId for socket [id: uL9__OBs-v4TIEK6AAAD] 
+10.12.2022, 14:29:23 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:29:23 - INFO - Removing socket.userId for socket [id: rIJKLNrDe14sRwhdAAAB] 
+10.12.2022, 14:29:23 - INFO - Removing socket.userId for socket [id: rIJKLNrDe14sRwhdAAAB] 
+10.12.2022, 14:29:23 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:29:23 - INFO - Emit to all 
+10.12.2022, 14:29:23 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:29:23 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:29:23 - INFO - Emit to all 
+10.12.2022, 14:29:30 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:29:30 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:29:31 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:29:31 - INFO - Emit to all 
+10.12.2022, 14:29:31 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: rIJKLNrDe14sRwhdAAAB] 
+10.12.2022, 14:29:31 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: rIJKLNrDe14sRwhdAAAB] 
+10.12.2022, 14:29:36 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:29:36 - DEBUG - auth.service - user: b@b.c logged in 
+10.12.2022, 14:29:37 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:29:37 - INFO - Emit to all 
+10.12.2022, 14:29:37 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: uL9__OBs-v4TIEK6AAAD] 
+10.12.2022, 14:29:37 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: uL9__OBs-v4TIEK6AAAD] 
+10.12.2022, 14:33:04 - INFO - Removing socket.userId for socket [id: rIJKLNrDe14sRwhdAAAB] 
+10.12.2022, 14:33:04 - INFO - Removing socket.userId for socket [id: rIJKLNrDe14sRwhdAAAB] 
+10.12.2022, 14:33:04 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:33:05 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:33:05 - INFO - Emit to all 
+10.12.2022, 14:33:08 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:33:09 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:33:09 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:33:09 - INFO - Emit to all 
+10.12.2022, 14:33:09 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: rIJKLNrDe14sRwhdAAAB] 
+10.12.2022, 14:33:09 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: rIJKLNrDe14sRwhdAAAB] 
+10.12.2022, 14:33:41 - INFO - Removing socket.userId for socket [id: HyfJfPlEUH69CyD8AAAB] 
+10.12.2022, 14:33:41 - INFO - Removing socket.userId for socket [id: HyfJfPlEUH69CyD8AAAB] 
+10.12.2022, 14:33:42 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:33:42 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:33:42 - INFO - Emit to all 
+10.12.2022, 14:33:45 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:33:45 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:33:45 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:33:45 - INFO - Emit to all 
+10.12.2022, 14:33:45 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: HyfJfPlEUH69CyD8AAAB] 
+10.12.2022, 14:33:45 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: HyfJfPlEUH69CyD8AAAB] 
+10.12.2022, 14:34:23 - INFO - Removing socket.userId for socket [id: KZrr-KBu56Eb9RKaAAAD] 
+10.12.2022, 14:34:23 - INFO - Removing socket.userId for socket [id: KZrr-KBu56Eb9RKaAAAD] 
+10.12.2022, 14:34:24 - DEBUG - user 6392ed7797933078fb12d61a updated 
+10.12.2022, 14:34:24 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:34:24 - INFO - Emit to all 
+10.12.2022, 14:35:07 - DEBUG - auth.service - sign up with e-mail: c@c.c 
+10.12.2022, 14:35:07 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+10.12.2022, 14:35:08 - DEBUG - auth.service - user: c@c.c logged in 
+10.12.2022, 14:35:08 - INFO - User undefined logged in 
+10.12.2022, 14:35:33 - INFO - Removing socket.userId for socket [id: HyfJfPlEUH69CyD8AAAB] 
+10.12.2022, 14:35:33 - INFO - Removing socket.userId for socket [id: HyfJfPlEUH69CyD8AAAB] 
+10.12.2022, 14:35:33 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:35:33 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:35:33 - INFO - Emit to all 
+10.12.2022, 14:35:34 - INFO - Removing socket.userId for socket [id: KZrr-KBu56Eb9RKaAAAD] 
+10.12.2022, 14:35:34 - INFO - Removing socket.userId for socket [id: KZrr-KBu56Eb9RKaAAAD] 
+10.12.2022, 14:35:34 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+10.12.2022, 14:35:34 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:35:34 - INFO - Emit to all 
+10.12.2022, 14:35:38 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+10.12.2022, 14:35:38 - DEBUG - auth.service - user: a@a.c logged in 
+10.12.2022, 14:35:38 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:35:38 - INFO - Emit to all 
+10.12.2022, 14:35:38 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: HyfJfPlEUH69CyD8AAAB] 
+10.12.2022, 14:35:38 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: HyfJfPlEUH69CyD8AAAB] 
+10.12.2022, 14:35:45 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+10.12.2022, 14:35:45 - DEBUG - auth.service - user: c@c.c logged in 
+10.12.2022, 14:35:45 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:35:45 - INFO - Emit to all 
+10.12.2022, 14:35:45 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: KZrr-KBu56Eb9RKaAAAD] 
+10.12.2022, 14:35:45 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: KZrr-KBu56Eb9RKaAAAD] 
+10.12.2022, 14:36:18 - INFO - Removing socket.userId for socket [id: KZrr-KBu56Eb9RKaAAAD] 
+10.12.2022, 14:36:18 - INFO - Removing socket.userId for socket [id: KZrr-KBu56Eb9RKaAAAD] 
+10.12.2022, 14:36:18 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+10.12.2022, 14:36:18 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:36:18 - INFO - Emit to all 
+10.12.2022, 14:36:23 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+10.12.2022, 14:36:23 - DEBUG - auth.service - user: c@c.c logged in 
+10.12.2022, 14:36:23 - INFO - Broadcasting event: update-user-status 
+10.12.2022, 14:36:23 - INFO - Emit to all 
+10.12.2022, 14:36:23 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: KZrr-KBu56Eb9RKaAAAD] 
+10.12.2022, 14:36:23 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: KZrr-KBu56Eb9RKaAAAD] 
