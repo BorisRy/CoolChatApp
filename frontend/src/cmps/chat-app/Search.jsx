@@ -56,8 +56,8 @@ export function Search({ isOpen, onClose }) {
         const chat = chatService.createChat(false, loggedInUser, withUser)
         try {
             const newChat = await chatService.addChat(chat)
+            onClose()
             navigate(`${newChat._id}`)
-
         } catch (error) {
 
         }

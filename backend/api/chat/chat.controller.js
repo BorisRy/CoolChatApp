@@ -1,5 +1,7 @@
 const chatService = require('./chat.service')
+const socketService = require('../../services/socket.service')
 const logger = require('../../services/logger.service')
+const { logout } = require('../auth/auth.controller')
 
 
 async function getChats(req, res) {
@@ -8,10 +10,12 @@ async function getChats(req, res) {
         let chats = await chatService.query(userId)
 
         chats.forEach(chat => {
-            const idx = chat.participants.findIndex(p => p._id === userId)
-            chat.participants.splice(idx, 1)
+            const participantIdx = chat.participants.findIndex(p => p._id === userId)
+            chat.unread = chat.notifications[userId]
+            chat.participants.splice(participantIdx, 1)
             chat.with = chat.participants[0]
             delete chat.participants
+            delete chat.notifications
         })
 
         res.send(chats)
@@ -24,15 +28,30 @@ async function getChats(req, res) {
 async function addChat(req, res) {
     try {
         const chat = req.body
-        console.log('chat:', chat)
+        chat.lastMessage = { text: 'New chat!', author: { _id: '' }, sentAt: Date.now() }
+        chat.notifications = chat.participants.reduce((a, p) => {
+            a[p._id] = 0
+            return a
+        }, {})
         if (chat.isGroup) {
             const newGroupChat = await chatService.add(chat)
 
-            newGroupChat.lala = 'lala'
             res.send(newGroupChat)
 
         } else {
             const newPrivateChat = await chatService.add(chat)
+            newPrivateChat.participants.forEach(async p => {
+                const chats = await chatService.query(p._id)
+                chats.forEach(chat => {
+                    const participantIdx = chat.participants.findIndex(pr => pr._id === p._id)
+                    chat.unread = chat.notifications[p._id]
+                    chat.participants.splice(participantIdx, 1)
+                    chat.with = chat.participants[0]
+                    delete chat.participants
+                    delete chat.notifications
+                })
+                await socketService.emitToUser({ type: 'update-user-chats', data: chats, userId: p._id })
+            })
             res.send(newPrivateChat)
         }
     } catch (error) {
@@ -68,7 +87,20 @@ async function updateChat(req, res) {
     }
 }
 
+async function resetNotifications(req, res) {
+    try {
+        const { chatId, userId } = req.body
+        const chat = await chatService.getById(chatId)
+        chat.notifications[userId] = 0
+        const response = await chatService.update(chat)
+        res.send(response)
+    } catch (error) {
+        console.log('error:', error)
+    }
+}
+
 module.exports = {
     getChats,
-    addChat
+    addChat,
+    resetNotifications
 }

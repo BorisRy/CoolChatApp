@@ -1,7 +1,8 @@
+
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
 const ObjectId = require('mongodb').ObjectId
-const utilService = require('../../services/util.service')
+
 
 async function query(userId) {
 
@@ -18,7 +19,7 @@ async function query(userId) {
 async function getById(chatId) {
     try {
         const collection = await dbService.getCollection('chat')
-        let chat = await collection.findOne({ '_id': ObjectId(userId) })
+        let chat = await collection.findOne({ '_id': ObjectId(chatId) })
         return chat
     } catch (error) {
         logger.error('Could not find chat', error)
@@ -62,19 +63,30 @@ async function remove(chatId) {
 }
 
 async function setUserStatus(userId, status) {
-
     try {
-        console.log('userId:', userId.toString())
-        console.log('status:', status)
         const collection = await dbService.getCollection('chat')
         const res = await collection.update(
             { "participants._id": userId.toString() },
             { "$set": { "participants.$[elem].status": status } },
             { "arrayFilters": [{ "elem._id": userId.toString() }], "multi": true }
         )
-        console.log('res:', res)
     } catch (error) {
         console.log('err setuserstatus:', error)
+    }
+}
+
+async function pushNotification(message, userIds) {
+    try {
+        const chat = await getById(message.chatId)
+        userIds.forEach(async userId => {
+            chat.notifications[userId] += 1
+        })
+        chat.lastMessage = message
+        await update(chat)
+
+        return chat
+    } catch (error) {
+        console.log('error:', error)
     }
 }
 
@@ -84,5 +96,6 @@ module.exports = {
     add,
     remove,
     update,
-    setUserStatus
+    setUserStatus,
+    pushNotification
 }

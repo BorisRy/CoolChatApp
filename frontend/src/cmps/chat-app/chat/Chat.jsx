@@ -4,36 +4,46 @@ import { MessageInput } from "./MessageInput"
 import { HeaderMessage, RegularMessage } from "./Message"
 import { useEffect } from "react"
 import { messageService } from "../../../services/message.service"
+import { chatService } from "../../../services/chat.service"
 import { socketService } from "../../../services/socket.service"
+import { useDispatch, useSelector } from "react-redux"
+import { resetNotifications } from "../../../store/chat/chat.actions"
+import { useParams } from "react-router-dom"
 
-
-export const Chat = ({ currentChat }) => {
-
+export const Chat = () => {
+    const params = useParams()
+    const dispatch = useDispatch()
     const [messages, setMessages] = useState([])
+    const { loggedInUser } = useSelector(state => state.userModule)
+    const { chats } = useSelector(state => state.chatModule)
     useEffect(() => {
         socketService.on('chat-add-msg', addMessage)
-
         return () => {
             socketService.off('chat-add-msg', addMessage)
         }
     }, [])
 
     useEffect(() => {
-        const loadMessages = async () => {
-            const messages = await messageService.query({ chat: currentChat._id })
-            console.log('messages:', messages)
-            setMessages(messages)
+        const currentChat = chats.find(chat => chat._id === params.chatId)
+        if (currentChat.unread > 0) {
+            dispatch(resetNotifications(params.chatId, loggedInUser._id))
         }
+        loadMessages()
+    }, [params.chatId])
 
-        if (currentChat) loadMessages()
-    }, [currentChat])
 
-    const addMessage = (msgText) => {
-        setMessages(prevMessages => [...prevMessages, msgText])
+    const loadMessages = async () => {
+        const messages = await messageService.query({ chat: params.chatId })
+        setMessages(messages)
+    }
+
+    const addMessage = (message) => {
+        dispatch({ type: 'UPDATE_LAST_MESSAGE', message })
+        setMessages(prevMessages => [...prevMessages, message])
     }
 
     return (
-        <Flex direction={'column'} px={4} h='100%' maxH='100%'>
+        <Flex direction={'column'} px={4} h='100%' maxH='100%' position='relative'>
             <MessageLog messages={messages} />
             <MessageInput addMessage={addMessage} />
         </Flex>
@@ -50,7 +60,6 @@ const MessageLog = ({ messages }) => {
 
     const isHeaderMessage = (arr, idx) => {
         const isDifferentAuthor = arr[idx].author._id !== arr[idx - 1].author._id
-        console.log('isDifferentAuthor:', isDifferentAuthor)
         const didThreeMinutesPass = messageService.getTimeDiff(arr[idx].sentAt, arr[idx - 1].sentAt).mins >= 3
         return isDifferentAuthor || didThreeMinutesPass
     }
@@ -64,8 +73,11 @@ const MessageLog = ({ messages }) => {
     }, [messages])
 
     return (
-        <Box className="scrollable">
-            <Flex direction='column' justify='flex-end' h='100%'>
+        <Box className="scrollable" flex={1}>
+            <Flex
+                direction='column'
+                justify='flex-end'
+                flexBasis='100%'>
                 {messages.map((msg, idx, msgs) => {
                     if (idx === 0
                         || isDifferentDate(msgs[idx].sentAt, msgs[idx - 1].sentAt)

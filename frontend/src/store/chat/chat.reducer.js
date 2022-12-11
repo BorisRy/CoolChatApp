@@ -8,8 +8,18 @@ export function chatReducer(state = initialState, action = {}) {
             return { ...state, chats: action.chats }
         case 'UPDATE_USER_STATUS':
             const { userId, status } = action.userInfo
-            const chat = state.chats.find(chat => chat.with._id === userId)
-            chat.with.status = status
+            var chat = state.chats.find(chat => chat.with._id === userId)
+            if (chat) chat.with.status = status
+            return { ...state }
+        case 'UPDATE_CHATS':
+            return { ...state, chats: [...action.chats] }
+        case 'UPDATE_LAST_MESSAGE':
+            var chat = state.chats.find(chat => chat._id === action.message.chatId)
+            chat.lastMessage = action.message
+            return { ...state }
+        case 'SET_NOTIFICATIONS_COUNT':
+            var chat = state.chats.find(chat => chat._id === action.data.chatId)
+            chat.unread = action.data.count
             return { ...state }
         default: return { ...state }
     }

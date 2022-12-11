@@ -3,12 +3,15 @@ import { AttachmentIcon } from "@chakra-ui/icons"
 import { IoMdSend } from 'react-icons/io'
 import { BsFillEmojiLaughingFill } from 'react-icons/bs'
 import { useState } from "react"
-import { useSelector } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import { messageService } from "../../../services/message.service"
 import { socketService } from "../../../services/socket.service"
+import { useParams } from "react-router-dom"
 
 
 export const MessageInput = ({ addMessage }) => {
+
+    const params = useParams()
     const [messageText, setMessageText] = useState('')
     const { loggedInUser } = useSelector(state => state.userModule)
 
@@ -20,6 +23,7 @@ export const MessageInput = ({ addMessage }) => {
         event.preventDefault()
         if (messageText === '') return
         const message = messageService.createMessage(messageText, loggedInUser)
+        message.chatId = params.chatId
         socketService.emit('chat-send-message', message)
         addMessage(message)
         setMessageText('')
@@ -27,7 +31,7 @@ export const MessageInput = ({ addMessage }) => {
 
     return (
         <form onSubmit={onSendMessage} className={'message-input'}>
-            <InputGroup h='60px' align='center' size='md'>
+            <InputGroup h='60px' align='center' size='md' flex={0}>
 
                 <InputLeftAddon bg='gray.700'>
                     <Tooltip label='Attach an image' placement="top">

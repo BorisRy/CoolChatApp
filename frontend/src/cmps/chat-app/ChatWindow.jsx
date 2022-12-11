@@ -13,6 +13,7 @@ export const ChatWindow = () => {
     useEffect(() => {
         const currChat = chats.find(chat => chat._id === params.chatId)
         setCurrentChat(currChat)
+        socketService.emit('set-chat-room', params.chatId)
     }, [])
 
     useEffect(() => {
@@ -21,8 +22,9 @@ export const ChatWindow = () => {
             setCurrentChat(currChat)
             socketService.emit('set-chat-room', params.chatId)
         }
-    }, [params.chatId])
+    }, [params.chatId, chats])
 
+    if (!currentChat) return <>Loading</>
     return (
         <Flex bg='gray.900' flex='1' m='0' h='100%'>
             <Flex w={'100%'} direction='column' h='100%'>
@@ -34,9 +36,6 @@ export const ChatWindow = () => {
 }
 
 const ChatNav = ({ currentChat }) => {
-
-
-
 
     if (!currentChat) return <></>
 

@@ -2,6 +2,7 @@ var gIo = null
 
 const logger = require('../services/logger.service')
 const userService = require('../api/user/user.service')
+const chatService = require('../api/chat/chat.service')
 const messageService = require('../api/message/message.service')
 const uniqid = require('uniqid');
 
@@ -25,28 +26,30 @@ async function setupSocketAPI(http) {
         })
 
         socket.on('chat-send-message', async message => {
-            console.log('message:', message)
             message.key = uniqid()
             message.chatId = socket.chat
+            const chat = await chatService.getById(message.chatId)
+            const sockets = await _getAllSockets()
+            const connectedParticipants = sockets.filter(s => s.userId && s.chat === message.chatId).map(s => s.userId)
+            const disconnectedParticipants = chat.participants.map(p => p._id.toString()).filter(pId => {
+                return !connectedParticipants.includes(pId)
+            })
 
-            // const channel = await channelService.getById(message.channel)
-            // const sockets = await _getAllSockets()
-            // const connectedParticipants = sockets.filter(s => s.userId && s.channel === message.channel).map(s => s.userId)
-            // const disconnectedParticipants = channel.participants.map(p => p.toString()).filter(p => {
-            //     return !connectedParticipants.includes(p)
-            // })
-
-            // await userService.pushNotification(message.channel, disconnectedParticipants)
-
-            // if (disconnectedParticipants.length > 0) {
-            //     disconnectedParticipants.forEach(p => (
-            //         emitToUser({
-            //             type: 'chat-notify-message',
-            //             data: message,
-            //             userId: p
-            //         })
-            //     ))
-            // }
+            const updatedChat = await chatService.pushNotification(message, disconnectedParticipants)
+            if (disconnectedParticipants.length > 0) {
+                disconnectedParticipants.forEach(async pId => (
+                    await emitToUser({
+                        type: 'chat-notify-message',
+                        data: message,
+                        userId: pId
+                    }),
+                    await emitToUser({
+                        type: 'set_notifications_count',
+                        data: { chatId: updatedChat._id, count: updatedChat.notifications[pId] },
+                        userId: pId
+                    })
+                ))
+            }
 
             socket.broadcast.to(socket.chat).emit('chat-add-msg', message)
             await messageService.add(message)
