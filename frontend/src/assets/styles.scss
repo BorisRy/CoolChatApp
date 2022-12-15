@@ -15,10 +15,16 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
 }
 
 .application {
     position: relative;
+    height: 100%;
     & > *:not(canvas) {
         z-index: 100000000;
     }
@@ -84,7 +90,7 @@ body {
 
 @media  (max-width: 800px) {
     .scrollable {
-        max-height: calc(100vh - 60px - 50px);
+        max-height: calc(100% - 60px - 50px);
     }
   }
 

@@ -31,7 +31,7 @@ export const SideBar = ({ onOpenDesktop }) => {
             minW='250px'
             mr={isLargerThan800 ? '1.5em' : '0'}
             direction='column'
-            minH={isLargerThan800 ? 'inherit' : '100vh'}
+            minH={isLargerThan800 ? 'inherit' : '100%'}
             color='white'>
             <SearchBar onOpen={isLargerThan800 ? onOpenDesktop : onOpen} />
             <ChatList />

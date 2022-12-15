@@ -24,7 +24,7 @@ export const ChatApp = () => {
 
     if (!loggedInUser || !chats) return <></>
     return (
-        <Flex height='100vh' w='100%' p={isLargerThan800 ? '1em' : '0'} color='white'>
+        <Flex minH='100%' w='100%' p={isLargerThan800 ? '1em' : '0'} color='white'>
             <Search isOpen={isOpen} onClose={onClose} />
             <SideBar onOpenDesktop={onOpen} />
 
