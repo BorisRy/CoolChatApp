@@ -51,7 +51,7 @@ export const Chat = () => {
     }
 
     return (
-        <Flex direction={'column'} px={4} h='100%' maxH='100%' position='relative' height={!isLargerThan800 ? 'calc(100vh - 50px)' : ''}>
+        <Flex direction={'column'} px={4} h='100%' maxH='100%' position='relative' height={!isLargerThan800 ? 'calc(100% - 50px)' : ''}>
             <MessageLog messages={messages} isLoading={isLoading} />
             <MessageInput addMessage={addMessage} />
             {!isLargerThan800 && <Listener />}
