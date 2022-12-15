@@ -36,6 +36,7 @@ async function setupSocketAPI(http) {
             })
 
             const updatedChat = await chatService.pushNotification(message, disconnectedParticipants)
+
             if (disconnectedParticipants.length > 0) {
                 disconnectedParticipants.forEach(async pId => (
                     await emitToUser({
@@ -44,7 +45,7 @@ async function setupSocketAPI(http) {
                         userId: pId
                     }),
                     await emitToUser({
-                        type: 'set_notifications_count',
+                        type: 'set-notifications-count',
                         data: { chatId: updatedChat._id, count: updatedChat.notifications[pId] },
                         userId: pId
                     })
@@ -56,14 +57,17 @@ async function setupSocketAPI(http) {
         })
 
         socket.on('set-chat-room', chatId => {
-            console.log('chatId:', chatId)
             if (socket.chat === chatId) return
             if (socket.chat) {
                 socket.leave(socket.chat)
             }
+
             socket.join(chatId)
-            // userService.removeNotification(chatId, gUserId)
             socket.chat = chatId
+        })
+
+        socket.on('is-user-typing', data => {
+            socket.broadcast.emit('set-user-typing', data)
         })
 
         socket.on('set-user-socket', userId => {
@@ -142,9 +146,12 @@ async function _printSockets() {
     console.log(`Sockets: (count: ${sockets.length}):`)
     sockets.forEach(_printSocket)
 }
+
 function _printSocket(socket) {
     console.log(`Socket - socketId: ${socket.id} userId: ${socket.userId}`)
 }
+
+
 
 
 module.exports = {

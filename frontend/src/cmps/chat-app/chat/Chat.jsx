@@ -1,21 +1,27 @@
 import { useState, useRef } from "react"
 import { Flex, Box } from "@chakra-ui/react"
 import { MessageInput } from "./MessageInput"
-import { HeaderMessage, RegularMessage } from "./Message"
+import { HeaderMessage, RegularMessage, MessageSkeleton } from "./Message"
 import { useEffect } from "react"
 import { messageService } from "../../../services/message.service"
-import { chatService } from "../../../services/chat.service"
 import { socketService } from "../../../services/socket.service"
 import { useDispatch, useSelector } from "react-redux"
 import { resetNotifications } from "../../../store/chat/chat.actions"
 import { useParams } from "react-router-dom"
+import { useMediaQuery } from '@chakra-ui/react'
+import { Listener } from "../../Listener"
 
 export const Chat = () => {
+
     const params = useParams()
     const dispatch = useDispatch()
     const [messages, setMessages] = useState([])
+    const [isLoading, setIsLoading] = useState(false)
     const { loggedInUser } = useSelector(state => state.userModule)
     const { chats } = useSelector(state => state.chatModule)
+    const [isLargerThan800] = useMediaQuery('(min-width: 800px)')
+
+
     useEffect(() => {
         socketService.on('chat-add-msg', addMessage)
         return () => {
@@ -25,7 +31,7 @@ export const Chat = () => {
 
     useEffect(() => {
         const currentChat = chats.find(chat => chat._id === params.chatId)
-        if (currentChat.unread > 0) {
+        if (currentChat?.unread > 0) {
             dispatch(resetNotifications(params.chatId, loggedInUser._id))
         }
         loadMessages()
@@ -33,8 +39,10 @@ export const Chat = () => {
 
 
     const loadMessages = async () => {
+        setIsLoading(true)
         const messages = await messageService.query({ chat: params.chatId })
         setMessages(messages)
+        setIsLoading(false)
     }
 
     const addMessage = (message) => {
@@ -43,14 +51,15 @@ export const Chat = () => {
     }
 
     return (
-        <Flex direction={'column'} px={4} h='100%' maxH='100%' position='relative'>
-            <MessageLog messages={messages} />
+        <Flex direction={'column'} px={4} h='100%' maxH='100%' position='relative' height={!isLargerThan800 ? 'calc(100vh - 50px)' : ''}>
+            <MessageLog messages={messages} isLoading={isLoading} />
             <MessageInput addMessage={addMessage} />
+            {!isLargerThan800 && <Listener />}
         </Flex>
     )
 }
 
-const MessageLog = ({ messages }) => {
+const MessageLog = ({ messages, isLoading }) => {
     const scrollRef = useRef(null)
 
 
@@ -74,23 +83,25 @@ const MessageLog = ({ messages }) => {
 
     return (
         <Box className="scrollable" flex={1}>
-            <Flex
+            {<Flex
                 direction='column'
                 justify='flex-end'
                 flexBasis='100%'>
-                {messages.map((msg, idx, msgs) => {
-                    if (idx === 0
-                        || isDifferentDate(msgs[idx].sentAt, msgs[idx - 1].sentAt)
-                        || isHeaderMessage(msgs, idx)) {
-                        return <HeaderMessage message={msg} key={msg.key} />
-                    }
-                    else {
-                        return <RegularMessage message={msg} key={msg.key} />
-                    }
-
-
-                })}
-            </Flex>
+                {!isLoading ?
+                    messages.map((msg, idx, msgs) => {
+                        if (idx === 0
+                            || isDifferentDate(msgs[idx].sentAt, msgs[idx - 1].sentAt)
+                            || isHeaderMessage(msgs, idx)) {
+                            return <HeaderMessage message={msg} key={msg.key} />
+                        }
+                        else {
+                            return <RegularMessage message={msg} key={msg.key} />
+                        }
+                    })
+                    :
+                    Array(20).fill(1).map((msg, idx) => <MessageSkeleton key={idx} />)
+                }
+            </Flex>}
             <div ref={scrollRef} className="scroll-to"></div>
         </Box>
     )

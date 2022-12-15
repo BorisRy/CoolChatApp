@@ -1,23 +1,49 @@
-import { Flex, Container, VStack, Avatar, Icon, Text, Tooltip, Box, AvatarBadge, Tag } from "@chakra-ui/react"
+import { Flex, Avatar, Icon, Text, Tooltip, Box, AvatarBadge, Tag, useDisclosure } from "@chakra-ui/react"
 import { useDispatch, useSelector } from "react-redux"
 import { RiLogoutCircleRLine } from 'react-icons/ri'
 import { BsChatQuoteFill } from 'react-icons/bs'
 import { logout } from "../../store/user/user.actions"
 import { useNavigate } from "react-router-dom"
 import { ChatList } from "./ChatList"
+import { useMediaQuery } from '@chakra-ui/react'
+import { useEffect } from "react"
+import { loadChats } from "../../store/chat/chat.actions"
+import { Listener } from "../Listener"
+import { Search } from "./Search"
 
-export const SideBar = ({ onOpen }) => {
+
+export const SideBar = ({ onOpenDesktop }) => {
+    const navigate = useNavigate()
+    const dispatch = useDispatch()
+    const { isOpen, onOpen, onClose } = useDisclosure()
+    const { loggedInUser } = useSelector(state => state.userModule)
+    const [isLargerThan800] = useMediaQuery('(min-width: 800px)')
+
+    useEffect(() => {
+        if (!loggedInUser) navigate('/')
+        dispatch(loadChats(loggedInUser._id))
+    }, [])
+
     return (
-        <Flex bg='gray.600' flexBasis='250px' minW='250px' mr='1.5em' direction='column'>
-            <SearchBar onOpen={onOpen} />
+        <Flex
+            bg='gray.600'
+            flexBasis='250px'
+            minW='250px'
+            mr={isLargerThan800 ? '1.5em' : '0'}
+            direction='column'
+            minH={isLargerThan800 ? 'inherit' : '100vh'}
+            color='white'>
+            <SearchBar onOpen={isLargerThan800 ? onOpenDesktop : onOpen} />
             <ChatList />
             <UserDetails />
+            {!isLargerThan800 && <Search isOpen={isOpen} onClose={onClose} />}
+            {!isLargerThan800 && <Listener />}
         </Flex>
     )
 }
 
 const SearchBar = ({ onOpen }) => {
-
+    console.log('onOpen FROM THE BUTTON:', onOpen)
     return (
         <Flex
             align={'center'}

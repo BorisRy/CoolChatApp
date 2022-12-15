@@ -21,6 +21,7 @@ export function signup(credentials) {
         try {
             const user = await userService.signup(credentials)
             dispatch({ type: 'LOGIN_USER', user })
+            socketService.login(user._id)
             return user
         } catch (error) {
             return error

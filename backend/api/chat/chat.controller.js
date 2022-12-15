@@ -14,6 +14,7 @@ async function getChats(req, res) {
             chat.unread = chat.notifications[userId]
             chat.participants.splice(participantIdx, 1)
             chat.with = chat.participants[0]
+            chat.with.typing = false
             delete chat.participants
             delete chat.notifications
         })
@@ -42,14 +43,18 @@ async function addChat(req, res) {
             const newPrivateChat = await chatService.add(chat)
             newPrivateChat.participants.forEach(async p => {
                 const chats = await chatService.query(p._id)
+
                 chats.forEach(chat => {
                     const participantIdx = chat.participants.findIndex(pr => pr._id === p._id)
                     chat.unread = chat.notifications[p._id]
                     chat.participants.splice(participantIdx, 1)
                     chat.with = chat.participants[0]
+                    chat.with.typing = false
                     delete chat.participants
                     delete chat.notifications
                 })
+                console.log('chats:', chats)
+                console.log('p._id:', p._id)
                 await socketService.emitToUser({ type: 'update-user-chats', data: chats, userId: p._id })
             })
             res.send(newPrivateChat)

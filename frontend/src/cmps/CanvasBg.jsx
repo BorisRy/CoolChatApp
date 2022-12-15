@@ -20,7 +20,8 @@ export const CanvasBackground = () => {
 
     class Symbol {
         constructor(x, y, fontSize, canvasHeight) {
-            this.characters = 'אבגדהוזחטיכלמנספצקרשתアァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ♔♕♖♗♘♙♚♛♜♝♞♟☀☁❆❅❄♪♫'
+            // this.characters = 'ァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ❅'
+            this.characters = 'אבגדהוזחטיכלמנספצקרשת'
             this.x = x
             this.y = y
             this.fontSize = fontSize
@@ -43,7 +44,7 @@ export const CanvasBackground = () => {
         constructor(canvasWidth, canvasHeight) {
             this.canvasWidth = canvasWidth
             this.canvasHeight = canvasHeight
-            this.fontSize = 15
+            this.fontSize = 20
             this.columns = this.canvasWidth / this.fontSize
             this.symbols = []
             this.#initialize()
@@ -59,7 +60,7 @@ export const CanvasBackground = () => {
         const deltaTime = timeStamp - lastTime
         lastTime = timeStamp
         if (timer > nextFrame) {
-            ctx.fillStyle = 'rgba(0,0,0,0.05)'
+            ctx.fillStyle = 'rgba(0,0,0,0.07)'
             ctx.fillRect(0, 0, canvasRef.current.width, canvasRef.current.height)
             ctx.font = effect.fontSize + 'px monospace'
             effect.symbols.forEach(symbol => symbol.draw(ctx))

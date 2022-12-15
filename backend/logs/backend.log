@@ -3385,3 +3385,1149 @@
 11.12.2022, 18:12:17 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: qkwgA_JJNIqUXnTlAAAD] 
 11.12.2022, 18:13:07 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
 11.12.2022, 18:24:58 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+11.12.2022, 19:31:06 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+11.12.2022, 19:31:06 - INFO - No active socket for user: 63947cfbf2bb74b3fc4b382f 
+11.12.2022, 19:31:06 - INFO - No active socket for user: 63947cfbf2bb74b3fc4b382f 
+11.12.2022, 19:31:15 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+11.12.2022, 19:35:57 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+11.12.2022, 19:36:08 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: UJrI4odmHDThNk0fAAAF] 
+11.12.2022, 19:37:30 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+11.12.2022, 19:37:35 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: nURFUNPMdTX_7vynAAAH] 
+11.12.2022, 20:53:09 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+11.12.2022, 20:53:09 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 9:20:46 - ERROR - Could not find users 
+13.12.2022, 9:20:46 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:20:46 - INFO - Emit to all 
+13.12.2022, 9:21:37 - ERROR - Could not find users 
+13.12.2022, 9:21:37 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:21:37 - INFO - Emit to all 
+13.12.2022, 9:21:38 - INFO - Setting socket.userId = null for socket [id: YolfXDfEePiwGDBwAAAF] 
+13.12.2022, 9:21:38 - INFO - Setting socket.userId = null for socket [id: YolfXDfEePiwGDBwAAAF] 
+13.12.2022, 9:21:38 - ERROR - Could not find chats | ReferenceError: logger is not defined 
+13.12.2022, 9:21:38 - ERROR - Failed to get chats | TypeError: chats.forEach is not a function 
+13.12.2022, 9:21:38 - ERROR - Could not find chats | ReferenceError: logger is not defined 
+13.12.2022, 9:21:38 - ERROR - Failed to get chats | TypeError: chats.forEach is not a function 
+13.12.2022, 9:21:41 - ERROR - Could not find users 
+13.12.2022, 9:21:42 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:21:42 - INFO - Emit to all 
+13.12.2022, 9:21:42 - INFO - Setting socket.userId = null for socket [id: o2BjYag2hyZm_jxmAAAD] 
+13.12.2022, 9:21:42 - INFO - Setting socket.userId = null for socket [id: o2BjYag2hyZm_jxmAAAD] 
+13.12.2022, 9:22:05 - INFO - Setting socket.userId = null for socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:22:11 - INFO - Setting socket.userId = null for socket [id: wbfqtK-2FJxjb11OAAAJ] 
+13.12.2022, 9:22:17 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 9:22:18 - DEBUG - auth.service - user: a@a.c logged in 
+13.12.2022, 9:22:18 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:22:18 - INFO - Emit to all 
+13.12.2022, 9:22:18 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:22:18 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:22:24 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 9:22:24 - DEBUG - auth.service - user: b@b.c logged in 
+13.12.2022, 9:22:24 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:22:24 - INFO - Emit to all 
+13.12.2022, 9:22:24 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: wbfqtK-2FJxjb11OAAAJ] 
+13.12.2022, 9:22:24 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: wbfqtK-2FJxjb11OAAAJ] 
+13.12.2022, 9:22:37 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 9:22:37 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:22:37 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:23:32 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 9:23:32 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:23:32 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:23:53 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 9:23:53 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:23:53 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:23:55 - INFO - Removing socket.userId for socket [id: wbfqtK-2FJxjb11OAAAJ] 
+13.12.2022, 9:23:55 - INFO - Removing socket.userId for socket [id: wbfqtK-2FJxjb11OAAAJ] 
+13.12.2022, 9:23:56 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 9:23:56 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:23:56 - INFO - Emit to all 
+13.12.2022, 9:24:03 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 9:24:03 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:24:03 - INFO - Emit to all 
+13.12.2022, 9:24:03 - DEBUG - auth.service - user: c@c.c logged in 
+13.12.2022, 9:24:03 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: wbfqtK-2FJxjb11OAAAJ] 
+13.12.2022, 9:24:03 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: wbfqtK-2FJxjb11OAAAJ] 
+13.12.2022, 9:24:09 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 9:24:10 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 9:24:20 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 9:24:20 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:24:20 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:24:29 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 9:24:29 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:24:29 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:28:00 - INFO - Removing socket.userId for socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:28:00 - INFO - Removing socket.userId for socket [id: oqhEtZES5omUzs3CAAAH] 
+13.12.2022, 9:28:01 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 9:28:01 - INFO - Emit to all 
+13.12.2022, 9:28:01 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:28:03 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 9:28:34 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:28:34 - INFO - Emit to all 
+13.12.2022, 9:28:34 - INFO - Setting socket.userId = null for socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:28:34 - INFO - Setting socket.userId = null for socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:28:37 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 9:28:38 - DEBUG - auth.service - user: a@a.c logged in 
+13.12.2022, 9:28:38 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:28:38 - INFO - Emit to all 
+13.12.2022, 9:28:38 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:28:38 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:38:11 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 9:38:11 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:38:11 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:39:44 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 9:39:44 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:39:44 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:43:59 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 9:43:59 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:43:59 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:52:15 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 9:52:15 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:52:15 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:53:55 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 9:53:55 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:53:55 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:54:26 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 9:54:26 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:54:26 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: dQJXaG5PQtchdbOjAAAL] 
+13.12.2022, 9:55:32 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 9:55:33 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 9:56:55 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 9:56:56 - DEBUG - auth.service - user: a@a.c logged in 
+13.12.2022, 9:56:56 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:56:56 - INFO - Emit to all 
+13.12.2022, 9:56:56 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: _ul1ZcmyuBePUV-LAAAN] 
+13.12.2022, 9:56:56 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: _ul1ZcmyuBePUV-LAAAN] 
+13.12.2022, 9:57:10 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 9:57:10 - DEBUG - auth.service - user: b@b.c logged in 
+13.12.2022, 9:57:10 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 9:57:10 - INFO - Emit to all 
+13.12.2022, 9:57:10 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 2SfDjBVuHQ6HvVHVAAAP] 
+13.12.2022, 9:57:10 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 2SfDjBVuHQ6HvVHVAAAP] 
+13.12.2022, 9:57:30 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 9:57:30 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: _ul1ZcmyuBePUV-LAAAN] 
+13.12.2022, 9:57:30 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: _ul1ZcmyuBePUV-LAAAN] 
+13.12.2022, 10:01:20 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 10:01:20 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: _ul1ZcmyuBePUV-LAAAN] 
+13.12.2022, 10:01:20 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: _ul1ZcmyuBePUV-LAAAN] 
+13.12.2022, 10:02:32 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 10:02:32 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: _ul1ZcmyuBePUV-LAAAN] 
+13.12.2022, 10:02:32 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: _ul1ZcmyuBePUV-LAAAN] 
+13.12.2022, 10:05:04 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:05:08 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 10:05:12 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: 36nYGjpiu1DFKWbUAAAR] 
+13.12.2022, 10:05:14 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: Emry4vuLN96G2Fx2AAAT] 
+13.12.2022, 10:05:28 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 10:05:28 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: 36nYGjpiu1DFKWbUAAAR] 
+13.12.2022, 10:05:28 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: 36nYGjpiu1DFKWbUAAAR] 
+13.12.2022, 10:07:31 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 10:07:31 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: 36nYGjpiu1DFKWbUAAAR] 
+13.12.2022, 10:07:31 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: 36nYGjpiu1DFKWbUAAAR] 
+13.12.2022, 10:07:33 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 10:07:33 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 10:08:58 - INFO - Removing socket.userId for socket [id: Emry4vuLN96G2Fx2AAAT] 
+13.12.2022, 10:08:58 - INFO - Removing socket.userId for socket [id: Emry4vuLN96G2Fx2AAAT] 
+13.12.2022, 10:08:58 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 10:08:58 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:08:58 - INFO - Emit to all 
+13.12.2022, 10:09:03 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 10:09:04 - DEBUG - auth.service - user: c@c.c logged in 
+13.12.2022, 10:09:04 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:09:04 - INFO - Emit to all 
+13.12.2022, 10:09:04 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: Emry4vuLN96G2Fx2AAAT] 
+13.12.2022, 10:09:04 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: Emry4vuLN96G2Fx2AAAT] 
+13.12.2022, 10:09:14 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:09:14 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: 36nYGjpiu1DFKWbUAAAR] 
+13.12.2022, 10:09:14 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: 36nYGjpiu1DFKWbUAAAR] 
+13.12.2022, 10:09:18 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:24:51 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:24:51 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 10:24:57 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: QB77a2DqHc7y_viEAAAW] 
+13.12.2022, 10:24:59 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: pDyYQbG9YBGS9uCIAAAX] 
+13.12.2022, 10:25:23 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:25:23 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: pDyYQbG9YBGS9uCIAAAX] 
+13.12.2022, 10:25:23 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: pDyYQbG9YBGS9uCIAAAX] 
+13.12.2022, 10:25:37 - INFO - Removing socket.userId for socket [id: Py5eo_sw6ga-jNflAAAZ] 
+13.12.2022, 10:25:37 - INFO - Removing socket.userId for socket [id: Py5eo_sw6ga-jNflAAAZ] 
+13.12.2022, 10:25:37 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:25:37 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:25:37 - INFO - Broadcast to all excluding user: 638f3f1c6b013074d82db255 
+13.12.2022, 10:25:38 - INFO - Removing socket.userId for socket [id: QB77a2DqHc7y_viEAAAW] 
+13.12.2022, 10:25:38 - INFO - Removing socket.userId for socket [id: QB77a2DqHc7y_viEAAAW] 
+13.12.2022, 10:25:39 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 10:25:39 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:25:39 - INFO - Emit to all 
+13.12.2022, 10:25:39 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:25:44 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:25:44 - DEBUG - auth.service - user: a@a.c logged in 
+13.12.2022, 10:25:45 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:25:45 - INFO - Emit to all 
+13.12.2022, 10:25:45 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: Py5eo_sw6ga-jNflAAAZ] 
+13.12.2022, 10:25:45 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: Py5eo_sw6ga-jNflAAAZ] 
+13.12.2022, 10:25:49 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 10:25:49 - DEBUG - auth.service - user: b@b.c logged in 
+13.12.2022, 10:25:49 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:25:49 - INFO - Emit to all 
+13.12.2022, 10:25:49 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: QB77a2DqHc7y_viEAAAW] 
+13.12.2022, 10:25:49 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: QB77a2DqHc7y_viEAAAW] 
+13.12.2022, 10:26:03 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 10:26:22 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:26:26 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: zeE4k8_vX972hoXGAAAb] 
+13.12.2022, 10:28:18 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:28:18 - DEBUG - auth.service - user: a@a.c logged in 
+13.12.2022, 10:28:18 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:28:18 - INFO - Emit to all 
+13.12.2022, 10:28:18 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: FPNTsL4sL2HGtx2jAAAD] 
+13.12.2022, 10:28:18 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: FPNTsL4sL2HGtx2jAAAD] 
+13.12.2022, 10:28:20 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 10:28:20 - DEBUG - auth.service - user: c@c.c logged in 
+13.12.2022, 10:28:20 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:28:20 - INFO - Emit to all 
+13.12.2022, 10:28:20 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: ls5hkJ09ikZduO2mAAAB] 
+13.12.2022, 10:28:20 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: ls5hkJ09ikZduO2mAAAB] 
+13.12.2022, 10:28:42 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:28:42 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: FPNTsL4sL2HGtx2jAAAD] 
+13.12.2022, 10:28:42 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: FPNTsL4sL2HGtx2jAAAD] 
+13.12.2022, 10:31:12 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:31:12 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: FPNTsL4sL2HGtx2jAAAD] 
+13.12.2022, 10:31:12 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: FPNTsL4sL2HGtx2jAAAD] 
+13.12.2022, 10:31:22 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:31:23 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 10:32:01 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 10:32:02 - DEBUG - auth.service - user: c@c.c logged in 
+13.12.2022, 10:32:02 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:32:02 - INFO - Emit to all 
+13.12.2022, 10:32:02 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: oWsBXScFaAq1wsciAAAF] 
+13.12.2022, 10:32:02 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: oWsBXScFaAq1wsciAAAF] 
+13.12.2022, 10:32:06 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:32:06 - DEBUG - auth.service - user: a@a.c logged in 
+13.12.2022, 10:32:06 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:32:06 - INFO - Emit to all 
+13.12.2022, 10:32:06 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: jsuO6bRrIhDLTa0pAAAH] 
+13.12.2022, 10:32:06 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: jsuO6bRrIhDLTa0pAAAH] 
+13.12.2022, 10:32:16 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:32:17 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:32:29 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:32:29 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: oWsBXScFaAq1wsciAAAF] 
+13.12.2022, 10:32:29 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: oWsBXScFaAq1wsciAAAF] 
+13.12.2022, 10:36:01 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:36:02 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 10:36:47 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:36:47 - DEBUG - auth.service - user: a@a.c logged in 
+13.12.2022, 10:36:48 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:36:48 - INFO - Emit to all 
+13.12.2022, 10:36:48 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: dQdaKNYqSvT6I1-cAAAL] 
+13.12.2022, 10:36:48 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: dQdaKNYqSvT6I1-cAAAL] 
+13.12.2022, 10:36:52 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 10:36:52 - DEBUG - auth.service - user: c@c.c logged in 
+13.12.2022, 10:36:52 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 10:36:52 - INFO - Emit to all 
+13.12.2022, 10:36:52 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: pf6a46GbIUWDtjUyAAAJ] 
+13.12.2022, 10:36:52 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: pf6a46GbIUWDtjUyAAAJ] 
+13.12.2022, 10:36:57 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:36:58 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:37:14 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:37:14 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: dQdaKNYqSvT6I1-cAAAL] 
+13.12.2022, 10:37:14 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: dQdaKNYqSvT6I1-cAAAL] 
+13.12.2022, 10:39:21 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:39:21 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: dQdaKNYqSvT6I1-cAAAL] 
+13.12.2022, 10:39:21 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: dQdaKNYqSvT6I1-cAAAL] 
+13.12.2022, 10:43:51 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:43:51 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: dQdaKNYqSvT6I1-cAAAL] 
+13.12.2022, 10:43:51 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: dQdaKNYqSvT6I1-cAAAL] 
+13.12.2022, 10:45:08 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 10:45:09 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 10:45:19 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: -fHi8xMMfL8lQWxaAAAN] 
+13.12.2022, 10:45:27 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 10:45:28 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: cfH1xieEKnwHxTZ7AAAP] 
+13.12.2022, 10:45:30 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: EVh4srhbCal7KKA6AAAR] 
+13.12.2022, 10:46:38 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:46:38 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: cfH1xieEKnwHxTZ7AAAP] 
+13.12.2022, 10:46:38 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: cfH1xieEKnwHxTZ7AAAP] 
+13.12.2022, 10:47:59 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 10:47:59 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: cfH1xieEKnwHxTZ7AAAP] 
+13.12.2022, 10:47:59 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: cfH1xieEKnwHxTZ7AAAP] 
+13.12.2022, 11:14:16 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 11:14:16 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 11:36:38 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 11:36:52 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 11:36:52 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: EVh4srhbCal7KKA6AAAR] 
+13.12.2022, 11:36:52 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: EVh4srhbCal7KKA6AAAR] 
+13.12.2022, 11:36:56 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+13.12.2022, 11:37:21 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 11:37:21 - INFO - No active socket for user: 6392ed7797933078fb12d61a 
+13.12.2022, 11:37:21 - INFO - No active socket for user: 6392ed7797933078fb12d61a 
+13.12.2022, 11:37:25 - INFO - Removing socket.userId for socket [id: EVh4srhbCal7KKA6AAAR] 
+13.12.2022, 11:37:25 - INFO - Removing socket.userId for socket [id: EVh4srhbCal7KKA6AAAR] 
+13.12.2022, 11:37:25 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+13.12.2022, 11:37:25 - INFO - Emit to all 
+13.12.2022, 11:37:25 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 11:37:29 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 11:37:29 - DEBUG - auth.service - user: b@b.c logged in 
+13.12.2022, 11:37:29 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 11:37:29 - INFO - Emit to all 
+13.12.2022, 11:37:29 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: EVh4srhbCal7KKA6AAAR] 
+13.12.2022, 11:37:29 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: EVh4srhbCal7KKA6AAAR] 
+13.12.2022, 11:37:31 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 11:37:31 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 11:45:55 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 11:45:55 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 11:46:03 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: yAXyL7Lg-TOGyF0aAAAU] 
+13.12.2022, 11:46:04 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: pzLdmkm-L-Hp1pS2AAAV] 
+13.12.2022, 12:06:39 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 12:06:54 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 12:11:01 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:04:16 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:04:30 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:11:57 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 13:11:58 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 13:11:59 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: I7nsNrpXyDW_9qjRAAAX] 
+13.12.2022, 13:12:06 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: Fp-ljJtpX1qXGbB3AAAZ] 
+13.12.2022, 13:12:07 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 13:12:07 - DEBUG - auth.service - user: b@b.c logged in 
+13.12.2022, 13:12:07 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 13:12:07 - INFO - Broadcast to all excluding user: 6392ed7797933078fb12d61a 
+13.12.2022, 13:12:07 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: I7nsNrpXyDW_9qjRAAAX] 
+13.12.2022, 13:12:07 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: I7nsNrpXyDW_9qjRAAAX] 
+13.12.2022, 13:12:10 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 13:12:10 - DEBUG - auth.service - user: a@a.c logged in 
+13.12.2022, 13:12:10 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 13:12:10 - INFO - Broadcast to all excluding user: 638f3f1c6b013074d82db255 
+13.12.2022, 13:12:10 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: Fp-ljJtpX1qXGbB3AAAZ] 
+13.12.2022, 13:12:10 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: Fp-ljJtpX1qXGbB3AAAZ] 
+13.12.2022, 13:12:20 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:12:20 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: I7nsNrpXyDW_9qjRAAAX] 
+13.12.2022, 13:12:20 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: I7nsNrpXyDW_9qjRAAAX] 
+13.12.2022, 13:12:40 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 13:12:42 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 13:19:11 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 13:19:11 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 13:19:11 - DEBUG - auth.service - user: b@b.c logged in 
+13.12.2022, 13:19:11 - INFO - Emit to all 
+13.12.2022, 13:19:11 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:19:11 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:19:14 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:19:15 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:20:25 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 13:20:25 - DEBUG - auth.service - user: a@a.c logged in 
+13.12.2022, 13:20:25 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 13:20:25 - INFO - Emit to all 
+13.12.2022, 13:20:25 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:20:25 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:26:52 - INFO - Removing socket.userId for socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:26:52 - INFO - Removing socket.userId for socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:26:53 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 13:26:53 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 13:26:53 - INFO - Emit to all 
+13.12.2022, 13:26:56 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 13:26:57 - DEBUG - auth.service - user: a@a.c logged in 
+13.12.2022, 13:26:57 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 13:26:57 - INFO - Emit to all 
+13.12.2022, 13:26:57 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:26:57 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:29:16 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:29:16 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:29:16 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:29:28 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:29:28 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:29:28 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:31:09 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:31:09 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:31:09 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:36:13 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:36:23 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:36:23 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:36:23 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:37:58 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:37:58 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:37:58 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:42:51 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:42:51 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:42:51 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:44:05 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:44:05 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:44:05 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:44:49 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:44:49 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:44:49 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:45:05 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:45:05 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:45:05 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:46:46 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:46:46 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:46:46 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:47:34 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:47:34 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:47:34 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:48:18 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:48:18 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:48:18 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: gSAjqlU1cp_e0seFAAAd] 
+13.12.2022, 13:48:29 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:48:34 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:48:34 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:48:34 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:48:47 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:48:47 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:48:47 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: B0B1A7dYF7SYu1HUAAAb] 
+13.12.2022, 13:49:39 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 13:49:40 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 13:52:27 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 13:52:28 - DEBUG - auth.service - user: a@a.c logged in 
+13.12.2022, 13:52:28 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 13:52:28 - INFO - Emit to all 
+13.12.2022, 13:52:28 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:52:28 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:53:16 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 13:53:16 - DEBUG - auth.service - user: b@b.c logged in 
+13.12.2022, 13:53:16 - INFO - Emit to all 
+13.12.2022, 13:53:16 - INFO - Broadcasting event: update-user-status 
+13.12.2022, 13:53:16 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 13:53:16 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 13:53:21 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:53:21 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:53:29 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:53:29 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:53:29 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:53:37 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:53:37 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:53:37 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:54:20 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:54:20 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:54:20 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:54:24 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:54:24 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:54:24 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:54:32 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:54:32 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:55:39 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:55:39 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 13:55:39 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 13:56:40 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:56:58 - DEBUG - chat 6395e7f570139c33a1dbc8b5 updated 
+13.12.2022, 13:56:58 - INFO - No active socket for user: 63947cfbf2bb74b3fc4b382f 
+13.12.2022, 13:56:58 - INFO - No active socket for user: 63947cfbf2bb74b3fc4b382f 
+13.12.2022, 13:57:03 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:57:03 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:57:03 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:57:21 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:57:21 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:57:21 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:57:32 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:57:32 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:57:32 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:57:46 - INFO - Emiting event: chat-notify-message to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 13:57:46 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 13:57:46 - INFO - Emiting event: set_notifications_count to user: 638f3f1c6b013074d82db255 socket [id: OKqyhFxtHU7ZOSKYAAAf] 
+13.12.2022, 15:12:58 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 15:37:13 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 15:37:13 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 15:37:13 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 15:51:36 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 15:51:36 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 15:51:36 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 15:53:24 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 15:53:24 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 15:53:24 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 15:53:37 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 15:54:53 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 15:54:53 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 15:54:53 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 16:00:04 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 16:00:04 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 16:00:04 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 16:00:15 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 16:00:15 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 16:00:15 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 16:00:32 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 16:00:32 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 16:00:32 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: uoPkg8VEh7a0Rm4rAAAh] 
+13.12.2022, 16:01:04 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 16:03:32 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 16:03:32 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 16:03:39 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: q0wg_eo4qgWlkkdrAAAk] 
+13.12.2022, 16:03:41 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: _QGgY0IVCsyPy8PaAAAl] 
+13.12.2022, 16:03:47 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+13.12.2022, 16:03:48 - DEBUG - user 6392ed7797933078fb12d61a updated 
+13.12.2022, 16:03:54 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: I7lvzcS1lkX3FlP8AAAn] 
+13.12.2022, 16:03:58 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: K_6S3TBbGdUTD6N2AAAp] 
+13.12.2022, 16:05:09 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 16:05:30 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 16:05:30 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: K_6S3TBbGdUTD6N2AAAp] 
+13.12.2022, 16:05:30 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: K_6S3TBbGdUTD6N2AAAp] 
+13.12.2022, 16:05:37 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+13.12.2022, 21:13:22 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 9:16:19 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 9:16:19 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 9:16:19 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 9:16:19 - INFO - Emit to all 
+15.12.2022, 9:16:19 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: qVazeHS3HbhHg8wVAAAB] 
+15.12.2022, 9:16:19 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: qVazeHS3HbhHg8wVAAAB] 
+15.12.2022, 9:16:31 - DEBUG - user 6392ed7797933078fb12d61a updated 
+15.12.2022, 9:16:31 - DEBUG - auth.service - user: b@b.c logged in 
+15.12.2022, 9:16:31 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 9:16:31 - INFO - Emit to all 
+15.12.2022, 9:16:31 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 1roWpQVRRY4ShTjTAAAD] 
+15.12.2022, 9:16:31 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: 1roWpQVRRY4ShTjTAAAD] 
+15.12.2022, 9:16:55 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+15.12.2022, 9:16:55 - INFO - Emiting event: chat-notify-message to user: 6392ed7797933078fb12d61a socket [id: 1roWpQVRRY4ShTjTAAAD] 
+15.12.2022, 9:16:55 - INFO - Emiting event: set_notifications_count to user: 6392ed7797933078fb12d61a socket [id: 1roWpQVRRY4ShTjTAAAD] 
+15.12.2022, 9:18:02 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+15.12.2022, 9:18:03 - DEBUG - chat 6395c385ffbc4b07419607b6 updated 
+15.12.2022, 9:18:18 - INFO - Removing socket.userId for socket [id: 1roWpQVRRY4ShTjTAAAD] 
+15.12.2022, 9:18:18 - INFO - Removing socket.userId for socket [id: 1roWpQVRRY4ShTjTAAAD] 
+15.12.2022, 9:18:18 - DEBUG - user 6392ed7797933078fb12d61a updated 
+15.12.2022, 9:18:18 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 9:18:18 - INFO - Emit to all 
+15.12.2022, 9:18:21 - DEBUG - user 6392ed7797933078fb12d61a updated 
+15.12.2022, 9:18:27 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+15.12.2022, 9:18:27 - DEBUG - auth.service - user: c@c.c logged in 
+15.12.2022, 9:18:27 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 9:18:27 - INFO - Emit to all 
+15.12.2022, 9:18:27 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:18:27 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:18:31 - DEBUG - chat 6395e7f570139c33a1dbc8b5 updated 
+15.12.2022, 9:18:31 - DEBUG - chat 6395e7f570139c33a1dbc8b5 updated 
+15.12.2022, 9:18:46 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:18:46 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:18:46 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:18:48 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:19:08 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:19:08 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:19:08 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:19:15 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:19:15 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:19:15 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:19:19 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:19:19 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:19:19 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:19:20 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:19:20 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:19:20 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:19:23 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:19:23 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:19:23 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:19:25 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:19:25 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:19:25 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:23:01 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:23:01 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:23:01 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:26:26 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:26:26 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:26:26 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:28:37 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:28:38 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:28:38 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: f3CPSDmBNYZaBUASAAAF] 
+15.12.2022, 9:46:50 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 9:46:54 - INFO - Removing socket.userId for socket [id: NqOwCx4zT6dJPI5PAAAD] 
+15.12.2022, 9:46:54 - INFO - Removing socket.userId for socket [id: NqOwCx4zT6dJPI5PAAAD] 
+15.12.2022, 9:46:54 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 9:46:54 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 9:46:54 - INFO - Emit to all 
+15.12.2022, 9:46:56 - INFO - Removing socket.userId for socket [id: 9dR3f561rBE-ywSMAAAB] 
+15.12.2022, 9:46:56 - INFO - Removing socket.userId for socket [id: 9dR3f561rBE-ywSMAAAB] 
+15.12.2022, 9:46:56 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+15.12.2022, 9:46:56 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 9:46:56 - INFO - Emit to all 
+15.12.2022, 9:47:00 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 9:47:00 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 9:47:00 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 9:47:00 - INFO - Emit to all 
+15.12.2022, 9:47:01 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: NqOwCx4zT6dJPI5PAAAD] 
+15.12.2022, 9:47:01 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: NqOwCx4zT6dJPI5PAAAD] 
+15.12.2022, 9:47:04 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+15.12.2022, 9:47:04 - DEBUG - auth.service - user: c@c.c logged in 
+15.12.2022, 9:47:04 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 9:47:04 - INFO - Emit to all 
+15.12.2022, 9:47:04 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: 9dR3f561rBE-ywSMAAAB] 
+15.12.2022, 9:47:04 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: 9dR3f561rBE-ywSMAAAB] 
+15.12.2022, 10:02:54 - INFO - Removing socket.userId for socket [id: NqOwCx4zT6dJPI5PAAAD] 
+15.12.2022, 10:02:54 - INFO - Removing socket.userId for socket [id: NqOwCx4zT6dJPI5PAAAD] 
+15.12.2022, 10:02:55 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 10:02:55 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 10:02:55 - INFO - Emit to all 
+15.12.2022, 10:02:56 - INFO - Removing socket.userId for socket [id: 9dR3f561rBE-ywSMAAAB] 
+15.12.2022, 10:02:56 - INFO - Removing socket.userId for socket [id: 9dR3f561rBE-ywSMAAAB] 
+15.12.2022, 10:02:56 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+15.12.2022, 10:02:56 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 10:02:56 - INFO - Emit to all 
+15.12.2022, 10:03:00 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 10:03:00 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 10:03:00 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 10:03:00 - INFO - Emit to all 
+15.12.2022, 10:03:00 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: NqOwCx4zT6dJPI5PAAAD] 
+15.12.2022, 10:03:00 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: NqOwCx4zT6dJPI5PAAAD] 
+15.12.2022, 10:03:04 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+15.12.2022, 10:03:04 - DEBUG - auth.service - user: c@c.c logged in 
+15.12.2022, 10:03:04 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 10:03:04 - INFO - Emit to all 
+15.12.2022, 10:03:04 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: 9dR3f561rBE-ywSMAAAB] 
+15.12.2022, 10:03:04 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: 9dR3f561rBE-ywSMAAAB] 
+15.12.2022, 10:07:06 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 10:07:07 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+15.12.2022, 10:08:20 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 10:08:21 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 10:08:21 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 10:08:21 - INFO - Emit to all 
+15.12.2022, 10:08:21 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: 15H4pYbrDrwcW1YHAAAH] 
+15.12.2022, 10:08:21 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: 15H4pYbrDrwcW1YHAAAH] 
+15.12.2022, 10:08:34 - DEBUG - user 6392ed7797933078fb12d61a updated 
+15.12.2022, 10:08:34 - DEBUG - auth.service - user: b@b.c logged in 
+15.12.2022, 10:08:34 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 10:08:34 - INFO - Emit to all 
+15.12.2022, 10:08:34 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: CB3U71-s1AWm9F2FAAAJ] 
+15.12.2022, 10:08:34 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: CB3U71-s1AWm9F2FAAAJ] 
+15.12.2022, 10:15:03 - DEBUG - user 6392ed7797933078fb12d61a updated 
+15.12.2022, 10:15:06 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 10:16:19 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 10:16:19 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 10:16:19 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 10:16:19 - INFO - Emit to all 
+15.12.2022, 10:16:19 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: EwYCLn8vMFp8Q443AAAL] 
+15.12.2022, 10:16:19 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: EwYCLn8vMFp8Q443AAAL] 
+15.12.2022, 10:16:24 - DEBUG - user 6392ed7797933078fb12d61a updated 
+15.12.2022, 10:16:24 - DEBUG - auth.service - user: b@b.c logged in 
+15.12.2022, 10:16:24 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 10:16:24 - INFO - Emit to all 
+15.12.2022, 10:16:24 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: -ZserLwkjjwQ2eb9AAAN] 
+15.12.2022, 10:16:24 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: -ZserLwkjjwQ2eb9AAAN] 
+15.12.2022, 12:06:18 - INFO - Removing socket.userId for socket [id: IJsWmLMoWYukfhamAAAD] 
+15.12.2022, 12:06:19 - INFO - Removing socket.userId for socket [id: IJsWmLMoWYukfhamAAAD] 
+15.12.2022, 12:06:20 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 12:06:20 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 12:06:20 - INFO - Emit to all 
+15.12.2022, 12:06:20 - INFO - Removing socket.userId for socket [id: YyvWHg3ui10ekf2kAAAB] 
+15.12.2022, 12:06:20 - INFO - Removing socket.userId for socket [id: YyvWHg3ui10ekf2kAAAB] 
+15.12.2022, 12:06:21 - DEBUG - user 6392ed7797933078fb12d61a updated 
+15.12.2022, 12:06:21 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 12:06:21 - INFO - Emit to all 
+15.12.2022, 12:06:24 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 12:06:24 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 12:06:24 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 12:06:24 - INFO - Emit to all 
+15.12.2022, 12:06:24 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: IJsWmLMoWYukfhamAAAD] 
+15.12.2022, 12:06:24 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: IJsWmLMoWYukfhamAAAD] 
+15.12.2022, 12:08:21 - INFO - Removing socket.userId for socket [id: IgQJ4PPSO-jAjNMNAAAD] 
+15.12.2022, 12:08:21 - INFO - Removing socket.userId for socket [id: IgQJ4PPSO-jAjNMNAAAD] 
+15.12.2022, 12:08:22 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 12:08:22 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 12:08:22 - INFO - Emit to all 
+15.12.2022, 12:08:29 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 12:08:29 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 12:08:29 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 12:08:29 - INFO - Emit to all 
+15.12.2022, 12:08:29 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: IgQJ4PPSO-jAjNMNAAAD] 
+15.12.2022, 12:08:29 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: IgQJ4PPSO-jAjNMNAAAD] 
+15.12.2022, 12:14:03 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 12:14:11 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: u3Cgu_cJPhCjPnNeAAAH] 
+15.12.2022, 12:16:47 - DEBUG - user 6392ed7797933078fb12d61a updated 
+15.12.2022, 12:16:47 - DEBUG - auth.service - user: b@b.c logged in 
+15.12.2022, 12:16:47 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 12:16:47 - INFO - Emit to all 
+15.12.2022, 12:16:47 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 12:16:47 - INFO - Setting socket.userId = 6392ed7797933078fb12d61a for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 12:18:09 - INFO - Removing socket.userId for socket [id: u3Cgu_cJPhCjPnNeAAAH] 
+15.12.2022, 12:18:09 - INFO - Removing socket.userId for socket [id: u3Cgu_cJPhCjPnNeAAAH] 
+15.12.2022, 12:18:09 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 12:18:09 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 12:18:09 - INFO - Emit to all 
+15.12.2022, 12:18:10 - INFO - Removing socket.userId for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 12:18:10 - INFO - Removing socket.userId for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 12:18:10 - DEBUG - user 6392ed7797933078fb12d61a updated 
+15.12.2022, 12:18:10 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 12:18:10 - INFO - Emit to all 
+15.12.2022, 12:18:15 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 12:18:15 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 12:18:15 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 12:18:15 - INFO - Emit to all 
+15.12.2022, 12:18:15 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: u3Cgu_cJPhCjPnNeAAAH] 
+15.12.2022, 12:18:15 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: u3Cgu_cJPhCjPnNeAAAH] 
+15.12.2022, 12:18:20 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+15.12.2022, 12:18:20 - DEBUG - auth.service - user: c@c.c logged in 
+15.12.2022, 12:18:20 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 12:18:20 - INFO - Emit to all 
+15.12.2022, 12:18:20 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 12:18:20 - INFO - Setting socket.userId = 63947cfbf2bb74b3fc4b382f for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 13:16:04 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 13:16:04 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 13:16:04 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 13:16:16 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 13:16:16 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 13:16:16 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 13:24:44 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 13:24:44 - INFO - Emiting event: chat-notify-message to user: 63947cfbf2bb74b3fc4b382f socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 13:24:44 - INFO - Emiting event: set_notifications_count to user: 63947cfbf2bb74b3fc4b382f socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 13:24:52 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 13:24:52 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 13:24:59 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 13:33:21 - DEBUG - chat 6395c3d7ffbc4b07419607b7 updated 
+15.12.2022, 14:23:25 - INFO - Removing socket.userId for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 14:23:25 - INFO - Removing socket.userId for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 14:23:25 - DEBUG - user 63947cfbf2bb74b3fc4b382f updated 
+15.12.2022, 14:23:25 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:23:25 - INFO - Emit to all 
+15.12.2022, 14:23:57 - DEBUG - auth.service - sign up with e-mail: d@d.d 
+15.12.2022, 14:23:58 - DEBUG - user 639b11ddae7345988feb7ad5 updated 
+15.12.2022, 14:23:58 - DEBUG - auth.service - user: d@d.d logged in 
+15.12.2022, 14:23:58 - INFO - User undefined logged in 
+15.12.2022, 14:24:08 - INFO - Emiting event: update-user-chats to user: 638f3f1c6b013074d82db255 socket [id: u3Cgu_cJPhCjPnNeAAAH] 
+15.12.2022, 14:24:08 - INFO - No active socket for user: 639b11ddae7345988feb7ad5 
+15.12.2022, 14:25:57 - INFO - Removing socket.userId for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 14:25:57 - INFO - Removing socket.userId for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 14:25:57 - DEBUG - user 639b11ddae7345988feb7ad5 updated 
+15.12.2022, 14:25:57 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:25:57 - INFO - Emit to all 
+15.12.2022, 14:26:01 - DEBUG - user 639b11ddae7345988feb7ad5 updated 
+15.12.2022, 14:26:01 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:26:01 - INFO - Emit to all 
+15.12.2022, 14:26:01 - DEBUG - auth.service - user: d@d.d logged in 
+15.12.2022, 14:26:01 - INFO - Setting socket.userId = 639b11ddae7345988feb7ad5 for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 14:26:01 - INFO - Setting socket.userId = 639b11ddae7345988feb7ad5 for socket [id: cuVhVHHvVKssvHQBAAAG] 
+15.12.2022, 14:26:10 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:15 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:17 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:18 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:18 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:19 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:19 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:19 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:20 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:22 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:22 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:22 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:23 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:23 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:23 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:23 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:24 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:24 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:24 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:24 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:25 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:25 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:25 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:25 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:26 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:26 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:26 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:26 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:27 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:27 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:27 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:28 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:28 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:28 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:28 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:29 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:29 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:29 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:26:30 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:27:48 - DEBUG - user 639b11ddae7345988feb7ad5 updated 
+15.12.2022, 14:27:51 - INFO - Setting socket.userId = 639b11ddae7345988feb7ad5 for socket [id: e11ehvlVgCUcYhNHAAAJ] 
+15.12.2022, 14:28:06 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:31:35 - DEBUG - chat 639b11e8ae7345988feb7ad6 updated 
+15.12.2022, 14:31:42 - DEBUG - user 638f3f1c6b013074d82db255 updated 
+15.12.2022, 14:31:45 - INFO - Setting socket.userId = 638f3f1c6b013074d82db255 for socket [id: 2yirjpVIAcFnaUEyAAAL] 
+15.12.2022, 14:31:52 - INFO - Removing socket.userId for socket [id: e11ehvlVgCUcYhNHAAAJ] 
+15.12.2022, 14:31:52 - INFO - Removing socket.userId for socket [id: e11ehvlVgCUcYhNHAAAJ] 
+15.12.2022, 14:31:52 - DEBUG - user 639b11ddae7345988feb7ad5 updated 
+15.12.2022, 14:31:52 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:31:52 - INFO - Emit to all 
+15.12.2022, 14:32:17 - DEBUG - auth.service - sign up with e-mail: g@g.g 
+15.12.2022, 14:32:18 - DEBUG - user 639b13d1ae7345988feb7b00 updated 
+15.12.2022, 14:32:18 - DEBUG - auth.service - user: g@g.g logged in 
+15.12.2022, 14:32:18 - INFO - User undefined logged in 
+15.12.2022, 14:32:25 - INFO - Emiting event: update-user-chats to user: 638f3f1c6b013074d82db255 socket [id: 2yirjpVIAcFnaUEyAAAL] 
+15.12.2022, 14:32:25 - INFO - No active socket for user: 639b13d1ae7345988feb7b00 
+15.12.2022, 14:32:55 - DEBUG - chat 639b13d9ae7345988feb7b01 updated 
+15.12.2022, 14:32:55 - INFO - No active socket for user: 639b13d1ae7345988feb7b00 
+15.12.2022, 14:32:55 - INFO - No active socket for user: 639b13d1ae7345988feb7b00 
+15.12.2022, 14:37:56 - INFO - Removing socket.userId for socket [id: IHh4_mkNpTGCWe8uAAAD] 
+15.12.2022, 14:37:56 - INFO - Removing socket.userId for socket [id: IHh4_mkNpTGCWe8uAAAD] 
+15.12.2022, 14:37:57 - ERROR - while finding user 638f3f1c6b013074d82db255 | TypeError: Cannot convert undefined or null to object 
+15.12.2022, 14:37:57 - INFO - Removing socket.userId for socket [id: OforJXANATK2BqOjAAAB] 
+15.12.2022, 14:37:57 - INFO - Removing socket.userId for socket [id: OforJXANATK2BqOjAAAB] 
+15.12.2022, 14:37:58 - ERROR - while finding user 639b13d1ae7345988feb7b00 | TypeError: Cannot convert undefined or null to object 
+15.12.2022, 14:38:23 - DEBUG - auth.service - sign up with e-mail: a@a.c 
+15.12.2022, 14:38:24 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 14:38:24 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 14:38:24 - INFO - User undefined logged in 
+15.12.2022, 14:38:52 - DEBUG - auth.service - sign up with e-mail: b@b.b 
+15.12.2022, 14:38:53 - DEBUG - user 639b155c9b51316ac7517b62 updated 
+15.12.2022, 14:38:53 - DEBUG - auth.service - user: b@b.b logged in 
+15.12.2022, 14:38:53 - INFO - User undefined logged in 
+15.12.2022, 14:39:01 - INFO - No active socket for user: 639b15409b51316ac7517b61 
+15.12.2022, 14:39:01 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 14:40:22 - INFO - Removing socket.userId for socket [id: kHmz2x6WaWbajIwZAAAD] 
+15.12.2022, 14:40:22 - INFO - Removing socket.userId for socket [id: kHmz2x6WaWbajIwZAAAD] 
+15.12.2022, 14:40:23 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 14:40:23 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:40:23 - INFO - Emit to all 
+15.12.2022, 14:40:23 - INFO - Removing socket.userId for socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:40:23 - INFO - Removing socket.userId for socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:40:24 - DEBUG - user 639b155c9b51316ac7517b62 updated 
+15.12.2022, 14:40:24 - INFO - Emit to all 
+15.12.2022, 14:40:24 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:40:30 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 14:40:30 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 14:40:30 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:40:30 - INFO - Emit to all 
+15.12.2022, 14:40:30 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: kHmz2x6WaWbajIwZAAAD] 
+15.12.2022, 14:40:30 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: kHmz2x6WaWbajIwZAAAD] 
+15.12.2022, 14:40:36 - DEBUG - user 639b155c9b51316ac7517b62 updated 
+15.12.2022, 14:40:36 - DEBUG - auth.service - user: b@b.b logged in 
+15.12.2022, 14:40:36 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:40:36 - INFO - Emit to all 
+15.12.2022, 14:40:36 - INFO - Setting socket.userId = 639b155c9b51316ac7517b62 for socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:40:36 - INFO - Setting socket.userId = 639b155c9b51316ac7517b62 for socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:40:43 - INFO - Emiting event: update-user-chats to user: 639b15409b51316ac7517b61 socket [id: kHmz2x6WaWbajIwZAAAD] 
+15.12.2022, 14:40:44 - INFO - Emiting event: update-user-chats to user: 639b155c9b51316ac7517b62 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:41:09 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 14:41:09 - INFO - Emiting event: chat-notify-message to user: 639b155c9b51316ac7517b62 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:41:09 - INFO - Emiting event: set_notifications_count to user: 639b155c9b51316ac7517b62 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:41:39 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 14:41:39 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 14:41:56 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 14:42:09 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 14:42:22 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 14:42:49 - INFO - Removing socket.userId for socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:42:49 - INFO - Removing socket.userId for socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:42:49 - DEBUG - user 639b155c9b51316ac7517b62 updated 
+15.12.2022, 14:42:49 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:42:49 - INFO - Emit to all 
+15.12.2022, 14:43:12 - DEBUG - auth.service - sign up with e-mail: c@c.c 
+15.12.2022, 14:43:13 - DEBUG - user 639b1661eb24c792b1371df2 updated 
+15.12.2022, 14:43:13 - DEBUG - auth.service - user: c@c.c logged in 
+15.12.2022, 14:43:13 - INFO - User undefined logged in 
+15.12.2022, 14:43:23 - INFO - Emiting event: update-user-chats to user: 639b15409b51316ac7517b61 socket [id: kHmz2x6WaWbajIwZAAAD] 
+15.12.2022, 14:43:23 - INFO - No active socket for user: 639b1661eb24c792b1371df2 
+15.12.2022, 14:44:07 - INFO - Removing socket.userId for socket [id: kHmz2x6WaWbajIwZAAAD] 
+15.12.2022, 14:44:07 - INFO - Removing socket.userId for socket [id: kHmz2x6WaWbajIwZAAAD] 
+15.12.2022, 14:44:07 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 14:44:07 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:44:07 - INFO - Emit to all 
+15.12.2022, 14:44:08 - INFO - Removing socket.userId for socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:44:08 - INFO - Removing socket.userId for socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:44:08 - DEBUG - user 639b1661eb24c792b1371df2 updated 
+15.12.2022, 14:44:08 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:44:08 - INFO - Emit to all 
+15.12.2022, 14:44:12 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 14:44:12 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 14:44:12 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:44:12 - INFO - Emit to all 
+15.12.2022, 14:44:12 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: kHmz2x6WaWbajIwZAAAD] 
+15.12.2022, 14:44:12 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: kHmz2x6WaWbajIwZAAAD] 
+15.12.2022, 14:44:15 - DEBUG - user 639b1661eb24c792b1371df2 updated 
+15.12.2022, 14:44:15 - DEBUG - auth.service - user: c@c.c logged in 
+15.12.2022, 14:44:15 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 14:44:15 - INFO - Emit to all 
+15.12.2022, 14:44:15 - INFO - Setting socket.userId = 639b1661eb24c792b1371df2 for socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:44:15 - INFO - Setting socket.userId = 639b1661eb24c792b1371df2 for socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:44:22 - INFO - Emiting event: update-user-chats to user: 639b15409b51316ac7517b61 socket [id: kHmz2x6WaWbajIwZAAAD] 
+15.12.2022, 14:44:22 - INFO - Emiting event: update-user-chats to user: 639b1661eb24c792b1371df2 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:45:15 - INFO - Emiting event: set_notifications_count to user: 639b1661eb24c792b1371df2 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:45:15 - INFO - Emiting event: chat-notify-message to user: 639b1661eb24c792b1371df2 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:45:15 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 14:45:29 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 14:45:29 - INFO - Emiting event: chat-notify-message to user: 639b1661eb24c792b1371df2 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:45:29 - INFO - Emiting event: set_notifications_count to user: 639b1661eb24c792b1371df2 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:45:42 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 14:45:42 - INFO - Emiting event: chat-notify-message to user: 639b1661eb24c792b1371df2 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:45:42 - INFO - Emiting event: set_notifications_count to user: 639b1661eb24c792b1371df2 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:45:47 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 14:45:47 - INFO - Emiting event: chat-notify-message to user: 639b1661eb24c792b1371df2 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 14:45:47 - INFO - Emiting event: set_notifications_count to user: 639b1661eb24c792b1371df2 socket [id: QrNMATIjhrhiMWPOAAAC] 
+15.12.2022, 16:17:55 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 16:17:55 - INFO - No active socket for user: 639b15409b51316ac7517b61 
+15.12.2022, 16:17:55 - INFO - No active socket for user: 639b15409b51316ac7517b61 
+15.12.2022, 16:17:55 - INFO - No active socket for user: 639b1661eb24c792b1371df2 
+15.12.2022, 16:17:55 - INFO - No active socket for user: 639b1661eb24c792b1371df2 
+15.12.2022, 16:18:01 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 16:18:01 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 16:18:10 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 16:18:10 - INFO - No active socket for user: 639b15409b51316ac7517b61 
+15.12.2022, 16:18:10 - INFO - No active socket for user: 639b1661eb24c792b1371df2 
+15.12.2022, 16:18:10 - INFO - No active socket for user: 639b15409b51316ac7517b61 
+15.12.2022, 16:18:10 - INFO - No active socket for user: 639b1661eb24c792b1371df2 
+15.12.2022, 16:18:19 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: 9nVRr8s6iPv0dUgLAAAF] 
+15.12.2022, 16:18:20 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 16:18:20 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 16:18:25 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 16:18:25 - INFO - No active socket for user: 639b1661eb24c792b1371df2 
+15.12.2022, 16:18:25 - INFO - No active socket for user: 639b1661eb24c792b1371df2 
+15.12.2022, 16:23:54 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 16:23:54 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 16:26:34 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:26:38 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: oz4M-SAKVaWnbrHIAAAH] 
+15.12.2022, 16:27:00 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:27:04 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: bMBAEBz7tKrYxMdrAAAJ] 
+15.12.2022, 16:27:10 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:27:10 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 16:27:10 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 16:27:10 - INFO - Broadcast to all excluding user: 639b15409b51316ac7517b61 
+15.12.2022, 16:27:10 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: bMBAEBz7tKrYxMdrAAAJ] 
+15.12.2022, 16:27:10 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: bMBAEBz7tKrYxMdrAAAJ] 
+15.12.2022, 16:35:07 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:35:10 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: VP3xHvDoK4ISTUY2AAAL] 
+15.12.2022, 16:35:26 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:35:31 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: otSuxXyvdziITi81AAAN] 
+15.12.2022, 16:35:40 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:35:44 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: SKReXad6MDGZtQjIAAAP] 
+15.12.2022, 16:35:58 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:36:02 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: gU8rxltKdb35t2QXAAAR] 
+15.12.2022, 16:36:03 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:36:10 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: U5U70tOx80WF3EK9AAAT] 
+15.12.2022, 16:36:25 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:36:29 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: 5NlAdzEvGxlnHtidAAAV] 
+15.12.2022, 16:36:33 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:36:33 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 16:36:33 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 16:36:33 - INFO - Broadcast to all excluding user: 639b15409b51316ac7517b61 
+15.12.2022, 16:36:33 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: 5NlAdzEvGxlnHtidAAAV] 
+15.12.2022, 16:36:33 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: 5NlAdzEvGxlnHtidAAAV] 
+15.12.2022, 16:36:37 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:36:39 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: tzOYiPYy_RlveF9GAAAX] 
+15.12.2022, 16:37:20 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:37:23 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: -V9n1rc294U8b_QyAAAZ] 
+15.12.2022, 16:37:33 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:37:37 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: NJsqZDGe2yVmAEnLAAAb] 
+15.12.2022, 16:37:54 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:37:57 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: yQIwRwwiCOlaTcj2AAAd] 
+15.12.2022, 16:42:33 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:42:41 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: 4ndEe1w0l4iCXte7AAAf] 
+15.12.2022, 16:44:37 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:44:42 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: ikCR2UlVFwDHW5OnAAAh] 
+15.12.2022, 16:44:54 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:44:59 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: 4LhUmYpuj-1kfSiRAAAj] 
+15.12.2022, 16:45:20 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:20 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:20 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:21 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:21 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:21 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:21 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:21 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:21 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:22 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:22 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:22 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:22 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:22 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:22 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:22 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:22 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:22 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:22 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:22 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:22 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:23 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:23 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:23 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:23 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:23 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:23 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:23 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:23 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:23 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:23 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:23 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:23 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:24 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:24 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:24 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:24 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:24 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:24 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:24 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:24 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:24 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:24 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:24 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:24 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:25 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:25 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:25 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:25 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:25 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:25 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:25 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:45:25 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:45:25 - INFO - No active socket for user: 639b155c9b51316ac7517b62 
+15.12.2022, 16:49:18 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:49:22 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: VYTnCRn4jU5C3CPoAAAl] 
+15.12.2022, 16:49:32 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 16:49:32 - INFO - Emiting event: chat-notify-message to user: 639b15409b51316ac7517b61 socket [id: VYTnCRn4jU5C3CPoAAAl] 
+15.12.2022, 16:49:32 - INFO - No active socket for user: 639b1661eb24c792b1371df2 
+15.12.2022, 16:49:32 - INFO - Emiting event: set-notifications-count to user: 639b15409b51316ac7517b61 socket [id: VYTnCRn4jU5C3CPoAAAl] 
+15.12.2022, 16:49:32 - INFO - No active socket for user: 639b1661eb24c792b1371df2 
+15.12.2022, 16:49:36 - INFO - Removing socket.userId for socket [id: VYTnCRn4jU5C3CPoAAAl] 
+15.12.2022, 16:49:36 - INFO - Removing socket.userId for socket [id: VYTnCRn4jU5C3CPoAAAl] 
+15.12.2022, 16:49:36 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:49:36 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 16:49:36 - INFO - Emit to all 
+15.12.2022, 16:49:38 - INFO - Removing socket.userId for socket [id: jkmh0RqBW3nWsI4AAAAC] 
+15.12.2022, 16:49:38 - INFO - Removing socket.userId for socket [id: jkmh0RqBW3nWsI4AAAAC] 
+15.12.2022, 16:49:38 - DEBUG - user 639b1661eb24c792b1371df2 updated 
+15.12.2022, 16:49:38 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 16:49:38 - INFO - Emit to all 
+15.12.2022, 16:49:43 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:49:43 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 16:49:43 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 16:49:43 - INFO - Emit to all 
+15.12.2022, 16:49:43 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: VYTnCRn4jU5C3CPoAAAl] 
+15.12.2022, 16:49:43 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: VYTnCRn4jU5C3CPoAAAl] 
+15.12.2022, 16:49:48 - DEBUG - user 639b155c9b51316ac7517b62 updated 
+15.12.2022, 16:49:48 - DEBUG - auth.service - user: b@b.b logged in 
+15.12.2022, 16:49:48 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 16:49:48 - INFO - Emit to all 
+15.12.2022, 16:49:48 - INFO - Setting socket.userId = 639b155c9b51316ac7517b62 for socket [id: jkmh0RqBW3nWsI4AAAAC] 
+15.12.2022, 16:49:48 - INFO - Setting socket.userId = 639b155c9b51316ac7517b62 for socket [id: jkmh0RqBW3nWsI4AAAAC] 
+15.12.2022, 16:49:51 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:49:51 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:50:04 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:50:04 - INFO - Emiting event: chat-notify-message to user: 639b15409b51316ac7517b61 socket [id: VYTnCRn4jU5C3CPoAAAl] 
+15.12.2022, 16:50:04 - INFO - Emiting event: set-notifications-count to user: 639b15409b51316ac7517b61 socket [id: VYTnCRn4jU5C3CPoAAAl] 
+15.12.2022, 16:53:20 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:53:25 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: N6VDQEBiN3dr5ECVAAAn] 
+15.12.2022, 16:53:35 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 16:53:35 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 16:53:35 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 16:53:35 - INFO - Broadcast to all excluding user: 639b15409b51316ac7517b61 
+15.12.2022, 16:53:35 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: N6VDQEBiN3dr5ECVAAAn] 
+15.12.2022, 16:53:35 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: N6VDQEBiN3dr5ECVAAAn] 
+15.12.2022, 16:53:38 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 16:53:38 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:03:16 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:03:21 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:08:27 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:12:11 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:12:18 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:23:07 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 17:23:07 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 17:24:08 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:24:08 - INFO - Emiting event: chat-notify-message to user: 639b15409b51316ac7517b61 socket [id: N6VDQEBiN3dr5ECVAAAn] 
+15.12.2022, 17:24:08 - INFO - Emiting event: set-notifications-count to user: 639b15409b51316ac7517b61 socket [id: N6VDQEBiN3dr5ECVAAAn] 
+15.12.2022, 17:24:13 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:24:13 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:26:36 - DEBUG - chat 639b16a6eb24c792b1371df4 updated 
+15.12.2022, 17:26:36 - INFO - No active socket for user: 639b1661eb24c792b1371df2 
+15.12.2022, 17:26:36 - INFO - No active socket for user: 639b1661eb24c792b1371df2 
+15.12.2022, 17:26:50 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:28:34 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:28:42 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:29:39 - INFO - Removing socket.userId for socket [id: jkmh0RqBW3nWsI4AAAAC] 
+15.12.2022, 17:29:39 - INFO - Removing socket.userId for socket [id: jkmh0RqBW3nWsI4AAAAC] 
+15.12.2022, 17:29:39 - DEBUG - user 639b155c9b51316ac7517b62 updated 
+15.12.2022, 17:29:39 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 17:29:39 - INFO - Emit to all 
+15.12.2022, 17:29:41 - INFO - Removing socket.userId for socket [id: N6VDQEBiN3dr5ECVAAAn] 
+15.12.2022, 17:29:41 - INFO - Removing socket.userId for socket [id: N6VDQEBiN3dr5ECVAAAn] 
+15.12.2022, 17:29:41 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 17:29:41 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 17:29:41 - INFO - Emit to all 
+15.12.2022, 17:29:45 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 17:29:46 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 17:29:46 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 17:29:46 - INFO - Emit to all 
+15.12.2022, 17:29:46 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: N6VDQEBiN3dr5ECVAAAn] 
+15.12.2022, 17:29:46 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: N6VDQEBiN3dr5ECVAAAn] 
+15.12.2022, 17:29:58 - DEBUG - user 639b155c9b51316ac7517b62 updated 
+15.12.2022, 17:29:58 - DEBUG - auth.service - user: b@b.b logged in 
+15.12.2022, 17:29:58 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 17:29:58 - INFO - Emit to all 
+15.12.2022, 17:29:58 - INFO - Setting socket.userId = 639b155c9b51316ac7517b62 for socket [id: jkmh0RqBW3nWsI4AAAAC] 
+15.12.2022, 17:29:58 - INFO - Setting socket.userId = 639b155c9b51316ac7517b62 for socket [id: jkmh0RqBW3nWsI4AAAAC] 
+15.12.2022, 17:30:05 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:31:32 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 17:31:32 - DEBUG - user 639b155c9b51316ac7517b62 updated 
+15.12.2022, 17:31:40 - INFO - Setting socket.userId = 639b155c9b51316ac7517b62 for socket [id: Ogfz_GrYShoSX9LdAAAq] 
+15.12.2022, 17:31:40 - INFO - Setting socket.userId = 639b15409b51316ac7517b61 for socket [id: TLa80KUjx2TIzZ4TAAAr] 
+15.12.2022, 17:31:46 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:31:46 - INFO - Emiting event: chat-notify-message to user: 639b15409b51316ac7517b61 socket [id: TLa80KUjx2TIzZ4TAAAr] 
+15.12.2022, 17:31:46 - INFO - Emiting event: set-notifications-count to user: 639b15409b51316ac7517b61 socket [id: TLa80KUjx2TIzZ4TAAAr] 
+15.12.2022, 17:32:01 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:32:01 - INFO - Emiting event: chat-notify-message to user: 639b15409b51316ac7517b61 socket [id: TLa80KUjx2TIzZ4TAAAr] 
+15.12.2022, 17:32:01 - INFO - Emiting event: set-notifications-count to user: 639b15409b51316ac7517b61 socket [id: TLa80KUjx2TIzZ4TAAAr] 
+15.12.2022, 17:45:46 - INFO - Removing socket.userId for socket [id: Ogfz_GrYShoSX9LdAAAq] 
+15.12.2022, 17:45:46 - INFO - Removing socket.userId for socket [id: Ogfz_GrYShoSX9LdAAAq] 
+15.12.2022, 17:45:46 - DEBUG - user 639b155c9b51316ac7517b62 updated 
+15.12.2022, 17:45:46 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 17:45:46 - INFO - Emit to all 
+15.12.2022, 17:46:07 - DEBUG - auth.service - sign up with e-mail: n@n.n 
+15.12.2022, 17:46:07 - DEBUG - user 639b413f32b457378776f074 updated 
+15.12.2022, 17:46:08 - DEBUG - auth.service - user: n@n.n logged in 
+15.12.2022, 17:46:08 - INFO - User undefined logged in 
+15.12.2022, 17:46:16 - INFO - Emiting event: update-user-chats to user: 639b15409b51316ac7517b61 socket [id: TLa80KUjx2TIzZ4TAAAr] 
+15.12.2022, 17:46:16 - INFO - No active socket for user: 639b413f32b457378776f074 
+15.12.2022, 17:46:26 - DEBUG - chat 639b414832b457378776f075 updated 
+15.12.2022, 17:46:26 - INFO - No active socket for user: 639b413f32b457378776f074 
+15.12.2022, 17:46:26 - INFO - No active socket for user: 639b413f32b457378776f074 
+15.12.2022, 17:46:30 - INFO - Removing socket.userId for socket [id: Ogfz_GrYShoSX9LdAAAq] 
+15.12.2022, 17:46:30 - INFO - Removing socket.userId for socket [id: Ogfz_GrYShoSX9LdAAAq] 
+15.12.2022, 17:46:30 - DEBUG - user 639b413f32b457378776f074 updated 
+15.12.2022, 17:46:30 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 17:46:30 - INFO - Emit to all 
+15.12.2022, 17:46:34 - DEBUG - user 639b413f32b457378776f074 updated 
+15.12.2022, 17:46:34 - DEBUG - auth.service - user: n@n.n logged in 
+15.12.2022, 17:46:35 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 17:46:35 - INFO - Emit to all 
+15.12.2022, 17:46:35 - INFO - Setting socket.userId = 639b413f32b457378776f074 for socket [id: Ogfz_GrYShoSX9LdAAAq] 
+15.12.2022, 17:46:35 - INFO - Setting socket.userId = 639b413f32b457378776f074 for socket [id: Ogfz_GrYShoSX9LdAAAq] 
+15.12.2022, 17:46:40 - DEBUG - chat 639b414832b457378776f075 updated 
+15.12.2022, 17:46:40 - DEBUG - chat 639b414832b457378776f075 updated 
+15.12.2022, 17:46:46 - DEBUG - chat 639b414832b457378776f075 updated 
+15.12.2022, 17:46:51 - DEBUG - user 639b413f32b457378776f074 updated 
+15.12.2022, 17:46:58 - INFO - Setting socket.userId = 639b413f32b457378776f074 for socket [id: kze5unE2SHd_TPHeAAAt] 
+15.12.2022, 17:49:24 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:49:24 - DEBUG - chat 639b15cbeb24c792b1371ded updated 
+15.12.2022, 17:53:40 - DEBUG - user 639b15409b51316ac7517b61 updated 
+15.12.2022, 17:53:42 - DEBUG - user 639b413f32b457378776f074 updated 
+15.12.2022, 17:59:02 - DEBUG - auth.service - sign up with e-mail: a@a.c 
+15.12.2022, 17:59:03 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 17:59:03 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 17:59:03 - INFO - User undefined logged in 
+15.12.2022, 17:59:03 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: MHsdMGeUtN9sa7YqAAAv] 
+15.12.2022, 17:59:27 - DEBUG - auth.service - sign up with e-mail: b@b.b 
+15.12.2022, 17:59:28 - DEBUG - user 639b446032b457378776f079 updated 
+15.12.2022, 17:59:28 - DEBUG - auth.service - user: b@b.b logged in 
+15.12.2022, 17:59:28 - INFO - User undefined logged in 
+15.12.2022, 17:59:28 - INFO - Setting socket.userId = 639b446032b457378776f079 for socket [id: JkGG33V1nM4mIJiQAAAx] 
+15.12.2022, 17:59:40 - INFO - Emiting event: update-user-chats to user: 639b444632b457378776f078 socket [id: MHsdMGeUtN9sa7YqAAAv] 
+15.12.2022, 17:59:40 - INFO - Emiting event: update-user-chats to user: 639b446032b457378776f079 socket [id: JkGG33V1nM4mIJiQAAAx] 
+15.12.2022, 18:00:49 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:01:31 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:01:32 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 18:01:32 - DEBUG - auth.service - user: a@a.c logged in 
+15.12.2022, 18:01:32 - INFO - Emit to all 
+15.12.2022, 18:01:32 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: tr31KnknWyOsCf2gAAA5] 
+15.12.2022, 18:01:32 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: tr31KnknWyOsCf2gAAA5] 
+15.12.2022, 18:01:39 - DEBUG - chat 639b446b32b457378776f07a updated 
+15.12.2022, 18:01:39 - INFO - Emiting event: chat-notify-message to user: 639b446032b457378776f079 socket [id: JkGG33V1nM4mIJiQAAAx] 
+15.12.2022, 18:01:39 - INFO - Emiting event: set-notifications-count to user: 639b446032b457378776f079 socket [id: JkGG33V1nM4mIJiQAAAx] 
+15.12.2022, 18:01:41 - DEBUG - chat 639b446b32b457378776f07a updated 
+15.12.2022, 18:01:41 - DEBUG - chat 639b446b32b457378776f07a updated 
+15.12.2022, 18:01:44 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:01:46 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: BxO0qjgXPXQZAaMxAAA7] 
+15.12.2022, 18:02:57 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:02:59 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: M8UY-6Fmm2B_1RgCAAA9] 
+15.12.2022, 18:03:25 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:03:26 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: TIMDctEPnVQV3b5pAAA_] 
+15.12.2022, 18:06:26 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:06:30 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: y1eve0LHECcRTXFsAABB] 
+15.12.2022, 18:06:35 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:06:39 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: PT9fSc_Nn1GmwOHRAABD] 
+15.12.2022, 18:07:15 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:07:19 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: rcZkkMDZP3O3aIKxAABF] 
+15.12.2022, 18:08:05 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:08:11 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: L5oBr_O_Mx6fvSdMAABH] 
+15.12.2022, 18:09:43 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:09:48 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: HBSKkt5oauDQXin7AABJ] 
+15.12.2022, 18:13:04 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:13:09 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: 67oIH91ZZ0VQItqWAABL] 
+15.12.2022, 18:20:50 - DEBUG - user 639b446032b457378776f079 updated 
+15.12.2022, 18:20:50 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:21:02 - INFO - Setting socket.userId = 639b444632b457378776f078 for socket [id: e7eR2eT6z7DXClegAABP] 
+15.12.2022, 18:24:12 - INFO - Removing socket.userId for socket [id: e7eR2eT6z7DXClegAABP] 
+15.12.2022, 18:24:12 - INFO - Removing socket.userId for socket [id: e7eR2eT6z7DXClegAABP] 
+15.12.2022, 18:24:12 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 18:24:12 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 18:24:12 - INFO - Emit to all 
+15.12.2022, 18:31:31 - DEBUG - user 639b444632b457378776f078 updated 
