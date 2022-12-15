@@ -4531,3 +4531,13 @@
 15.12.2022, 18:24:12 - INFO - Broadcasting event: update-user-status 
 15.12.2022, 18:24:12 - INFO - Emit to all 
 15.12.2022, 18:31:31 - DEBUG - user 639b444632b457378776f078 updated 
+15.12.2022, 19:24:24 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 19:24:24 - INFO - Emit to all 
+15.12.2022, 19:24:24 - INFO - Setting socket.userId = null for socket [id: fmAbT5MeBWCW21KyAAAD] 
+15.12.2022, 19:24:24 - INFO - Setting socket.userId = null for socket [id: fmAbT5MeBWCW21KyAAAD] 
+15.12.2022, 19:24:29 - DEBUG - user 639b540787af689b3a6d6a37 updated 
+15.12.2022, 19:24:29 - DEBUG - auth.service - user: a@a.a logged in 
+15.12.2022, 19:24:29 - INFO - Broadcasting event: update-user-status 
+15.12.2022, 19:24:29 - INFO - Emit to all 
+15.12.2022, 19:24:29 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: fmAbT5MeBWCW21KyAAAD] 
+15.12.2022, 19:24:29 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: fmAbT5MeBWCW21KyAAAD] 
