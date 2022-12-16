@@ -80,19 +80,15 @@ body {
     max-height: 50px;
 }
 
-.scrollable {
-    max-height: calc(90vh - 60px);
-    padding-block-end: 10px;
-    min-height: calc(90vh - 60px);
-    overflow: auto;
-    flex: 1;
+@media (min-width: 800px) {
+    .scrollable {
+        padding-block-end: 10px;
+        min-height: calc(90vh - 40px);
+        overflow: auto;
+        flex: 1;
+    }
 }
 
-@media  (max-width: 800px) {
-    .scrollable {
-        max-height: calc(100% - 50px);
-    }
-  }
 
 
 .chat-link {
@@ -134,3 +130,9 @@ body {
   .toastProgress {
     background: #29a169 !important;
   }
+
+  @media  (max-width: 800px) {
+    .scrollable {
+        height: calc(100% - 50px) !important;
+    }
+}

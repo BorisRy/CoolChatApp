@@ -27,6 +27,7 @@ function App() {
           :
           (
             <Routes>
+              {/* <Route path='/' element={<ChatWindow />}></Route> */}
               <Route path='/' element={<Homepage />}></Route>
               <Route path='/chat' element={<SideBar />} />
               <Route path='/chat/:chatId' element={<ChatWindow />} />

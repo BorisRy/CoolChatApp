@@ -50,7 +50,7 @@ export const Chat = () => {
     }
 
     return (
-        <Flex direction={'column'} px={4} h='100%' maxH='100%' position='relative' flex={1} height={!isLargerThan800 ? `${window.innerHeight - 50}px` : 'calc(90vh)'}>
+        <Flex direction={'column'} px={4} h='100%' maxH='100%' position='relative' flex={1} height={!isLargerThan800 ? `${window.innerHeight}px` : 'calc(90vh)'}>
             <MessageLog messages={messages} isLoading={isLoading} />
             <MessageInput addMessage={addMessage} />
             {!isLargerThan800 && <Listener />}
@@ -85,7 +85,8 @@ const MessageLog = ({ messages, isLoading }) => {
             {<Flex
                 direction='column'
                 justify='flex-end'
-                flexBasis='100%'>
+                flexBasis='90%'
+            >
                 {!isLoading ?
                     messages.map((msg, idx, msgs) => {
                         if (idx === 0
