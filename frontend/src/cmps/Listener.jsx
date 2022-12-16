@@ -42,9 +42,9 @@ export const Listener = () => {
     const notifyMessage = (message) => {
         audio.play()
             .then(() => {
-                console.log('')
+
             }).catch((error) => {
-                console.log('')
+
             })
         toast(<NewMsgToast message={message} />, { toastId: message.key })
         dispatch({ type: 'UPDATE_LAST_MESSAGE', message })

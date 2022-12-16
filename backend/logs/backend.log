@@ -4622,3 +4622,7 @@
 16.12.2022, 16:34:56 - INFO - Broadcast to all excluding user: 639b540787af689b3a6d6a37 
 16.12.2022, 16:34:56 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: Xtin4ve9sTRbv8fHAAAH] 
 16.12.2022, 16:34:56 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: Xtin4ve9sTRbv8fHAAAH] 
+16.12.2022, 16:43:40 - DEBUG - user 639b540787af689b3a6d6a37 updated 
+16.12.2022, 16:43:53 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: SGOuBrjXwJKYxDTHAAAJ] 
+16.12.2022, 16:44:11 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: LiZD4ap_SoCG6TVeAAAN] 
+16.12.2022, 16:44:31 - DEBUG - user 639b540787af689b3a6d6a37 updated 

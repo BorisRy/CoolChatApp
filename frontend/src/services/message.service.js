@@ -16,7 +16,6 @@ export const messageService = {
 
 async function query(filterBy) {
     try {
-        console.log('filterBy:', filterBy)
         const messages = await httpService.get('message', filterBy)
         return messages
     } catch (err) {

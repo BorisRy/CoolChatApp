@@ -14,7 +14,6 @@ export function chatReducer(state = initialState, action = {}) {
         case 'UPDATE_CHATS':
             return { ...state, chats: [...action.chats] }
         case 'UPDATE_LAST_MESSAGE':
-            console.log('action:', action)
             var chat = state.chats.find(chat => chat._id === action.message.chatId)
             chat.lastMessage = action.message
             return { ...state }

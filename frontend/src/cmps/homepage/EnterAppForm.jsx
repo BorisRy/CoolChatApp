@@ -65,7 +65,7 @@ export const EnterAppForm = ({ isSignup }) => {
         formik.setFieldValue('avatar', value)
     }
 
-    console.log('formik.errors:', formik.errors)
+
     return (
         <form onSubmit={formik.handleSubmit}>
             <VStack spacing='1em' fontSize='12px'>

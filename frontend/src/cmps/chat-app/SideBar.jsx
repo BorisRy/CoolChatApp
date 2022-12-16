@@ -43,7 +43,7 @@ export const SideBar = ({ onOpenDesktop }) => {
 }
 
 const SearchBar = ({ onOpen }) => {
-    console.log('onOpen FROM THE BUTTON:', onOpen)
+
     return (
         <Flex
             align={'center'}
