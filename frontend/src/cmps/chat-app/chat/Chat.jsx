@@ -12,7 +12,6 @@ import { useMediaQuery } from '@chakra-ui/react'
 import { Listener } from "../../Listener"
 
 export const Chat = () => {
-
     const params = useParams()
     const dispatch = useDispatch()
     const [messages, setMessages] = useState([])
