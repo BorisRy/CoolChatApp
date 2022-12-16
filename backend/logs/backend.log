@@ -4594,3 +4594,13 @@
 16.12.2022, 13:19:41 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: o69USgBVBF-NNC0tAAAN] 
 16.12.2022, 13:20:06 - DEBUG - user 639b540787af689b3a6d6a37 updated 
 16.12.2022, 13:20:11 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: zXTbK-wVN2LvfYS_AAAP] 
+16.12.2022, 13:37:21 - DEBUG - user 639b540787af689b3a6d6a37 updated 
+16.12.2022, 13:37:22 - DEBUG - auth.service - user: a@a.a logged in 
+16.12.2022, 13:37:22 - INFO - Broadcasting event: update-user-status 
+16.12.2022, 13:37:22 - INFO - Emit to all 
+16.12.2022, 13:37:22 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: fxVRuEtbZgNmqzgiAAAD] 
+16.12.2022, 13:37:22 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: fxVRuEtbZgNmqzgiAAAD] 
+16.12.2022, 13:37:27 - DEBUG - user 639b540787af689b3a6d6a37 updated 
+16.12.2022, 13:37:31 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: UuFnIurA5zzy4O9EAAAF] 
+16.12.2022, 13:39:25 - DEBUG - user 639b540787af689b3a6d6a37 updated 
+16.12.2022, 13:39:30 - INFO - Setting socket.userId = 639b540787af689b3a6d6a37 for socket [id: qSn2xI3RdMIObaxAAAAH] 

@@ -26,7 +26,7 @@ export const HeaderMessage = ({ message }) => {
                         </Tag>
                         <Text color='green.500' fontSize='xs'>{getTime(message.sentAt).getDatetimeStr()}</Text>
                     </HStack>
-                    <Text noOfLines={[1, 2, 3]} overflowWrap='break-word'>{message.text}</Text>
+                    <Text >{message.text}</Text>
                 </VStack>
             </CardBody>
         </Card>

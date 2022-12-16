@@ -31,7 +31,7 @@ export const ChatWindow = () => {
 
     if (!currentChat) return <>Loading</>
     return (
-        <Flex bg='gray.800' flex='1' m='0' h='100%'>
+        <Flex bg='gray.800' flex='1' m='0' h='100%' maxH='100%'>
             <Flex w={'100%'} direction='column' h='100%'>
                 <ChatNav currentChat={currentChat} />
                 <Chat currentChat={currentChat} />
@@ -52,7 +52,9 @@ const ChatNav = ({ currentChat }) => {
 
     return (
         <Flex
-            h={'50px'}
+            flexBasis={'50px'}
+            flex={0}
+            maxH={'50px'}
             borderBottom='1px'
             borderColor='green.700'
             w={'100%'}
