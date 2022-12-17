@@ -43,13 +43,14 @@ export const MessageInput = ({ addMessage }) => {
         if (messageText === '') return
         const message = messageService.createMessage(messageText, loggedInUser)
         message.chatId = params.chatId
+        console.log('message:', message)
         socketService.emit('chat-send-message', message)
         addMessage(message)
         setMessageText('')
     }
 
     return (
-        <form onSubmit={onSendMessage} className={'message-input'}>
+        <form onSubmit={onSendMessage} className={'message-input'} p={4}>
             <InputGroup h='60px' align='center' size='md' flex={0} color='white'>
                 {/* <InputLeftAddon bg='gray.700'>
                     <Tooltip label='Attach an image' placement="top">

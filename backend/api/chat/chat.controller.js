@@ -53,8 +53,6 @@ async function addChat(req, res) {
                     delete chat.participants
                     delete chat.notifications
                 })
-                console.log('chats:', chats)
-                console.log('p._id:', p._id)
                 await socketService.emitToUser({ type: 'update-user-chats', data: chats, userId: p._id })
             })
             res.send(newPrivateChat)

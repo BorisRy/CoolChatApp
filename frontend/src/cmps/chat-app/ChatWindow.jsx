@@ -1,86 +1,81 @@
-import { Flex, Text, Avatar, Box } from "@chakra-ui/react"
+import { Grid, GridItem, useMediaQuery } from '@chakra-ui/react'
 import { useEffect, useState } from "react"
-import { useSelector } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import { useNavigate, useParams } from "react-router-dom"
-import { Chat } from "./chat/Chat"
 import { socketService } from "../../services/socket.service"
-import { TypingIndicator } from "../TypingIndicator"
-import { ArrowBackIcon } from "@chakra-ui/icons"
-import { useMediaQuery } from '@chakra-ui/react'
+import { ChatNav } from "./ChatNav"
+import { MessageLog } from "./chat/MessageLog"
+import { MessageInput } from "./chat/MessageInput"
+import { messageService } from '../../services/message.service'
+import { resetNotifications } from "../../store/chat/chat.actions"
+import { Listener } from "../general/Listener"
 
 export const ChatWindow = () => {
-    const navigate = useNavigate()
     const params = useParams()
+    const dispatch = useDispatch()
+    const navigate = useNavigate()
+    const [messages, setMessages] = useState([])
+    const [isLoading, setIsLoading] = useState(false)
     const [currentChat, setCurrentChat] = useState(null)
     const { chats } = useSelector(state => state.chatModule)
+    const { loggedInUser } = useSelector(state => state.userModule)
+    const [isLargerThan800] = useMediaQuery('(min-width: 800px)')
+
 
     useEffect(() => {
         if (!chats) navigate('/chat')
         const currChat = chats?.find(chat => chat._id === params.chatId)
         setCurrentChat(currChat)
         socketService.emit('set-chat-room', params.chatId)
+
+        socketService.on('chat-add-msg', addMessage)
+        return () => {
+            socketService.off('chat-add-msg', addMessage)
+            socketService.emit('leave-chat-room', params.chatId)
+        }
     }, [])
 
     useEffect(() => {
-        if (params.chatId) {
-            const currChat = chats?.find(chat => chat._id === params.chatId)
-            setCurrentChat(currChat)
-            socketService.emit('set-chat-room', params.chatId)
+        const currChat = chats?.find(chat => chat._id === params.chatId)
+        setCurrentChat(currChat)
+        if (currChat?.unread > 0) {
+            dispatch(resetNotifications(params.chatId, loggedInUser._id))
         }
-    }, [params.chatId, chats])
+        socketService.emit('set-chat-room', params.chatId)
+        loadMessages()
+    }, [params.chatId])
+
+    const loadMessages = async () => {
+        setIsLoading(true)
+        const messages = await messageService.query({ chat: params.chatId })
+        setMessages(messages)
+        setIsLoading(false)
+    }
+
+    const addMessage = (message) => {
+        dispatch({ type: 'UPDATE_LAST_MESSAGE', message })
+        setMessages(prevMessages => [...prevMessages, message])
+    }
 
     if (!currentChat) return <>Loading</>
     return (
-        <Flex bg='gray.800' flex='1' m='0' h='100%' maxH='100%'>
-            <Flex w={'100%'} direction='column'>
-                <ChatNav currentChat={currentChat} />
-                <Chat />
-            </Flex>
-        </Flex>
-    )
-}
-
-const ChatNav = ({ currentChat }) => {
-    const navigate = useNavigate()
-    const [isLargerThan800] = useMediaQuery('(min-width: 800px)')
-
-    const onGoBack = () => {
-        navigate('/chat')
-    }
-
-    if (!currentChat) return <></>
-
-    return (
-        <Flex
-            flexBasis={'50px'}
-            flex={0}
-            maxH={'50px'}
-            borderBottom='1px'
-            borderColor='green.700'
-            w={'100%'}
-            p={4}
+        <Grid
+            bg='gray.800'
+            templateRows='50px 1fr 50px'
+            w='100%'
+            maxH={isLargerThan800 ? 'calc(100vh - 2em)' : '100%'}
+            minH={!isLargerThan800 && '100%'}
         >
-            <Flex align='center' justify='space-between' maxW='100%' gap={2} color='white'>
-                {isLargerThan800 ? <Avatar src={currentChat.with.avatar} size='md'></Avatar> : (
-                    <Box position='relative' onClick={onGoBack}>
-                        <ArrowBackIcon position='absolute' left='-15px' top='50%' transform='translateY(-50%)' />
-                        <Avatar src={currentChat.with.avatar} size='md'></Avatar>
-                    </Box>
-                )}
-
-
-                <Flex gap={4}>
-                    <Flex direction="column" justify='space-between'>
-                        <Text size='md' as='b'>{currentChat.with.alias}</Text>
-                        {currentChat.with.typing ?
-                            <TypingIndicator />
-                            :
-                            <Text noOfLines={1} fontSize='md'>{currentChat.with.status}</Text>
-                        }
-
-                    </Flex>
-                </Flex>
-            </Flex>
-        </Flex>
+            <GridItem>
+                <ChatNav currentChat={currentChat} />
+            </GridItem>
+            <GridItem overflow={'hidden'} alignContent='center'>
+                <MessageLog messages={messages} isLoading={isLoading} />
+            </GridItem>
+            <GridItem>
+                <MessageInput addMessage={addMessage} />
+            </GridItem>
+        </Grid>
     )
 }
+

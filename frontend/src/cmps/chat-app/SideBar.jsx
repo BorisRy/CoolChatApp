@@ -8,7 +8,7 @@ import { ChatList } from "./ChatList"
 import { useMediaQuery } from '@chakra-ui/react'
 import { useEffect } from "react"
 import { loadChats } from "../../store/chat/chat.actions"
-import { Listener } from "../Listener"
+import { Listener } from "../general/Listener"
 import { Search } from "./Search"
 
 
@@ -32,12 +32,12 @@ export const SideBar = ({ onOpenDesktop }) => {
             mr={isLargerThan800 ? '1.5em' : '0'}
             direction='column'
             minH={isLargerThan800 ? 'inherit' : '100%'}
-            color='white'>
+            color='white'
+        >
             <SearchBar onOpen={isLargerThan800 ? onOpenDesktop : onOpen} />
             <ChatList />
             <UserDetails />
             {!isLargerThan800 && <Search isOpen={isOpen} onClose={onClose} />}
-            {!isLargerThan800 && <Listener />}
         </Flex>
     )
 }

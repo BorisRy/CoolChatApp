@@ -14,6 +14,7 @@ import {
     DrawerOverlay,
     DrawerContent,
     DrawerCloseButton,
+    useMediaQuery
 } from '@chakra-ui/react'
 import { TbHash } from 'react-icons/tb'
 import { BsChatQuoteFill } from 'react-icons/bs'
@@ -30,10 +31,11 @@ import { useNavigate } from 'react-router-dom'
 
 export function Search({ isOpen, onClose }) {
     const navigate = useNavigate()
-    const debouncedQuery = useRef(debounce(query, 1000))
-    const [queryParams, setQueryParams] = useState({ email: '', tag: '', alias: '' })
-    const { loggedInUser } = useSelector(state => state.userModule)
     const [users, setUsers] = useState([])
+    const debouncedQuery = useRef(debounce(query, 1000))
+    const [isLargerThan800] = useMediaQuery('(min-width: 800px)')
+    const { loggedInUser } = useSelector(state => state.userModule)
+    const [queryParams, setQueryParams] = useState({ email: '', tag: '', alias: '' })
 
     const handleChange = ({ target }) => {
         const field = target.name
@@ -57,7 +59,8 @@ export function Search({ isOpen, onClose }) {
         try {
             const newChat = await chatService.addChat(chat)
             onClose()
-            navigate(`${newChat._id}`)
+            isLargerThan800 && navigate(`${newChat._id}`)
+
         } catch (error) {
 
         }
@@ -88,13 +91,6 @@ export function Search({ isOpen, onClose }) {
 
                     <DrawerBody>
                         <VStack>
-                            <Input
-                                placeholder="Email..."
-                                _placeholder={{ color: 'green.300', opacity: 0.6 }}
-                                focusBorderColor='lime'
-                                value={queryParams.email}
-                                name='email'
-                                onChange={handleChange} />
                             <HStack>
                                 <Input
                                     placeholder='Alias...'

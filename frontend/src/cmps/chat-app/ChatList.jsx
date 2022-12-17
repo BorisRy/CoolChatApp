@@ -8,7 +8,6 @@ import { TypingIndicator } from "../TypingIndicator"
 
 export const ChatList = () => {
     const { chats } = useSelector(state => state.chatModule)
-
     if (!chats) return <></>
     return (
         <VStack spacing={1} flex='1' bg='blackAlpha.700' align='flex-start'>

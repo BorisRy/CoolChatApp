@@ -6,8 +6,8 @@ import { SideBar } from "../cmps/chat-app/SideBar"
 import { Search } from "../cmps/chat-app/Search"
 import { loadChats } from "../store/chat/chat.actions"
 import { Outlet } from "react-router-dom"
-import { Listener } from "../cmps/Listener"
 import { useMediaQuery } from '@chakra-ui/react'
+import { Listener } from '../cmps/general/Listener'
 
 export const ChatApp = () => {
     const navigate = useNavigate()

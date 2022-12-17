@@ -26,6 +26,7 @@ async function setupSocketAPI(http) {
         })
 
         socket.on('chat-send-message', async message => {
+
             message.key = uniqid()
             message.chatId = socket.chat
             const chat = await chatService.getById(message.chatId)
@@ -36,7 +37,7 @@ async function setupSocketAPI(http) {
             })
 
             const updatedChat = await chatService.pushNotification(message, disconnectedParticipants)
-
+            console.log('disconnectedParticipants:', disconnectedParticipants)
             if (disconnectedParticipants.length > 0) {
                 disconnectedParticipants.forEach(async pId => (
                     await emitToUser({
@@ -64,6 +65,13 @@ async function setupSocketAPI(http) {
 
             socket.join(chatId)
             socket.chat = chatId
+        })
+
+        socket.on('leave-chat-room', chatId => {
+            if (socket.chat) {
+                socket.leave(socket.chat)
+                delete socket.chat
+            }
         })
 
         socket.on('is-user-typing', data => {
