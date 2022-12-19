@@ -9,6 +9,19 @@ async function query(userId) {
     try {
         const collection = await dbService.getCollection('chat')
         let chats = await collection.find({ "participants._id": userId }).toArray()
+        chats.forEach(chat => {
+            if (!chat.isGroup) {
+                const participantIdx = chat.participants.findIndex(pr => pr._id === userId)
+                chat.participants.splice(participantIdx, 1)
+                chat.with = chat.participants[0]
+                delete chat.participants
+            } else {
+                chat.with = {}
+            }
+            chat.with.typing = false
+            chat.unread = chat.notifications[userId]
+            delete chat.notifications
+        })
         return chats
     } catch (error) {
         logger.error('Could not find chats', error)
@@ -90,6 +103,8 @@ async function pushNotification(message, userIds) {
     }
 }
 
+
+
 module.exports = {
     query,
     getById,
@@ -97,5 +112,5 @@ module.exports = {
     remove,
     update,
     setUserStatus,
-    pushNotification
+    pushNotification,
 }

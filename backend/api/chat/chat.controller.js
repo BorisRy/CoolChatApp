@@ -9,16 +9,7 @@ async function getChats(req, res) {
         const { userId } = req.query
         let chats = await chatService.query(userId)
 
-        chats.forEach(chat => {
-            const participantIdx = chat.participants.findIndex(p => p._id === userId)
-            chat.unread = chat.notifications[userId]
-            chat.participants.splice(participantIdx, 1)
-            chat.with = chat.participants[0]
-            chat.with.typing = false
-            delete chat.participants
-            delete chat.notifications
-        })
-
+        console.log('chats:', chats)
         res.send(chats)
     } catch (error) {
         logger.error('Failed to get chats', error)
@@ -34,31 +25,22 @@ async function addChat(req, res) {
             a[p._id] = 0
             return a
         }, {})
+        let newChat
         if (chat.isGroup) {
-            const newGroupChat = await chatService.add(chat)
-
-            res.send(newGroupChat)
-
+            chat.avatar = 'https://res.cloudinary.com/dowk59699/image/upload/v1671370814/2847004a27e0b86da62ed5fafe4fa18b_dwvk0s.png'
+            newChat = await chatService.add(chat)
         } else {
-            const newPrivateChat = await chatService.add(chat)
-            newPrivateChat.participants.forEach(async p => {
-                const chats = await chatService.query(p._id)
-
-                chats.forEach(chat => {
-                    const participantIdx = chat.participants.findIndex(pr => pr._id === p._id)
-                    chat.unread = chat.notifications[p._id]
-                    chat.participants.splice(participantIdx, 1)
-                    chat.with = chat.participants[0]
-                    chat.with.typing = false
-                    delete chat.participants
-                    delete chat.notifications
-                })
-                await socketService.emitToUser({ type: 'update-user-chats', data: chats, userId: p._id })
-            })
-            res.send(newPrivateChat)
+            newChat = await chatService.add(chat)
         }
+
+        newChat.participants.forEach(async p => {
+            const chats = await chatService.query(p._id)
+            await socketService.emitToUser({ type: 'update-user-chats', data: chats, userId: p._id })
+        })
+
+        res.send(newChat)
     } catch (error) {
-        logger.error('Failed to delete chat', err)
+        logger.error('Failed to add chat', error)
         res.status(500).send({ err: 'Failed to delete chat' })
     }
 }
@@ -102,8 +84,30 @@ async function resetNotifications(req, res) {
     }
 }
 
+async function addToGroupChat(req, res) {
+    try {
+        const { chatId, users } = req.body
+        const chat = await chatService.getById(chatId)
+
+        chat.participants = [...chat.participants, ...users]
+        users.forEach(user => chat.notifications[user._id] = 0)
+
+        await chatService.update(chat)
+
+        chat.participants.forEach(async participant => {
+            const chats = await chatService.query(participant._id)
+            await socketService.emitToUser({ type: 'update-user-chats', data: chats, userId: participant._id })
+        })
+
+    } catch (error) {
+
+    }
+}
+
+
 module.exports = {
     getChats,
     addChat,
-    resetNotifications
+    resetNotifications,
+    addToGroupChat
 }

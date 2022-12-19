@@ -5,6 +5,7 @@ import { socketService } from "../../services/socket.service"
 import { toast } from "react-toastify"
 import { NewMsgToast } from "./NewMsgToast"
 import sound from '../../assets/notification.mp3'
+import { useNavigate } from 'react-router-dom'
 
 const audio = new Audio(sound)
 audio.volume = 0.2

@@ -15,7 +15,7 @@ import { useParams } from "react-router-dom"
 import EmojiPicker from 'emoji-picker-react'
 import { debounce } from 'lodash';
 
-export const MessageInput = ({ addMessage }) => {
+export const MessageInput = ({ addMessage, chat }) => {
     const params = useParams()
     const setTyping = (isTyping) => socketService.emit('is-user-typing', {
         user: loggedInUser._id,
@@ -43,7 +43,6 @@ export const MessageInput = ({ addMessage }) => {
         if (messageText === '') return
         const message = messageService.createMessage(messageText, loggedInUser)
         message.chatId = params.chatId
-        console.log('message:', message)
         socketService.emit('chat-send-message', message)
         addMessage(message)
         setMessageText('')
@@ -52,16 +51,10 @@ export const MessageInput = ({ addMessage }) => {
     return (
         <form onSubmit={onSendMessage} className={'message-input'} p={4}>
             <InputGroup h='60px' align='center' size='md' flex={0} color='white'>
-                {/* <InputLeftAddon bg='gray.700'>
-                    <Tooltip label='Attach an image' placement="top">
-                        <AttachmentIcon _hover={{ cursor: 'pointer', color: 'green.300' }} />
-                    </Tooltip>
-                </InputLeftAddon> */}
-
                 <Input
                     bg='blackAlpha.100'
                     _focusVisible={false}
-                    placeholder='custom placeholder'
+                    placeholder={`Message @${chat.isGroup ? chat.groupName : chat.with.alias}`}
                     _placeholder={{ opacity: 0.6, color: 'green.300' }}
                     value={messageText}
                     onChange={handleChange}

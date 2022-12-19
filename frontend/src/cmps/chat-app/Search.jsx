@@ -59,8 +59,9 @@ export function Search({ isOpen, onClose }) {
         try {
             const newChat = await chatService.addChat(chat)
             onClose()
-            isLargerThan800 && navigate(`${newChat._id}`)
-
+            setTimeout(() => {
+                isLargerThan800 && navigate(`${newChat._id}`)
+            }, 500)
         } catch (error) {
 
         }

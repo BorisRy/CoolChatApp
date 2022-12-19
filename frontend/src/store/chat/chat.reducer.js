@@ -14,16 +14,17 @@ export function chatReducer(state = initialState, action = {}) {
         case 'UPDATE_CHATS':
             return { ...state, chats: [...action.chats] }
         case 'UPDATE_LAST_MESSAGE':
-            var chat = state.chats.find(chat => chat._id === action.message.chatId)
+            var chat = state.chats?.find(chat => chat._id === action.message.chatId)
             chat.lastMessage = action.message
             return { ...state }
         case 'SET_NOTIFICATIONS_COUNT':
-            var chat = state.chats.find(chat => chat._id === action.data.chatId)
+            var chat = state.chats?.find(chat => chat._id === action.data.chatId)
             chat.unread = action.data.count
             return { ...state }
         case 'SET_USER_TYPING':
             var { chatId, userId, isTyping } = action.data
-            var chat = state.chats.find(chat => chat._id === chatId)
+            var chat = state.chats?.find(chat => chat._id === chatId)
+            console.log('chat:', chat)
             if (!chat) return
             chat.with.typing = isTyping
             return { ...state }

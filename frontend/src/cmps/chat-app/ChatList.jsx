@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux"
-import { VStack, Icon } from '@chakra-ui/react'
+import { VStack, Icon, Avatar } from '@chakra-ui/react'
 import { NavLink } from "react-router-dom"
 import { Flex, Text, Circle } from '@chakra-ui/react'
 import { UserAvatar } from "./UserAvatar"
@@ -29,9 +29,13 @@ const ChatLink = ({ chat }) => {
                 borderLeft={chat.unread > 0 ? '2px solid green' : '2px solid transparent'}
             >
                 <Flex gap={4} maxW='100%'>
-                    <UserAvatar avatar={chat.with.avatar} status={chat.with.status} />
+                    {chat.isGroup ?
+                        <Avatar src={chat.avatar} />
+                        :
+                        <UserAvatar avatar={chat.with.avatar} status={chat.with.status} />}
+
                     <Flex direction="column" justify='space-between' maxW='140px'>
-                        <Text fontSize='lg' as={chat.unread > 0 && 'b'}>{chat.with.alias}</Text>
+                        <Text fontSize='lg' as={chat.unread > 0 && 'b'}>{chat.isGroup ? chat.groupName : chat.with.alias}</Text>
                         {chat.with.typing ? <TypingIndicator /> : <LastMessage chat={chat} loggedInUser={loggedInUser} />}
                     </Flex>
                 </Flex>

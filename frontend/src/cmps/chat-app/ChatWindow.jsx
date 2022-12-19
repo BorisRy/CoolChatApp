@@ -38,10 +38,12 @@ export const ChatWindow = () => {
     useEffect(() => {
         const currChat = chats?.find(chat => chat._id === params.chatId)
         setCurrentChat(currChat)
+        socketService.emit('set-chat-room', params.chatId)
+
         if (currChat?.unread > 0) {
             dispatch(resetNotifications(params.chatId, loggedInUser._id))
         }
-        socketService.emit('set-chat-room', params.chatId)
+
         loadMessages()
     }, [params.chatId])
 
@@ -63,6 +65,7 @@ export const ChatWindow = () => {
             bg='gray.800'
             templateRows='50px 1fr 50px'
             w='100%'
+            maxW='800px'
             maxH={isLargerThan800 ? 'calc(100vh - 2em)' : '100%'}
             minH={!isLargerThan800 && '100%'}
         >
@@ -73,7 +76,7 @@ export const ChatWindow = () => {
                 <MessageLog messages={messages} isLoading={isLoading} />
             </GridItem>
             <GridItem>
-                <MessageInput addMessage={addMessage} />
+                <MessageInput addMessage={addMessage} chat={currentChat} />
             </GridItem>
         </Grid>
     )

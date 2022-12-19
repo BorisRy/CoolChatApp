@@ -4,7 +4,8 @@ export const chatService = {
     createChat,
     addChat,
     query,
-    resetNotifications
+    resetNotifications,
+    addToGroupChat
 }
 
 async function query(userId) {
@@ -30,6 +31,15 @@ async function resetNotifications(chatId, userId) {
         await httpService.post('chat/reset', { chatId, userId })
     } catch (error) {
 
+    }
+}
+
+async function addToGroupChat(chatId, users) {
+    try {
+        const updatedChat = await httpService.post('chat/addtochat', { chatId, users })
+        console.log('updatedChat:', updatedChat)
+    } catch (error) {
+        console.log('error:', error)
     }
 }
 
